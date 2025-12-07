@@ -13,7 +13,7 @@ This repository showcases a range of data science skills through real-world proj
 | Project | Description | Skills Demonstrated | Status |
 |---------|-------------|---------------------|--------|
 | [01 - EDA: Customer Churn](./01-exploratory-data-analysis/) | Comprehensive analysis of telecom customer churn | Data cleaning, EDA, Statistical testing, Visualization | ✅ Complete |
-| [02 - Classification ML](./02-classification-ml/) | Predictive churn model using multiple algorithms | Feature engineering, Model comparison, Hyperparameter tuning | 🔄 Next |
+| [02 - Classification ML](./02-classification-ml/) | Predictive churn model using multiple algorithms | Feature engineering, Model comparison, Hyperparameter tuning | ✅ Complete |
 | [03 - Regression ML](./03-regression-ml/) | House price prediction with advanced regression | Regularization, Cross-validation, Feature selection | ⏳ Planned |
 | [04 - Data Processing & APIs](./04-data-processing-apis/) | Multi-source data pipeline with API integration | API handling, ETL, Data transformation | ⏳ Planned |
 | [05 - Time Series](./05-time-series-forecasting/) | Sales forecasting with ARIMA/Prophet | Time series decomposition, Forecasting | ⏳ Planned |

@@ -27,7 +27,7 @@ Thumbs.db
 *.parquet
 
 # Model files (can be large)
-*.pkl
+# *.pkl  # Commenting out to include trained models in portfolio
 *.joblib
 *.h5
 
