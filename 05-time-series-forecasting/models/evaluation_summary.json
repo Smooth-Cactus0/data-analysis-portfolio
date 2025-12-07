@@ -1,0 +1,17 @@
+{
+  "best_model": "Ensemble_Top2",
+  "best_mape": 2.178922683844336,
+  "best_rmse": 30.81768611757975,
+  "test_period": "2023-12-24T01:00:00.000000000 to 2023-12-31T00:00:00.000000000",
+  "test_hours": 168,
+  "model_ranking": [
+    "Ensemble_Top2",
+    "LightGBM",
+    "XGBoost",
+    "Ensemble_Weighted",
+    "Ensemble_Avg",
+    "LSTM",
+    "Prophet"
+  ],
+  "ensemble_improvement": -0.4501053487433442
+}

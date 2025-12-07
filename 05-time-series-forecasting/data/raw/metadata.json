@@ -1,0 +1,66 @@
+{
+  "dataset_name": "Energy Consumption Dataset",
+  "location": "Chicago, IL",
+  "latitude": 41.8781,
+  "longitude": -87.6298,
+  "start_date": "2022-01-01",
+  "end_date": "2023-12-31",
+  "frequency": "hourly",
+  "total_records": 17497,
+  "base_load_mwh": 500,
+  "peak_capacity_mwh": 1200,
+  "features": {
+    "consumption": [
+      "consumption_mwh",
+      "consumption_kwh_per_capita",
+      "load_factor"
+    ],
+    "weather": [
+      "temperature_c",
+      "humidity_pct",
+      "wind_speed_ms",
+      "cloud_cover_pct",
+      "precipitation_mm",
+      "pressure_hpa",
+      "uv_index"
+    ],
+    "calendar": [
+      "year",
+      "month",
+      "day",
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "is_holiday",
+      "season",
+      "day_type"
+    ],
+    "solar": [
+      "day_length_hours",
+      "sunrise_hour",
+      "sunset_hour",
+      "is_daylight"
+    ],
+    "extreme_events": [
+      "is_heat_wave",
+      "is_cold_snap",
+      "is_storm",
+      "is_extreme_weather"
+    ],
+    "anomalies": [
+      "is_equipment_failure",
+      "is_special_event",
+      "is_anomaly"
+    ]
+  },
+  "extreme_weather_events": {
+    "heat_waves": 5,
+    "cold_snaps": 5,
+    "storms": 8
+  },
+  "anomalies_injected": {
+    "equipment_failures": 4,
+    "special_events": 4
+  },
+  "generated_at": "2025-12-07T11:20:41.927782"
+}

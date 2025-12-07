@@ -1,0 +1,115 @@
+{
+  "target": [
+    "consumption_mwh"
+  ],
+  "lag_features": [
+    "consumption_lag_1h",
+    "consumption_lag_2h",
+    "consumption_lag_3h",
+    "consumption_lag_6h",
+    "consumption_lag_12h",
+    "consumption_lag_24h",
+    "consumption_lag_48h",
+    "consumption_lag_168h",
+    "consumption_same_hour_yesterday",
+    "consumption_same_hour_last_week"
+  ],
+  "rolling_features": [
+    "consumption_rolling_mean_3h",
+    "consumption_rolling_std_3h",
+    "consumption_rolling_min_3h",
+    "consumption_rolling_max_3h",
+    "consumption_rolling_mean_6h",
+    "consumption_rolling_std_6h",
+    "consumption_rolling_min_6h",
+    "consumption_rolling_max_6h",
+    "consumption_rolling_mean_12h",
+    "consumption_rolling_std_12h",
+    "consumption_rolling_min_12h",
+    "consumption_rolling_max_12h",
+    "consumption_rolling_mean_24h",
+    "consumption_rolling_std_24h",
+    "consumption_rolling_min_24h",
+    "consumption_rolling_max_24h",
+    "consumption_rolling_mean_48h",
+    "consumption_rolling_std_48h",
+    "consumption_rolling_min_48h",
+    "consumption_rolling_max_48h",
+    "consumption_rolling_mean_168h",
+    "consumption_rolling_std_168h",
+    "consumption_rolling_min_168h",
+    "consumption_rolling_max_168h",
+    "consumption_ewma_12h",
+    "consumption_ewma_24h",
+    "consumption_ewma_168h"
+  ],
+  "difference_features": [
+    "consumption_diff_1h",
+    "consumption_diff_24h",
+    "consumption_diff_168h",
+    "consumption_pct_change_1h",
+    "consumption_pct_change_24h"
+  ],
+  "cyclical_features": [
+    "hours_since_sunrise",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "month_sin",
+    "month_cos",
+    "doy_sin",
+    "doy_cos",
+    "hours_since_heat_wave",
+    "hours_since_cold_snap"
+  ],
+  "weather_features": [
+    "temperature_c",
+    "humidity_pct",
+    "wind_speed_ms",
+    "cloud_cover_pct",
+    "precipitation_mm",
+    "pressure_hpa",
+    "uv_index",
+    "temperature_squared",
+    "temp_deviation",
+    "wind_chill_effect",
+    "heat_index_effect",
+    "weather_severity",
+    "precip_intensity",
+    "cloud_solar_interaction"
+  ],
+  "time_features": [
+    "hour",
+    "day_of_week",
+    "month",
+    "day_of_year",
+    "is_weekend",
+    "is_holiday",
+    "is_business_hours",
+    "is_peak_hour",
+    "is_off_peak",
+    "quarter",
+    "week_of_month",
+    "is_month_start",
+    "is_month_end"
+  ],
+  "solar_features": [
+    "day_length_hours",
+    "is_daylight",
+    "hours_since_sunrise"
+  ],
+  "extreme_weather": [
+    "is_heat_wave",
+    "is_cold_snap",
+    "is_storm",
+    "is_extreme_weather",
+    "consecutive_heat_wave_hours",
+    "consecutive_cold_snap_hours"
+  ],
+  "target_encodings": [
+    "hour_avg_consumption",
+    "dow_avg_consumption",
+    "month_avg_consumption"
+  ]
+}

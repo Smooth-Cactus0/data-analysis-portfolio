@@ -1,15 +1,16 @@
 # 📊 Data Analysis Portfolio
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+**Comprehensive collection of data analysis, machine learning, and visualization projects**
 
-A comprehensive portfolio showcasing data analysis, machine learning, and data engineering skills through real-world projects.
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
 
 ## 👤 Author
 
 **Alexy Louis**
-
 - 📧 Email: alexy.louis.scholar@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/alexy-louis-19a5a9262](https://www.linkedin.com/in/alexy-louis-19a5a9262/)
 - 🐙 GitHub: [github.com/Smooth-Cactus0](https://github.com/Smooth-Cactus0)
@@ -18,191 +19,143 @@ A comprehensive portfolio showcasing data analysis, machine learning, and data e
 
 ## 🗂️ Projects Overview
 
-| # | Project | Skills | Status |
-|---|---------|--------|--------|
-| 1 | [Exploratory Data Analysis](#1-exploratory-data-analysis) | EDA, Visualization, Statistical Analysis | ✅ Complete |
-| 2 | [Classification ML](#2-classification-ml) | Machine Learning, Model Evaluation | ✅ Complete |
-| 3 | [Regression ML](#3-regression-ml) | Regression, Feature Engineering, Hyperparameter Tuning | ✅ Complete |
-| 4 | [Data Processing & APIs](#4-data-processing--apis) | ETL, Data Engineering, Pipeline Design | ✅ Complete |
-| 5 | [Time Series Forecasting](#5-time-series-forecasting) | Time Series, ARIMA, Prophet | 🔜 Planned |
+| # | Project | Type | Key Techniques | Highlights |
+|---|---------|------|----------------|------------|
+| 1 | [Customer Churn EDA](./01-customer-churn-eda/) | Exploratory Analysis | Statistical Analysis, Visualization | 5,000 records, 14 visualizations |
+| 2 | [Churn Prediction (Classification)](./02-churn-prediction-ml/) | Machine Learning | Logistic Regression, Random Forest, XGBoost | ROC-AUC 0.79, 4 models |
+| 3 | [House Price Prediction (Regression)](./03-house-price-regression/) | Machine Learning | Ridge, Lasso, XGBoost, Stacking | R² 0.937, 7 models |
+| 4 | [ETL Data Pipeline](./04-data-processing-apis/) | Data Engineering | ETL, Validation, Transformation | 6 sources, 15+ validations |
+| 5 | [Energy Consumption Forecasting](./05-time-series-forecasting/) | Time Series | Prophet, LSTM, LightGBM, Ensemble | **MAPE 2.18%**, 17K records |
 
 ---
 
-## 1. Exploratory Data Analysis
+## 📁 Project Details
 
-**📁 Directory:** `01-exploratory-data-analysis/`
+### 1️⃣ Customer Churn Exploratory Data Analysis
+**[01-customer-churn-eda/](./01-customer-churn-eda/)**
 
-### Customer Churn Analysis
+Deep dive into telecom customer churn patterns with comprehensive statistical analysis.
 
-Deep-dive analysis of telecom customer churn patterns to identify key factors driving customer attrition.
+- **Dataset**: 5,000 customers, 20+ features
+- **Techniques**: Distribution analysis, correlation, segmentation
+- **Outputs**: 14 publication-ready visualizations
+- **Key Finding**: Month-to-month contracts have 3x higher churn rate
 
-**Key Highlights:**
-- 📊 5,000+ customer records analyzed
-- 📈 14 professional visualizations
-- 🎯 Identified top 5 churn predictors
-- 💡 Actionable business recommendations
+### 2️⃣ Customer Churn Prediction (Classification)
+**[02-churn-prediction-ml/](./02-churn-prediction-ml/)**
 
-**Skills:** Pandas, Matplotlib, Seaborn, Statistical Analysis, Business Intelligence
+Production-ready ML pipeline for predicting customer churn.
 
-[View Project →](01-exploratory-data-analysis/)
+- **Models**: Logistic Regression, Decision Tree, Random Forest, XGBoost
+- **Best Performance**: XGBoost with ROC-AUC 0.79
+- **Features**: Feature importance analysis, threshold optimization
+- **Business Impact**: Identify 79% of churners before they leave
 
----
+### 3️⃣ House Price Prediction (Regression)
+**[03-house-price-regression/](./03-house-price-regression/)**
 
-## 2. Classification ML
+Advanced regression modeling for real estate price prediction.
 
-**📁 Directory:** `02-classification-ml/`
+- **Dataset**: 1,460 houses, 80 features
+- **Models**: Ridge, Lasso, ElasticNet, Random Forest, XGBoost, Stacking
+- **Best Performance**: Stacking Ensemble with R² = 0.937
+- **Key Insight**: Top predictors are OverallQual, GrLivArea, GarageCars
 
-### Customer Churn Prediction
+### 4️⃣ Multi-Source ETL Data Pipeline
+**[04-data-processing-apis/](./04-data-processing-apis/)**
 
-Machine learning models to predict customer churn with 79% ROC-AUC accuracy.
+Production-grade data engineering framework demonstrating ETL best practices.
 
-**Key Highlights:**
-- 🤖 4 ML models compared (Logistic Regression, Random Forest, XGBoost, SVM)
-- 📊 Complete model evaluation pipeline
-- 🎯 ROC-AUC: 0.79 | Precision: 0.67 | Recall: 0.51
-- 💰 Potential savings: $2.8M annually
+- **Components**: DataLoader, DataValidator, DataTransformer, PipelineOrchestrator
+- **Data Sources**: CSV, JSON, API integration
+- **Validations**: 15+ rules including referential integrity
+- **Features**: Chainable transformations, audit trails, comprehensive logging
 
-**Skills:** Scikit-learn, XGBoost, Model Evaluation, Feature Importance, Class Imbalance
+### 5️⃣ Energy Consumption Forecasting ⭐ NEW
+**[05-time-series-forecasting/](./05-time-series-forecasting/)**
 
-[View Project →](02-classification-ml/)
+Comprehensive time series analysis with multiple forecasting approaches.
 
----
-
-## 3. Regression ML
-
-**📁 Directory:** `03-regression-ml/`
-
-### House Price Prediction
-
-Advanced regression analysis predicting residential property prices with 93.7% R² accuracy.
-
-**Key Highlights:**
-- 🏠 3,000 properties analyzed
-- 🤖 7 regression models compared
-- 📊 Hyperparameter tuning with RandomizedSearchCV
-- 🎯 Best Model: XGBoost (R²=0.937, RMSE=$39,892)
-
-**Skills:** Linear Regression, Ridge/Lasso, Random Forest, Gradient Boosting, XGBoost
-
-[View Project →](03-regression-ml/)
+- **Dataset**: 17,497 hourly records (2 years), 138 engineered features
+- **Models**: ARIMA, SARIMA, Prophet, LightGBM, XGBoost, LSTM
+- **Best Performance**: Ensemble (LightGBM + XGBoost) with **MAPE 2.18%**
+- **Features**: Multiple seasonalities, weather integration, anomaly detection
+- **Key Insight**: Tree-based ensembles outperform deep learning for this domain
 
 ---
 
-## 4. Data Processing & APIs
+## 🛠️ Tech Stack
 
-**📁 Directory:** `04-data-processing-apis/`
+### Languages & Frameworks
+- **Python 3.12** - Primary language
+- **Jupyter Notebooks** - Interactive analysis
+- **SQL** - Data querying
 
-### Multi-Source ETL Pipeline
+### Data Processing
+- pandas, NumPy, scipy
+- statsmodels (time series)
 
-Production-grade data engineering solution for processing multi-source e-commerce data.
+### Machine Learning
+- scikit-learn
+- XGBoost, LightGBM
+- TensorFlow/Keras (LSTM)
+- Prophet (forecasting)
 
-**Key Highlights:**
-- 🔄 6 data sources integrated (CSV, JSON, API)
-- ✅ 15+ validation rules implemented
-- 🧹 200+ data quality issues resolved
-- 📦 Modular, reusable pipeline components
+### Visualization
+- Matplotlib, Seaborn
+- Plotly (interactive)
 
-**Skills:** ETL Design, Data Validation, Data Transformation, Pipeline Orchestration, OOP
-
-[View Project →](04-data-processing-apis/)
-
----
-
-## 5. Time Series Forecasting
-
-**📁 Directory:** `05-time-series-forecasting/`
-
-### Sales Forecasting *(Coming Soon)*
-
-Time series analysis and forecasting for business planning.
-
-**Planned Features:**
-- 📈 ARIMA and Seasonal Decomposition
-- 🔮 Prophet for automated forecasting
-- 📊 Anomaly detection
-- 🎯 Demand planning models
+### Data Engineering
+- Custom ETL framework
+- python-docx, openpyxl
 
 ---
 
-## 🛠️ Technical Stack
+## 📈 Skills Demonstrated
 
-### Languages & Libraries
-```
-Python 3.8+
-├── pandas          # Data manipulation
-├── numpy           # Numerical computing
-├── scikit-learn    # Machine learning
-├── xgboost         # Gradient boosting
-├── matplotlib      # Visualization
-├── seaborn         # Statistical visualization
-└── jupyter         # Interactive notebooks
-```
-
-### Development Tools
-- **Jupyter Notebook** - Interactive development
-- **Git/GitHub** - Version control
-- **VS Code** - IDE
+| Category | Skills |
+|----------|--------|
+| **Data Analysis** | EDA, Statistical Testing, Feature Engineering |
+| **Machine Learning** | Classification, Regression, Time Series, Ensemble Methods |
+| **Deep Learning** | LSTM, Sequence Modeling |
+| **Data Engineering** | ETL Pipelines, Data Validation, Transformation |
+| **Visualization** | Matplotlib, Seaborn, Publication-Ready Charts |
+| **Software Engineering** | OOP, Modular Design, Documentation |
 
 ---
 
-## 📈 Skills Matrix
-
-| Skill | Projects | Proficiency |
-|-------|----------|-------------|
-| Data Analysis & EDA | 1, 2, 3, 4 | ⭐⭐⭐⭐⭐ |
-| Data Visualization | 1, 2, 3, 4 | ⭐⭐⭐⭐⭐ |
-| Machine Learning | 2, 3 | ⭐⭐⭐⭐ |
-| Data Engineering | 4 | ⭐⭐⭐⭐ |
-| Python Programming | All | ⭐⭐⭐⭐⭐ |
-| Statistical Analysis | 1, 2, 3 | ⭐⭐⭐⭐ |
-| SQL & Databases | 4 | ⭐⭐⭐ |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
+## 🚀 Quick Start
 
 ```bash
 # Clone the repository
 git clone https://github.com/Smooth-Cactus0/data-analysis-portfolio.git
 cd data-analysis-portfolio
 
-# Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 # Install dependencies
 pip install -r requirements.txt
-```
 
-### Running Projects
-
-Each project contains its own Jupyter notebook and README with specific instructions:
-
-```bash
-# Navigate to project directory
-cd 01-exploratory-data-analysis
-
-# Launch Jupyter
+# Navigate to any project
+cd 05-time-series-forecasting
 jupyter notebook
 ```
 
 ---
 
-## 📄 License
+## 📊 Portfolio Statistics
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Metric | Value |
+|--------|-------|
+| **Total Projects** | 5 |
+| **Total Records Analyzed** | 25,000+ |
+| **Models Trained** | 20+ |
+| **Visualizations Created** | 50+ |
+| **Lines of Code** | 5,000+ |
 
 ---
 
-## 🤝 Connect
+## 📄 License
 
-I'm always interested in discussing data science, machine learning, and analytics opportunities!
-
-- 📧 **Email:** alexy.louis.scholar@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/alexy-louis-19a5a9262](https://www.linkedin.com/in/alexy-louis-19a5a9262/)
-- 🐙 **GitHub:** [github.com/Smooth-Cactus0](https://github.com/Smooth-Cactus0)
+This portfolio is available for learning and reference purposes. Please cite if used.
 
 ---
 
