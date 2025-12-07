@@ -1,0 +1,3498 @@
+{
+  "products": [
+    {
+      "product_id": "PROD-0001",
+      "product_name": "Smartphones Item 1",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 300.5,
+      "cost_price": 142.28,
+      "supplier_id": "SUP-005",
+      "brand": "Generic",
+      "weight_kg": 1.63,
+      "dimensions": {
+        "length_cm": 99,
+        "width_cm": 74,
+        "height_cm": 7
+      },
+      "is_active": false,
+      "created_date": "2023-08-05T00:00:00",
+      "tags": [],
+      "rating": 3.1,
+      "review_count": 111
+    },
+    {
+      "product_id": "PROD-0002",
+      "product_name": "Footwear Item 2",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 246.78,
+      "cost_price": 140.26,
+      "supplier_id": "SUP-018",
+      "brand": "BrandD",
+      "weight_kg": 3.38,
+      "dimensions": {
+        "length_cm": 80,
+        "width_cm": 40,
+        "height_cm": 2
+      },
+      "is_active": true,
+      "created_date": "2023-12-24T00:00:00",
+      "tags": [
+        "sale",
+        "premium",
+        "new"
+      ],
+      "rating": 3.4,
+      "review_count": 390
+    },
+    {
+      "product_id": "PROD-0003",
+      "product_name": "Furniture Item 3",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 50.71,
+      "cost_price": 21.75,
+      "supplier_id": "SUP-012",
+      "brand": "BrandE",
+      "weight_kg": 4.04,
+      "dimensions": {
+        "length_cm": 10,
+        "width_cm": 63,
+        "height_cm": 36
+      },
+      "is_active": true,
+      "created_date": "2023-07-13T00:00:00",
+      "tags": [],
+      "rating": 4.1,
+      "review_count": 424
+    },
+    {
+      "product_id": "PROD-0004",
+      "product_name": "Bedding Item 4",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 89.03,
+      "cost_price": 37.47,
+      "supplier_id": "SUP-008",
+      "brand": "BrandC",
+      "weight_kg": 14.78,
+      "dimensions": {
+        "length_cm": 34,
+        "width_cm": 17,
+        "height_cm": 26
+      },
+      "is_active": true,
+      "created_date": "2023-08-21T00:00:00",
+      "tags": [
+        "new",
+        "sale"
+      ],
+      "rating": 3.7,
+      "review_count": 343
+    },
+    {
+      "product_id": "PROD-0005",
+      "product_name": "Furniture Item 5",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 249.52,
+      "cost_price": 112.62,
+      "supplier_id": "SUP-008",
+      "brand": "BrandB",
+      "weight_kg": 6.99,
+      "dimensions": {
+        "length_cm": 39,
+        "width_cm": 76,
+        "height_cm": 16
+      },
+      "is_active": true,
+      "created_date": "2023-01-29T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 4.6,
+      "review_count": 205
+    },
+    {
+      "product_id": "PROD-0006",
+      "product_name": "Furniture Item 6",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": null,
+      "cost_price": 65.71,
+      "supplier_id": "SUP-011",
+      "brand": "BrandB",
+      "weight_kg": 9.87,
+      "dimensions": {
+        "length_cm": 55,
+        "width_cm": 63,
+        "height_cm": 11
+      },
+      "is_active": true,
+      "created_date": "2023-03-13T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 4.1,
+      "review_count": 134
+    },
+    {
+      "product_id": "PROD-0007",
+      "product_name": "Cycling Item 7",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 168.77,
+      "cost_price": 78.61,
+      "supplier_id": "SUP-005",
+      "brand": "BrandE",
+      "weight_kg": 7.45,
+      "dimensions": {
+        "length_cm": 11,
+        "width_cm": 19,
+        "height_cm": 11
+      },
+      "is_active": true,
+      "created_date": "2023-12-15T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "bestseller",
+        "limited"
+      ],
+      "rating": 3.8,
+      "review_count": 239
+    },
+    {
+      "product_id": "PROD-0008",
+      "product_name": "Bedding Item 8",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 346.4,
+      "cost_price": 139.75,
+      "supplier_id": "SUP-004",
+      "brand": "Generic",
+      "weight_kg": 13.28,
+      "dimensions": {
+        "length_cm": 39,
+        "width_cm": 48,
+        "height_cm": 9
+      },
+      "is_active": true,
+      "created_date": "2023-08-11T00:00:00",
+      "tags": [
+        "limited"
+      ],
+      "rating": 3.0,
+      "review_count": 369
+    },
+    {
+      "product_id": "PROD-0009",
+      "product_name": "Bedding Item 9",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 308.36,
+      "cost_price": 170.31,
+      "supplier_id": "SUP-004",
+      "brand": "Generic",
+      "weight_kg": 4.55,
+      "dimensions": {
+        "length_cm": 86,
+        "width_cm": 69,
+        "height_cm": 40
+      },
+      "is_active": true,
+      "created_date": "2023-03-20T00:00:00",
+      "tags": [
+        "new",
+        "eco-friendly"
+      ],
+      "rating": 4.9,
+      "review_count": 472
+    },
+    {
+      "product_id": "PROD-0010",
+      "product_name": "Audio Item 10",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 139.8,
+      "cost_price": 56.74,
+      "supplier_id": "SUP-012",
+      "brand": "BrandC",
+      "weight_kg": 3.67,
+      "dimensions": {
+        "length_cm": 35,
+        "width_cm": 77,
+        "height_cm": 7
+      },
+      "is_active": true,
+      "created_date": "2023-09-06T00:00:00",
+      "tags": [],
+      "rating": 5.0,
+      "review_count": 272
+    },
+    {
+      "product_id": "PROD-0011",
+      "product_name": "Women Item 11",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 269.0,
+      "cost_price": 184.01,
+      "supplier_id": "SUP-006",
+      "brand": "BrandC",
+      "weight_kg": 7.96,
+      "dimensions": {
+        "length_cm": 82,
+        "width_cm": 59,
+        "height_cm": 15
+      },
+      "is_active": false,
+      "created_date": "2023-12-20T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.6,
+      "review_count": 343
+    },
+    {
+      "product_id": "PROD-0012",
+      "product_name": "Garden Item 12",
+      "category": "Home & Garden",
+      "subcategory": "Garden",
+      "base_price": 361.35,
+      "cost_price": 193.48,
+      "supplier_id": "SUP-008",
+      "brand": "BrandB",
+      "weight_kg": 1.05,
+      "dimensions": {
+        "length_cm": 7,
+        "width_cm": 80,
+        "height_cm": 37
+      },
+      "is_active": true,
+      "created_date": "2023-10-29T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 3.1,
+      "review_count": 323
+    },
+    {
+      "product_id": "PROD-0013",
+      "product_name": "Laptops Item 13",
+      "category": "",
+      "subcategory": "Laptops",
+      "base_price": 40.95,
+      "cost_price": 16.77,
+      "supplier_id": "SUP-011",
+      "brand": "BrandA",
+      "weight_kg": 7.76,
+      "dimensions": {
+        "length_cm": 40,
+        "width_cm": 67,
+        "height_cm": 15
+      },
+      "is_active": false,
+      "created_date": "2023-03-09T00:00:00",
+      "tags": [
+        "new",
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 3.4,
+      "review_count": 49
+    },
+    {
+      "product_id": "PROD-0014",
+      "product_name": "Team Sports Item 14",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 178.08,
+      "cost_price": 96.18,
+      "supplier_id": "SUP-002",
+      "brand": "Generic",
+      "weight_kg": 9.84,
+      "dimensions": {
+        "length_cm": 87,
+        "width_cm": 17,
+        "height_cm": 5
+      },
+      "is_active": true,
+      "created_date": "2023-06-23T00:00:00",
+      "tags": [],
+      "rating": 3.5,
+      "review_count": 97
+    },
+    {
+      "product_id": "PROD-0015",
+      "product_name": "Outdoor Item 15",
+      "category": "Sports",
+      "subcategory": "Outdoor",
+      "base_price": 177.42,
+      "cost_price": 85.8,
+      "supplier_id": "SUP-008",
+      "brand": "BrandA",
+      "weight_kg": 6.7,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 17,
+        "height_cm": 5
+      },
+      "is_active": false,
+      "created_date": "2023-01-08T00:00:00",
+      "tags": [],
+      "rating": 4.9,
+      "review_count": 434
+    },
+    {
+      "product_id": "PROD-0016",
+      "product_name": "Women Item 16",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 171.47,
+      "cost_price": 93.35,
+      "supplier_id": "SUP-013",
+      "brand": "BrandA",
+      "weight_kg": 2.55,
+      "dimensions": {
+        "length_cm": 5,
+        "width_cm": 54,
+        "height_cm": 18
+      },
+      "is_active": true,
+      "created_date": "2023-05-27T00:00:00",
+      "tags": [
+        "premium",
+        "eco-friendly",
+        "limited"
+      ],
+      "rating": 3.3,
+      "review_count": 151
+    },
+    {
+      "product_id": "PROD-0017",
+      "product_name": "Men Item 17",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "base_price": 237.98,
+      "cost_price": 133.9,
+      "supplier_id": "SUP-011",
+      "brand": "BrandA",
+      "weight_kg": 0.85,
+      "dimensions": {
+        "length_cm": 66,
+        "width_cm": 69,
+        "height_cm": 35
+      },
+      "is_active": true,
+      "created_date": "2023-01-30T00:00:00",
+      "tags": [],
+      "rating": 4.7,
+      "review_count": 35
+    },
+    {
+      "product_id": "PROD-0018",
+      "product_name": "Laptops Item 18",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "base_price": 170.45,
+      "cost_price": 116.33,
+      "supplier_id": "SUP-019",
+      "brand": "BrandB",
+      "weight_kg": 8.73,
+      "dimensions": {
+        "length_cm": 10,
+        "width_cm": 15,
+        "height_cm": 28
+      },
+      "is_active": false,
+      "created_date": "2023-10-17T00:00:00",
+      "tags": [
+        "sale",
+        "new"
+      ],
+      "rating": 4.3,
+      "review_count": 160
+    },
+    {
+      "product_id": "PROD-0019",
+      "product_name": "Kids Item 19",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 167.38,
+      "cost_price": 100.68,
+      "supplier_id": "SUP-010",
+      "brand": "BrandD",
+      "weight_kg": 4.81,
+      "dimensions": {
+        "length_cm": 14,
+        "width_cm": 6,
+        "height_cm": 31
+      },
+      "is_active": false,
+      "created_date": "2023-10-16T00:00:00",
+      "tags": [],
+      "rating": 3.1,
+      "review_count": 109
+    },
+    {
+      "product_id": "PROD-0020",
+      "product_name": "Decor Item 20",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 374.3,
+      "cost_price": 248.64,
+      "supplier_id": "SUP-008",
+      "brand": "BrandC",
+      "weight_kg": 4.35,
+      "dimensions": {
+        "length_cm": 61,
+        "width_cm": 74,
+        "height_cm": 47
+      },
+      "is_active": true,
+      "created_date": "2023-11-10T00:00:00",
+      "tags": [],
+      "rating": 4.3,
+      "review_count": 283
+    },
+    {
+      "product_id": "PROD-0021",
+      "product_name": "Furniture Item 21",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 376.49,
+      "cost_price": 165.76,
+      "supplier_id": "SUP-004",
+      "brand": "BrandA",
+      "weight_kg": 11.16,
+      "dimensions": {
+        "length_cm": 24,
+        "width_cm": 39,
+        "height_cm": 20
+      },
+      "is_active": false,
+      "created_date": "2023-04-18T00:00:00",
+      "tags": [
+        "new",
+        "sale"
+      ],
+      "rating": 4.0,
+      "review_count": 128
+    },
+    {
+      "product_id": "PROD-0022",
+      "product_name": "Smartphones Item 22",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 259.2,
+      "cost_price": 168.17,
+      "supplier_id": "SUP-002",
+      "brand": "BrandA",
+      "weight_kg": 5.07,
+      "dimensions": {
+        "length_cm": 21,
+        "width_cm": 38,
+        "height_cm": 12
+      },
+      "is_active": true,
+      "created_date": "2023-10-10T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "bestseller",
+        "premium"
+      ],
+      "rating": 3.2,
+      "review_count": 452
+    },
+    {
+      "product_id": "PROD-0023",
+      "product_name": "Footwear Item 23",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 28.87,
+      "cost_price": 14.75,
+      "supplier_id": "SUP-018",
+      "brand": "BrandB",
+      "weight_kg": 6.5,
+      "dimensions": {
+        "length_cm": 10,
+        "width_cm": 44,
+        "height_cm": 25
+      },
+      "is_active": true,
+      "created_date": "2023-07-03T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.5,
+      "review_count": 52
+    },
+    {
+      "product_id": "PROD-0024",
+      "product_name": "Bedding Item 24",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 355.39,
+      "cost_price": 185.48,
+      "supplier_id": "SUP-020",
+      "brand": "Generic",
+      "weight_kg": 2.4,
+      "dimensions": {
+        "length_cm": 35,
+        "width_cm": 25,
+        "height_cm": 13
+      },
+      "is_active": true,
+      "created_date": "2023-01-13T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 4.8,
+      "review_count": 400
+    },
+    {
+      "product_id": "PROD-0025",
+      "product_name": "Outdoor Item 25",
+      "category": "Sports",
+      "subcategory": "Outdoor",
+      "base_price": 117.72,
+      "cost_price": 74.9,
+      "supplier_id": "SUP-004",
+      "brand": "BrandD",
+      "weight_kg": 13.1,
+      "dimensions": {
+        "length_cm": 65,
+        "width_cm": 33,
+        "height_cm": 14
+      },
+      "is_active": true,
+      "created_date": "2023-06-29T00:00:00",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "rating": 3.0,
+      "review_count": 98
+    },
+    {
+      "product_id": "PROD-0026",
+      "product_name": null,
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 122.26,
+      "cost_price": 51.45,
+      "supplier_id": "SUP-009",
+      "brand": "BrandC",
+      "weight_kg": 9.66,
+      "dimensions": {
+        "length_cm": 56,
+        "width_cm": 73,
+        "height_cm": 23
+      },
+      "is_active": true,
+      "created_date": "2023-03-01T00:00:00",
+      "tags": [
+        "new",
+        "eco-friendly"
+      ],
+      "rating": 4.9,
+      "review_count": 135
+    },
+    {
+      "product_id": "PROD-0027",
+      "product_name": "Smartphones Item 27",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 244.68,
+      "cost_price": 123.25,
+      "supplier_id": "SUP-011",
+      "brand": "BrandD",
+      "weight_kg": 9.13,
+      "dimensions": {
+        "length_cm": 70,
+        "width_cm": 19,
+        "height_cm": 26
+      },
+      "is_active": false,
+      "created_date": "2023-04-08T00:00:00",
+      "tags": [
+        "bestseller",
+        "limited"
+      ],
+      "rating": 3.0,
+      "review_count": 473
+    },
+    {
+      "product_id": "PROD-0028",
+      "product_name": "Kids Item 28",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 181.05,
+      "cost_price": 123.96,
+      "supplier_id": "SUP-011",
+      "brand": "BrandE",
+      "weight_kg": 4.78,
+      "dimensions": {
+        "length_cm": 20,
+        "width_cm": 43,
+        "height_cm": 34
+      },
+      "is_active": true,
+      "created_date": "2023-12-08T00:00:00",
+      "tags": [
+        "sale",
+        "limited",
+        "premium"
+      ],
+      "rating": 4.1,
+      "review_count": 98
+    },
+    {
+      "product_id": "PROD-0029",
+      "product_name": "Water Sports Item 29",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 275.77,
+      "cost_price": 185.0,
+      "supplier_id": "SUP-020",
+      "brand": "BrandE",
+      "weight_kg": 4.58,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 5,
+        "height_cm": 21
+      },
+      "is_active": true,
+      "created_date": "2023-04-18T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "premium",
+        "sale"
+      ],
+      "rating": 3.9,
+      "review_count": 226
+    },
+    {
+      "product_id": "PROD-0030",
+      "product_name": "Footwear Item 30",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 197.18,
+      "cost_price": 132.18,
+      "supplier_id": "SUP-006",
+      "brand": "Generic",
+      "weight_kg": 1.36,
+      "dimensions": {
+        "length_cm": 70,
+        "width_cm": 47,
+        "height_cm": 7
+      },
+      "is_active": true,
+      "created_date": "2023-12-11T00:00:00",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "rating": 3.3,
+      "review_count": 23
+    },
+    {
+      "product_id": "PROD-0031",
+      "product_name": "Accessories Item 31",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 250.34,
+      "cost_price": 157.85,
+      "supplier_id": "SUP-015",
+      "brand": "BrandD",
+      "weight_kg": 13.3,
+      "dimensions": {
+        "length_cm": 78,
+        "width_cm": 29,
+        "height_cm": 47
+      },
+      "is_active": true,
+      "created_date": "2023-09-11T00:00:00",
+      "tags": [
+        "new",
+        "premium",
+        "bestseller"
+      ],
+      "rating": 4.8,
+      "review_count": 440
+    },
+    {
+      "product_id": "PROD-0032",
+      "product_name": "Accessories Item 32",
+      "category": "Electronics",
+      "subcategory": "Accessories",
+      "base_price": 99.25,
+      "cost_price": 63.64,
+      "supplier_id": "SUP-017",
+      "brand": "BrandD",
+      "weight_kg": 0.85,
+      "dimensions": {
+        "length_cm": 36,
+        "width_cm": 20,
+        "height_cm": 31
+      },
+      "is_active": true,
+      "created_date": "2023-08-26T00:00:00",
+      "tags": [
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 4.6,
+      "review_count": 456
+    },
+    {
+      "product_id": "PROD-0033",
+      "product_name": "Cycling Item 33",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 186.68,
+      "cost_price": 83.58,
+      "supplier_id": "SUP-016",
+      "brand": "BrandD",
+      "weight_kg": 3.96,
+      "dimensions": {
+        "length_cm": 36,
+        "width_cm": 40,
+        "height_cm": 35
+      },
+      "is_active": true,
+      "created_date": "2023-11-17T00:00:00",
+      "tags": [
+        "sale"
+      ],
+      "rating": 3.9,
+      "review_count": 365
+    },
+    {
+      "product_id": "PROD-0034",
+      "product_name": "Decor Item 34",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 119.61,
+      "cost_price": 59.32,
+      "supplier_id": "SUP-018",
+      "brand": "BrandA",
+      "weight_kg": 2.16,
+      "dimensions": {
+        "length_cm": 34,
+        "width_cm": 54,
+        "height_cm": 46
+      },
+      "is_active": true,
+      "created_date": "2023-12-28T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 3.8,
+      "review_count": 169
+    },
+    {
+      "product_id": "PROD-0035",
+      "product_name": "Water Sports Item 35",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 38.97,
+      "cost_price": 25.33,
+      "supplier_id": "SUP-013",
+      "brand": "BrandE",
+      "weight_kg": 14.2,
+      "dimensions": {
+        "length_cm": 7,
+        "width_cm": 78,
+        "height_cm": 26
+      },
+      "is_active": true,
+      "created_date": "2023-01-04T00:00:00",
+      "tags": [
+        "sale",
+        "limited"
+      ],
+      "rating": 4.7,
+      "review_count": 488
+    },
+    {
+      "product_id": "PROD-0036",
+      "product_name": "Cycling Item 36",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 302.79,
+      "cost_price": 170.73,
+      "supplier_id": "SUP-020",
+      "brand": "BrandB",
+      "weight_kg": 7.37,
+      "dimensions": {
+        "length_cm": 39,
+        "width_cm": 60,
+        "height_cm": 33
+      },
+      "is_active": true,
+      "created_date": "2023-07-19T00:00:00",
+      "tags": [
+        "premium",
+        "limited"
+      ],
+      "rating": 4.4,
+      "review_count": 430
+    },
+    {
+      "product_id": "PROD-0037",
+      "product_name": "Outdoor Item 37",
+      "category": "Sports",
+      "subcategory": "Outdoor",
+      "base_price": 392.58,
+      "cost_price": 219.94,
+      "supplier_id": "SUP-013",
+      "brand": "BrandE",
+      "weight_kg": 8.51,
+      "dimensions": {
+        "length_cm": 8,
+        "width_cm": 15,
+        "height_cm": 43
+      },
+      "is_active": true,
+      "created_date": "2023-03-11T00:00:00",
+      "tags": [
+        "new",
+        "bestseller",
+        "sale"
+      ],
+      "rating": 3.8,
+      "review_count": 108
+    },
+    {
+      "product_id": "PROD-0038",
+      "product_name": "Team Sports Item 38",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 144.94,
+      "cost_price": 96.22,
+      "supplier_id": "SUP-009",
+      "brand": "BrandD",
+      "weight_kg": 3.86,
+      "dimensions": {
+        "length_cm": 15,
+        "width_cm": 65,
+        "height_cm": 3
+      },
+      "is_active": false,
+      "created_date": "2023-01-27T00:00:00",
+      "tags": [
+        "new",
+        "bestseller"
+      ],
+      "rating": 4.6,
+      "review_count": 333
+    },
+    {
+      "product_id": "PROD-0039",
+      "product_name": "Smartphones Item 39",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 380.6,
+      "cost_price": 175.0,
+      "supplier_id": "SUP-001",
+      "brand": "BrandE",
+      "weight_kg": 2.37,
+      "dimensions": {
+        "length_cm": 21,
+        "width_cm": 65,
+        "height_cm": 44
+      },
+      "is_active": true,
+      "created_date": "2023-10-16T00:00:00",
+      "tags": [
+        "limited"
+      ],
+      "rating": 4.4,
+      "review_count": 392
+    },
+    {
+      "product_id": "PROD-0040",
+      "product_name": "Decor Item 40",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 248.27,
+      "cost_price": 171.09,
+      "supplier_id": "SUP-004",
+      "brand": "BrandB",
+      "weight_kg": 14.47,
+      "dimensions": {
+        "length_cm": 18,
+        "width_cm": 79,
+        "height_cm": 3
+      },
+      "is_active": true,
+      "created_date": "2023-10-22T00:00:00",
+      "tags": [
+        "limited",
+        "new",
+        "bestseller"
+      ],
+      "rating": 4.2,
+      "review_count": 425
+    },
+    {
+      "product_id": "PROD-0041",
+      "product_name": "Men Item 41",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "base_price": 283.42,
+      "cost_price": 139.01,
+      "supplier_id": "SUP-020",
+      "brand": "BrandA",
+      "weight_kg": 11.96,
+      "dimensions": {
+        "length_cm": 77,
+        "width_cm": 10,
+        "height_cm": 24
+      },
+      "is_active": false,
+      "created_date": "2023-08-08T00:00:00",
+      "tags": [
+        "bestseller",
+        "eco-friendly"
+      ],
+      "rating": 4.3,
+      "review_count": 6
+    },
+    {
+      "product_id": "PROD-0042",
+      "product_name": "Water Sports Item 42",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 55.63,
+      "cost_price": 38.29,
+      "supplier_id": "SUP-015",
+      "brand": "Generic",
+      "weight_kg": 2.38,
+      "dimensions": {
+        "length_cm": 27,
+        "width_cm": 71,
+        "height_cm": 43
+      },
+      "is_active": true,
+      "created_date": "2023-11-12T00:00:00",
+      "tags": [
+        "limited",
+        "premium",
+        "sale"
+      ],
+      "rating": 3.6,
+      "review_count": 125
+    },
+    {
+      "product_id": "PROD-0043",
+      "product_name": "Tablets Item 43",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 354.43,
+      "cost_price": 167.7,
+      "supplier_id": "SUP-015",
+      "brand": "BrandE",
+      "weight_kg": 9.19,
+      "dimensions": {
+        "length_cm": 53,
+        "width_cm": 48,
+        "height_cm": 3
+      },
+      "is_active": true,
+      "created_date": "2023-06-16T00:00:00",
+      "tags": [
+        "limited"
+      ],
+      "rating": 3.4,
+      "review_count": 408
+    },
+    {
+      "product_id": "PROD-0044",
+      "product_name": "Kitchen Item 44",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 122.67,
+      "cost_price": 71.01,
+      "supplier_id": "SUP-009",
+      "brand": "BrandE",
+      "weight_kg": 0.25,
+      "dimensions": {
+        "length_cm": 29,
+        "width_cm": 15,
+        "height_cm": 17
+      },
+      "is_active": true,
+      "created_date": "2023-09-08T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 4.0,
+      "review_count": 364
+    },
+    {
+      "product_id": "PROD-0045",
+      "product_name": "Water Sports Item 45",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 320.28,
+      "cost_price": 137.05,
+      "supplier_id": "SUP-008",
+      "brand": "BrandD",
+      "weight_kg": 10.41,
+      "dimensions": {
+        "length_cm": 44,
+        "width_cm": 79,
+        "height_cm": 25
+      },
+      "is_active": true,
+      "created_date": "2023-10-11T00:00:00",
+      "tags": [
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 3.7,
+      "review_count": 359
+    },
+    {
+      "product_id": "PROD-0046",
+      "product_name": "Team Sports Item 46",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 133.05,
+      "cost_price": 62.42,
+      "supplier_id": "SUP-007",
+      "brand": "BrandC",
+      "weight_kg": 1.88,
+      "dimensions": {
+        "length_cm": 73,
+        "width_cm": 28,
+        "height_cm": 14
+      },
+      "is_active": true,
+      "created_date": "2023-09-05T00:00:00",
+      "tags": [
+        "premium",
+        "eco-friendly"
+      ],
+      "rating": 5.0,
+      "review_count": 268
+    },
+    {
+      "product_id": "PROD-0047",
+      "product_name": "Furniture Item 47",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 335.56,
+      "cost_price": 164.05,
+      "supplier_id": "SUP-012",
+      "brand": "BrandB",
+      "weight_kg": 4.6,
+      "dimensions": {
+        "length_cm": 95,
+        "width_cm": 73,
+        "height_cm": 10
+      },
+      "is_active": true,
+      "created_date": "2023-01-24T00:00:00",
+      "tags": [],
+      "rating": 4.1,
+      "review_count": 357
+    },
+    {
+      "product_id": "PROD-0048",
+      "product_name": "Accessories Item 48",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 54.5,
+      "cost_price": 22.0,
+      "supplier_id": "SUP-010",
+      "brand": "BrandD",
+      "weight_kg": 7.23,
+      "dimensions": {
+        "length_cm": 48,
+        "width_cm": 28,
+        "height_cm": 5
+      },
+      "is_active": true,
+      "created_date": "2023-09-02T00:00:00",
+      "tags": [],
+      "rating": 4.6,
+      "review_count": 205
+    },
+    {
+      "product_id": "PROD-0049",
+      "product_name": "Fitness Item 49",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 237.15,
+      "cost_price": 143.7,
+      "supplier_id": "SUP-005",
+      "brand": "BrandB",
+      "weight_kg": 12.19,
+      "dimensions": {
+        "length_cm": 43,
+        "width_cm": 15,
+        "height_cm": 17
+      },
+      "is_active": true,
+      "created_date": "2023-10-13T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "premium",
+        "new"
+      ],
+      "rating": 4.6,
+      "review_count": 194
+    },
+    {
+      "product_id": "PROD-0050",
+      "product_name": "Water Sports Item 50",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 129.48,
+      "cost_price": 74.65,
+      "supplier_id": "SUP-014",
+      "brand": "BrandC",
+      "weight_kg": 8.57,
+      "dimensions": {
+        "length_cm": 12,
+        "width_cm": 17,
+        "height_cm": 50
+      },
+      "is_active": true,
+      "created_date": "2023-11-17T00:00:00",
+      "tags": [
+        "sale"
+      ],
+      "rating": 4.3,
+      "review_count": 80
+    },
+    {
+      "product_id": "PROD-0051",
+      "product_name": "Women Item 51",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 227.52,
+      "cost_price": 101.69,
+      "supplier_id": "SUP-014",
+      "brand": "BrandD",
+      "weight_kg": 10.37,
+      "dimensions": {
+        "length_cm": 65,
+        "width_cm": 42,
+        "height_cm": 4
+      },
+      "is_active": true,
+      "created_date": "2023-05-28T00:00:00",
+      "tags": [
+        "premium",
+        "limited"
+      ],
+      "rating": 3.1,
+      "review_count": 119
+    },
+    {
+      "product_id": "PROD-0052",
+      "product_name": "Bedding Item 52",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 269.56,
+      "cost_price": 183.32,
+      "supplier_id": "SUP-014",
+      "brand": "BrandA",
+      "weight_kg": 8.21,
+      "dimensions": {
+        "length_cm": 87,
+        "width_cm": 24,
+        "height_cm": 19
+      },
+      "is_active": true,
+      "created_date": "2023-02-06T00:00:00",
+      "tags": [],
+      "rating": 3.3,
+      "review_count": 157
+    },
+    {
+      "product_id": "PROD-0053",
+      "product_name": "Garden Item 53",
+      "category": "Home & Garden",
+      "subcategory": "Garden",
+      "base_price": 62.88,
+      "cost_price": 38.14,
+      "supplier_id": "SUP-013",
+      "brand": "BrandC",
+      "weight_kg": 7.56,
+      "dimensions": {
+        "length_cm": 68,
+        "width_cm": 61,
+        "height_cm": 7
+      },
+      "is_active": false,
+      "created_date": "2023-01-21T00:00:00",
+      "tags": [
+        "premium",
+        "sale",
+        "eco-friendly"
+      ],
+      "rating": 3.1,
+      "review_count": 117
+    },
+    {
+      "product_id": "PROD-0054",
+      "product_name": "Tablets Item 54",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 236.86,
+      "cost_price": 148.97,
+      "supplier_id": "SUP-006",
+      "brand": "BrandD",
+      "weight_kg": 7.83,
+      "dimensions": {
+        "length_cm": 61,
+        "width_cm": 40,
+        "height_cm": 13
+      },
+      "is_active": false,
+      "created_date": "2023-08-12T00:00:00",
+      "tags": [
+        "bestseller",
+        "limited",
+        "sale"
+      ],
+      "rating": 3.8,
+      "review_count": 164
+    },
+    {
+      "product_id": "PROD-0055",
+      "product_name": "Laptops Item 55",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "base_price": 141.97,
+      "cost_price": 86.33,
+      "supplier_id": "SUP-010",
+      "brand": "Generic",
+      "weight_kg": 14.18,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 9,
+        "height_cm": 31
+      },
+      "is_active": true,
+      "created_date": "2023-06-11T00:00:00",
+      "tags": [
+        "sale",
+        "bestseller"
+      ],
+      "rating": 4.9,
+      "review_count": 206
+    },
+    {
+      "product_id": "PROD-0056",
+      "product_name": "Audio Item 56",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 192.86,
+      "cost_price": 80.28,
+      "supplier_id": "SUP-017",
+      "brand": "BrandC",
+      "weight_kg": 9.38,
+      "dimensions": {
+        "length_cm": 68,
+        "width_cm": 61,
+        "height_cm": 50
+      },
+      "is_active": true,
+      "created_date": "2023-04-15T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "new"
+      ],
+      "rating": 4.9,
+      "review_count": 224
+    },
+    {
+      "product_id": "PROD-0057",
+      "product_name": "Fitness Item 57",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 26.11,
+      "cost_price": 15.38,
+      "supplier_id": "SUP-008",
+      "brand": "Generic",
+      "weight_kg": 2.46,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 6,
+        "height_cm": 37
+      },
+      "is_active": true,
+      "created_date": "2023-02-17T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 3.9,
+      "review_count": 60
+    },
+    {
+      "product_id": "PROD-0058",
+      "product_name": "Accessories Item 58",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 374.07,
+      "cost_price": 182.38,
+      "supplier_id": "SUP-009",
+      "brand": "BrandD",
+      "weight_kg": 12.54,
+      "dimensions": {
+        "length_cm": 65,
+        "width_cm": 36,
+        "height_cm": 31
+      },
+      "is_active": false,
+      "created_date": "2023-03-16T00:00:00",
+      "tags": [
+        "new",
+        "eco-friendly",
+        "premium"
+      ],
+      "rating": 4.7,
+      "review_count": 141
+    },
+    {
+      "product_id": "PROD-0059",
+      "product_name": "Team Sports Item 59",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 374.69,
+      "cost_price": 206.95,
+      "supplier_id": "SUP-001",
+      "brand": "BrandC",
+      "weight_kg": 10.92,
+      "dimensions": {
+        "length_cm": 80,
+        "width_cm": 79,
+        "height_cm": 44
+      },
+      "is_active": true,
+      "created_date": "2023-03-18T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "limited",
+        "sale"
+      ],
+      "rating": 3.7,
+      "review_count": 390
+    },
+    {
+      "product_id": "PROD-0060",
+      "product_name": "Water Sports Item 60",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 374.15,
+      "cost_price": 247.27,
+      "supplier_id": "SUP-008",
+      "brand": "BrandE",
+      "weight_kg": 5.81,
+      "dimensions": {
+        "length_cm": 57,
+        "width_cm": 10,
+        "height_cm": 22
+      },
+      "is_active": true,
+      "created_date": "2023-12-28T00:00:00",
+      "tags": [
+        "limited",
+        "new",
+        "premium"
+      ],
+      "rating": 4.9,
+      "review_count": 64
+    },
+    {
+      "product_id": "PROD-0061",
+      "product_name": "Furniture Item 61",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 351.56,
+      "cost_price": 187.06,
+      "supplier_id": "SUP-017",
+      "brand": "BrandD",
+      "weight_kg": 0.33,
+      "dimensions": {
+        "length_cm": 23,
+        "width_cm": 57,
+        "height_cm": 43
+      },
+      "is_active": true,
+      "created_date": "2023-02-08T00:00:00",
+      "tags": [
+        "sale",
+        "premium",
+        "limited"
+      ],
+      "rating": 4.3,
+      "review_count": 436
+    },
+    {
+      "product_id": "PROD-0062",
+      "product_name": "Bedding Item 62",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 161.3,
+      "cost_price": 79.85,
+      "supplier_id": "SUP-016",
+      "brand": "BrandE",
+      "weight_kg": 0.63,
+      "dimensions": {
+        "length_cm": 13,
+        "width_cm": 35,
+        "height_cm": 42
+      },
+      "is_active": true,
+      "created_date": "2023-04-27T00:00:00",
+      "tags": [],
+      "rating": 3.9,
+      "review_count": 50
+    },
+    {
+      "product_id": "PROD-0063",
+      "product_name": "Accessories Item 63",
+      "category": "Electronics",
+      "subcategory": "Accessories",
+      "base_price": 79.05,
+      "cost_price": 38.72,
+      "supplier_id": "SUP-001",
+      "brand": "BrandA",
+      "weight_kg": 4.93,
+      "dimensions": {
+        "length_cm": 12,
+        "width_cm": 42,
+        "height_cm": 24
+      },
+      "is_active": true,
+      "created_date": "2023-08-09T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 4.1,
+      "review_count": 289
+    },
+    {
+      "product_id": "PROD-0064",
+      "product_name": "Women Item 64",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 82.4,
+      "cost_price": 48.03,
+      "supplier_id": "SUP-013",
+      "brand": "BrandE",
+      "weight_kg": 10.28,
+      "dimensions": {
+        "length_cm": 68,
+        "width_cm": 79,
+        "height_cm": 11
+      },
+      "is_active": true,
+      "created_date": "2023-08-25T00:00:00",
+      "tags": [
+        "limited",
+        "sale"
+      ],
+      "rating": 4.3,
+      "review_count": 460
+    },
+    {
+      "product_id": "PROD-0065",
+      "product_name": "Team Sports Item 65",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 275.88,
+      "cost_price": 123.43,
+      "supplier_id": "SUP-015",
+      "brand": "BrandC",
+      "weight_kg": 14.82,
+      "dimensions": {
+        "length_cm": 43,
+        "width_cm": 59,
+        "height_cm": 46
+      },
+      "is_active": true,
+      "created_date": "2023-08-22T00:00:00",
+      "tags": [
+        "new",
+        "limited"
+      ],
+      "rating": 4.7,
+      "review_count": 54
+    },
+    {
+      "product_id": "PROD-0066",
+      "product_name": "Accessories Item 66",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 235.19,
+      "cost_price": 134.63,
+      "supplier_id": "SUP-010",
+      "brand": "BrandA",
+      "weight_kg": 14.67,
+      "dimensions": {
+        "length_cm": 89,
+        "width_cm": 55,
+        "height_cm": 19
+      },
+      "is_active": true,
+      "created_date": "2023-10-17T00:00:00",
+      "tags": [],
+      "rating": 4.8,
+      "review_count": 381
+    },
+    {
+      "product_id": "PROD-0067",
+      "product_name": "Team Sports Item 67",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 313.66,
+      "cost_price": 147.12,
+      "supplier_id": "SUP-012",
+      "brand": "BrandB",
+      "weight_kg": 9.59,
+      "dimensions": {
+        "length_cm": 84,
+        "width_cm": 37,
+        "height_cm": 45
+      },
+      "is_active": true,
+      "created_date": "2023-11-18T00:00:00",
+      "tags": [],
+      "rating": 4.8,
+      "review_count": 330
+    },
+    {
+      "product_id": "PROD-0068",
+      "product_name": "Tablets Item 68",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 318.62,
+      "cost_price": 130.64,
+      "supplier_id": "SUP-012",
+      "brand": "Generic",
+      "weight_kg": 2.06,
+      "dimensions": {
+        "length_cm": 42,
+        "width_cm": 46,
+        "height_cm": 49
+      },
+      "is_active": true,
+      "created_date": "2023-03-31T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 4.6,
+      "review_count": 448
+    },
+    {
+      "product_id": "PROD-0069",
+      "product_name": "Bedding Item 69",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 208.19,
+      "cost_price": 100.3,
+      "supplier_id": "SUP-006",
+      "brand": "BrandC",
+      "weight_kg": 13.72,
+      "dimensions": {
+        "length_cm": 66,
+        "width_cm": 42,
+        "height_cm": 49
+      },
+      "is_active": true,
+      "created_date": "2023-02-28T00:00:00",
+      "tags": [
+        "bestseller",
+        "new",
+        "eco-friendly"
+      ],
+      "rating": 4.7,
+      "review_count": 370
+    },
+    {
+      "product_id": "PROD-0070",
+      "product_name": "Cycling Item 70",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 155.82,
+      "cost_price": 99.29,
+      "supplier_id": "SUP-001",
+      "brand": "BrandC",
+      "weight_kg": 8.09,
+      "dimensions": {
+        "length_cm": 63,
+        "width_cm": 52,
+        "height_cm": 45
+      },
+      "is_active": true,
+      "created_date": "2023-10-27T00:00:00",
+      "tags": [
+        "premium",
+        "sale",
+        "bestseller"
+      ],
+      "rating": 4.3,
+      "review_count": 241
+    },
+    {
+      "product_id": "PROD-0071",
+      "product_name": "Audio Item 71",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 355.43,
+      "cost_price": 202.03,
+      "supplier_id": "SUP-020",
+      "brand": "BrandB",
+      "weight_kg": 9.75,
+      "dimensions": {
+        "length_cm": 86,
+        "width_cm": 64,
+        "height_cm": 46
+      },
+      "is_active": true,
+      "created_date": "2023-11-29T00:00:00",
+      "tags": [
+        "bestseller",
+        "new",
+        "premium"
+      ],
+      "rating": 4.9,
+      "review_count": 155
+    },
+    {
+      "product_id": "PROD-0072",
+      "product_name": "Fitness Item 72",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 52.42,
+      "cost_price": 34.92,
+      "supplier_id": "SUP-005",
+      "brand": "BrandD",
+      "weight_kg": 6.86,
+      "dimensions": {
+        "length_cm": 90,
+        "width_cm": 74,
+        "height_cm": 28
+      },
+      "is_active": false,
+      "created_date": "2023-03-21T00:00:00",
+      "tags": [
+        "premium",
+        "bestseller",
+        "limited"
+      ],
+      "rating": 4.2,
+      "review_count": 480
+    },
+    {
+      "product_id": "PROD-0073",
+      "product_name": "Furniture Item 73",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 280.76,
+      "cost_price": 130.6,
+      "supplier_id": "SUP-015",
+      "brand": "BrandB",
+      "weight_kg": 12.85,
+      "dimensions": {
+        "length_cm": 17,
+        "width_cm": 52,
+        "height_cm": 36
+      },
+      "is_active": true,
+      "created_date": "2023-02-01T00:00:00",
+      "tags": [
+        "sale",
+        "new",
+        "bestseller"
+      ],
+      "rating": 4.9,
+      "review_count": 421
+    },
+    {
+      "product_id": "PROD-0074",
+      "product_name": "Fitness Item 74",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 270.17,
+      "cost_price": 160.08,
+      "supplier_id": "SUP-020",
+      "brand": "BrandA",
+      "weight_kg": 0.85,
+      "dimensions": {
+        "length_cm": 47,
+        "width_cm": 36,
+        "height_cm": 10
+      },
+      "is_active": false,
+      "created_date": "2023-04-16T00:00:00",
+      "tags": [],
+      "rating": 4.7,
+      "review_count": 283
+    },
+    {
+      "product_id": "PROD-0075",
+      "product_name": "Footwear Item 75",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 98.14,
+      "cost_price": 64.86,
+      "supplier_id": "SUP-011",
+      "brand": "BrandB",
+      "weight_kg": 11.85,
+      "dimensions": {
+        "length_cm": 81,
+        "width_cm": 5,
+        "height_cm": 19
+      },
+      "is_active": true,
+      "created_date": "2023-03-08T00:00:00",
+      "tags": [
+        "new",
+        "bestseller"
+      ],
+      "rating": 4.3,
+      "review_count": 13
+    },
+    {
+      "product_id": "PROD-0076",
+      "product_name": "Men Item 76",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "base_price": 152.92,
+      "cost_price": 97.34,
+      "supplier_id": "SUP-019",
+      "brand": "BrandC",
+      "weight_kg": 0.34,
+      "dimensions": {
+        "length_cm": 38,
+        "width_cm": 11,
+        "height_cm": 10
+      },
+      "is_active": true,
+      "created_date": "2023-09-27T00:00:00",
+      "tags": [],
+      "rating": 4.5,
+      "review_count": 243
+    },
+    {
+      "product_id": "PROD-0077",
+      "product_name": "Team Sports Item 77",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 212.6,
+      "cost_price": 91.99,
+      "supplier_id": "SUP-017",
+      "brand": "BrandB",
+      "weight_kg": 14.19,
+      "dimensions": {
+        "length_cm": 10,
+        "width_cm": 71,
+        "height_cm": 21
+      },
+      "is_active": true,
+      "created_date": "2023-11-26T00:00:00",
+      "tags": [],
+      "rating": 3.1,
+      "review_count": 245
+    },
+    {
+      "product_id": "PROD-0078",
+      "product_name": "Water Sports Item 78",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 279.15,
+      "cost_price": 152.72,
+      "supplier_id": "SUP-015",
+      "brand": "BrandA",
+      "weight_kg": 13.5,
+      "dimensions": {
+        "length_cm": 46,
+        "width_cm": 23,
+        "height_cm": 6
+      },
+      "is_active": true,
+      "created_date": "2023-05-21T00:00:00",
+      "tags": [
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 4.1,
+      "review_count": 232
+    },
+    {
+      "product_id": "PROD-0079",
+      "product_name": "Fitness Item 79",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 320.34,
+      "cost_price": 139.13,
+      "supplier_id": "SUP-018",
+      "brand": "Generic",
+      "weight_kg": 13.0,
+      "dimensions": {
+        "length_cm": 60,
+        "width_cm": 62,
+        "height_cm": 16
+      },
+      "is_active": true,
+      "created_date": "2023-06-23T00:00:00",
+      "tags": [
+        "limited",
+        "premium",
+        "bestseller"
+      ],
+      "rating": 3.6,
+      "review_count": 160
+    },
+    {
+      "product_id": "PROD-0080",
+      "product_name": "Kitchen Item 80",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 382.13,
+      "cost_price": 231.59,
+      "supplier_id": "SUP-016",
+      "brand": "BrandA",
+      "weight_kg": 1.46,
+      "dimensions": {
+        "length_cm": 15,
+        "width_cm": 16,
+        "height_cm": 29
+      },
+      "is_active": true,
+      "created_date": "2023-07-10T00:00:00",
+      "tags": [
+        "eco-friendly"
+      ],
+      "rating": 3.1,
+      "review_count": 489
+    },
+    {
+      "product_id": "PROD-0081",
+      "product_name": "Furniture Item 81",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 173.16,
+      "cost_price": 114.65,
+      "supplier_id": "SUP-014",
+      "brand": "Generic",
+      "weight_kg": 0.87,
+      "dimensions": {
+        "length_cm": 41,
+        "width_cm": 44,
+        "height_cm": 24
+      },
+      "is_active": true,
+      "created_date": "2023-10-23T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 4.3,
+      "review_count": 114
+    },
+    {
+      "product_id": "PROD-0082",
+      "product_name": "Tablets Item 82",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 340.47,
+      "cost_price": 173.73,
+      "supplier_id": "SUP-009",
+      "brand": "BrandE",
+      "weight_kg": 3.47,
+      "dimensions": {
+        "length_cm": 59,
+        "width_cm": 76,
+        "height_cm": 41
+      },
+      "is_active": false,
+      "created_date": "2023-12-12T00:00:00",
+      "tags": [],
+      "rating": 4.2,
+      "review_count": 336
+    },
+    {
+      "product_id": "PROD-0083",
+      "product_name": "Furniture Item 83",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 84.46,
+      "cost_price": 51.59,
+      "supplier_id": "SUP-010",
+      "brand": "BrandC",
+      "weight_kg": 5.33,
+      "dimensions": {
+        "length_cm": 28,
+        "width_cm": 23,
+        "height_cm": 38
+      },
+      "is_active": true,
+      "created_date": "2023-02-05T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 4.3,
+      "review_count": 15
+    },
+    {
+      "product_id": "PROD-0084",
+      "product_name": "Audio Item 84",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 97.83,
+      "cost_price": 51.45,
+      "supplier_id": "SUP-011",
+      "brand": "BrandB",
+      "weight_kg": 5.61,
+      "dimensions": {
+        "length_cm": 97,
+        "width_cm": 46,
+        "height_cm": 38
+      },
+      "is_active": false,
+      "created_date": "2023-02-13T00:00:00",
+      "tags": [],
+      "rating": 3.3,
+      "review_count": 386
+    },
+    {
+      "product_id": "PROD-0085",
+      "product_name": "Smartphones Item 85",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 119.76,
+      "cost_price": 71.69,
+      "supplier_id": "SUP-016",
+      "brand": "BrandE",
+      "weight_kg": 6.69,
+      "dimensions": {
+        "length_cm": 39,
+        "width_cm": 32,
+        "height_cm": 50
+      },
+      "is_active": false,
+      "created_date": "2023-02-28T00:00:00",
+      "tags": [
+        "limited",
+        "bestseller"
+      ],
+      "rating": 3.6,
+      "review_count": 347
+    },
+    {
+      "product_id": "PROD-0086",
+      "product_name": "Cycling Item 86",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 271.85,
+      "cost_price": 112.44,
+      "supplier_id": "SUP-013",
+      "brand": "BrandE",
+      "weight_kg": 0.92,
+      "dimensions": {
+        "length_cm": 31,
+        "width_cm": 43,
+        "height_cm": 15
+      },
+      "is_active": true,
+      "created_date": "2023-05-11T00:00:00",
+      "tags": [
+        "sale",
+        "bestseller"
+      ],
+      "rating": 3.0,
+      "review_count": 382
+    },
+    {
+      "product_id": "PROD-0087",
+      "product_name": "Outdoor Item 87",
+      "category": "Sports",
+      "subcategory": "Outdoor",
+      "base_price": 64.74,
+      "cost_price": 36.24,
+      "supplier_id": "SUP-008",
+      "brand": "BrandE",
+      "weight_kg": 8.42,
+      "dimensions": {
+        "length_cm": 90,
+        "width_cm": 50,
+        "height_cm": 6
+      },
+      "is_active": true,
+      "created_date": "2023-01-22T00:00:00",
+      "tags": [
+        "bestseller",
+        "limited",
+        "premium"
+      ],
+      "rating": 4.7,
+      "review_count": 294
+    },
+    {
+      "product_id": "PROD-0088",
+      "product_name": "Cycling Item 88",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 170.7,
+      "cost_price": 101.06,
+      "supplier_id": "SUP-010",
+      "brand": "BrandA",
+      "weight_kg": 6.13,
+      "dimensions": {
+        "length_cm": 46,
+        "width_cm": 26,
+        "height_cm": 41
+      },
+      "is_active": true,
+      "created_date": "2023-12-20T00:00:00",
+      "tags": [
+        "bestseller",
+        "limited"
+      ],
+      "rating": 4.7,
+      "review_count": 124
+    },
+    {
+      "product_id": "PROD-0089",
+      "product_name": "Cycling Item 89",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 169.17,
+      "cost_price": 71.66,
+      "supplier_id": "SUP-010",
+      "brand": "Generic",
+      "weight_kg": 5.16,
+      "dimensions": {
+        "length_cm": 47,
+        "width_cm": 26,
+        "height_cm": 6
+      },
+      "is_active": false,
+      "created_date": "2023-11-21T00:00:00",
+      "tags": [],
+      "rating": 4.1,
+      "review_count": 99
+    },
+    {
+      "product_id": "PROD-0090",
+      "product_name": "Kitchen Item 90",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 295.04,
+      "cost_price": 190.5,
+      "supplier_id": "SUP-005",
+      "brand": "BrandB",
+      "weight_kg": 1.63,
+      "dimensions": {
+        "length_cm": 37,
+        "width_cm": 30,
+        "height_cm": 13
+      },
+      "is_active": false,
+      "created_date": "2023-03-20T00:00:00",
+      "tags": [],
+      "rating": 3.4,
+      "review_count": 395
+    },
+    {
+      "product_id": "PROD-0091",
+      "product_name": "Water Sports Item 91",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 305.46,
+      "cost_price": 191.82,
+      "supplier_id": "SUP-015",
+      "brand": "Generic",
+      "weight_kg": 13.87,
+      "dimensions": {
+        "length_cm": 77,
+        "width_cm": 46,
+        "height_cm": 42
+      },
+      "is_active": true,
+      "created_date": "2023-03-19T00:00:00",
+      "tags": [
+        "bestseller",
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 4.3,
+      "review_count": 407
+    },
+    {
+      "product_id": "PROD-0092",
+      "product_name": "Bedding Item 92",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 36.63,
+      "cost_price": 20.23,
+      "supplier_id": "SUP-010",
+      "brand": "BrandD",
+      "weight_kg": 6.83,
+      "dimensions": {
+        "length_cm": 12,
+        "width_cm": 52,
+        "height_cm": 20
+      },
+      "is_active": true,
+      "created_date": "2023-11-27T00:00:00",
+      "tags": [],
+      "rating": 4.2,
+      "review_count": 259
+    },
+    {
+      "product_id": "PROD-0093",
+      "product_name": "Water Sports Item 93",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 238.43,
+      "cost_price": 163.63,
+      "supplier_id": "SUP-002",
+      "brand": "BrandD",
+      "weight_kg": 13.64,
+      "dimensions": {
+        "length_cm": 78,
+        "width_cm": 29,
+        "height_cm": 22
+      },
+      "is_active": false,
+      "created_date": "2023-09-01T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 3.9,
+      "review_count": 415
+    },
+    {
+      "product_id": "PROD-0094",
+      "product_name": "Furniture Item 94",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 209.25,
+      "cost_price": 94.53,
+      "supplier_id": "SUP-008",
+      "brand": "Generic",
+      "weight_kg": 6.62,
+      "dimensions": {
+        "length_cm": 61,
+        "width_cm": 72,
+        "height_cm": 35
+      },
+      "is_active": false,
+      "created_date": "2023-03-23T00:00:00",
+      "tags": [
+        "sale",
+        "premium"
+      ],
+      "rating": 3.8,
+      "review_count": 396
+    },
+    {
+      "product_id": "PROD-0095",
+      "product_name": "Bedding Item 95",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 35.16,
+      "cost_price": 20.72,
+      "supplier_id": "SUP-011",
+      "brand": "BrandA",
+      "weight_kg": 5.01,
+      "dimensions": {
+        "length_cm": 76,
+        "width_cm": 54,
+        "height_cm": 20
+      },
+      "is_active": true,
+      "created_date": "2023-12-03T00:00:00",
+      "tags": [
+        "sale"
+      ],
+      "rating": 3.2,
+      "review_count": 339
+    },
+    {
+      "product_id": "PROD-0096",
+      "product_name": "Kids Item 96",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 134.44,
+      "cost_price": 80.24,
+      "supplier_id": "SUP-013",
+      "brand": "BrandB",
+      "weight_kg": 8.97,
+      "dimensions": {
+        "length_cm": 15,
+        "width_cm": 44,
+        "height_cm": 37
+      },
+      "is_active": true,
+      "created_date": "2023-11-26T00:00:00",
+      "tags": [
+        "new",
+        "eco-friendly"
+      ],
+      "rating": 3.2,
+      "review_count": 343
+    },
+    {
+      "product_id": "PROD-0097",
+      "product_name": "Cycling Item 97",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 154.3,
+      "cost_price": 78.51,
+      "supplier_id": "SUP-006",
+      "brand": "BrandB",
+      "weight_kg": 5.19,
+      "dimensions": {
+        "length_cm": 67,
+        "width_cm": 29,
+        "height_cm": 16
+      },
+      "is_active": true,
+      "created_date": "2023-03-21T00:00:00",
+      "tags": [],
+      "rating": 3.6,
+      "review_count": 403
+    },
+    {
+      "product_id": "PROD-0098",
+      "product_name": "Audio Item 98",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 311.79,
+      "cost_price": 202.83,
+      "supplier_id": "SUP-017",
+      "brand": "BrandA",
+      "weight_kg": 9.96,
+      "dimensions": {
+        "length_cm": 84,
+        "width_cm": 21,
+        "height_cm": 40
+      },
+      "is_active": true,
+      "created_date": "2023-03-20T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 4.7,
+      "review_count": 394
+    },
+    {
+      "product_id": "PROD-0099",
+      "product_name": "Accessories Item 99",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 31.82,
+      "cost_price": 16.21,
+      "supplier_id": "SUP-008",
+      "brand": "BrandD",
+      "weight_kg": 9.2,
+      "dimensions": {
+        "length_cm": 100,
+        "width_cm": 62,
+        "height_cm": 16
+      },
+      "is_active": false,
+      "created_date": "2023-05-03T00:00:00",
+      "tags": [
+        "limited",
+        "new"
+      ],
+      "rating": 3.7,
+      "review_count": 484
+    },
+    {
+      "product_id": "PROD-0100",
+      "product_name": "Water Sports Item 100",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 311.23,
+      "cost_price": 197.15,
+      "supplier_id": "SUP-017",
+      "brand": "BrandE",
+      "weight_kg": 6.34,
+      "dimensions": {
+        "length_cm": 25,
+        "width_cm": 30,
+        "height_cm": 40
+      },
+      "is_active": true,
+      "created_date": "2023-05-09T00:00:00",
+      "tags": [],
+      "rating": 4.3,
+      "review_count": 447
+    },
+    {
+      "product_id": "PROD-0101",
+      "product_name": "Bedding Item 101",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 374.7,
+      "cost_price": 229.85,
+      "supplier_id": "SUP-017",
+      "brand": "BrandA",
+      "weight_kg": 4.35,
+      "dimensions": {
+        "length_cm": 25,
+        "width_cm": 39,
+        "height_cm": 30
+      },
+      "is_active": false,
+      "created_date": "2023-03-17T00:00:00",
+      "tags": [
+        "bestseller",
+        "new",
+        "limited"
+      ],
+      "rating": 4.8,
+      "review_count": 476
+    },
+    {
+      "product_id": "PROD-0102",
+      "product_name": "Accessories Item 102",
+      "category": "Electronics",
+      "subcategory": "Accessories",
+      "base_price": 35.5,
+      "cost_price": 19.55,
+      "supplier_id": "SUP-008",
+      "brand": "BrandD",
+      "weight_kg": 14.92,
+      "dimensions": {
+        "length_cm": 52,
+        "width_cm": 33,
+        "height_cm": 3
+      },
+      "is_active": true,
+      "created_date": "2023-02-20T00:00:00",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "rating": 3.1,
+      "review_count": 469
+    },
+    {
+      "product_id": "PROD-0103",
+      "product_name": "Outdoor Item 103",
+      "category": "Sports",
+      "subcategory": "Outdoor",
+      "base_price": 307.15,
+      "cost_price": 166.09,
+      "supplier_id": "SUP-020",
+      "brand": "BrandA",
+      "weight_kg": 13.6,
+      "dimensions": {
+        "length_cm": 7,
+        "width_cm": 37,
+        "height_cm": 15
+      },
+      "is_active": true,
+      "created_date": "2023-10-08T00:00:00",
+      "tags": [
+        "bestseller",
+        "sale",
+        "new"
+      ],
+      "rating": 3.6,
+      "review_count": 24
+    },
+    {
+      "product_id": "PROD-0104",
+      "product_name": "Accessories Item 104",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 261.0,
+      "cost_price": 153.16,
+      "supplier_id": "SUP-003",
+      "brand": "BrandA",
+      "weight_kg": 12.57,
+      "dimensions": {
+        "length_cm": 68,
+        "width_cm": 73,
+        "height_cm": 3
+      },
+      "is_active": false,
+      "created_date": "2023-10-22T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.3,
+      "review_count": 219
+    },
+    {
+      "product_id": "PROD-0105",
+      "product_name": "Audio Item 105",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 150.83,
+      "cost_price": 86.16,
+      "supplier_id": "SUP-006",
+      "brand": "Generic",
+      "weight_kg": 10.06,
+      "dimensions": {
+        "length_cm": 72,
+        "width_cm": 51,
+        "height_cm": 6
+      },
+      "is_active": false,
+      "created_date": "2023-10-06T00:00:00",
+      "tags": [],
+      "rating": 3.8,
+      "review_count": 240
+    },
+    {
+      "product_id": "PROD-0106",
+      "product_name": "Accessories Item 106",
+      "category": "Electronics",
+      "subcategory": "Accessories",
+      "base_price": 392.7,
+      "cost_price": 186.96,
+      "supplier_id": "SUP-001",
+      "brand": "BrandC",
+      "weight_kg": 11.85,
+      "dimensions": {
+        "length_cm": 49,
+        "width_cm": 35,
+        "height_cm": 48
+      },
+      "is_active": true,
+      "created_date": "2023-10-25T00:00:00",
+      "tags": [
+        "new",
+        "bestseller"
+      ],
+      "rating": 3.7,
+      "review_count": 173
+    },
+    {
+      "product_id": "PROD-0107",
+      "product_name": "Accessories Item 107",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 392.62,
+      "cost_price": 213.41,
+      "supplier_id": "SUP-006",
+      "brand": "BrandB",
+      "weight_kg": 1.04,
+      "dimensions": {
+        "length_cm": 63,
+        "width_cm": 9,
+        "height_cm": 20
+      },
+      "is_active": true,
+      "created_date": "2023-01-23T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 3.6,
+      "review_count": 158
+    },
+    {
+      "product_id": "PROD-0108",
+      "product_name": "Cycling Item 108",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 197.26,
+      "cost_price": 81.07,
+      "supplier_id": "SUP-007",
+      "brand": "BrandC",
+      "weight_kg": 5.42,
+      "dimensions": {
+        "length_cm": 11,
+        "width_cm": 47,
+        "height_cm": 19
+      },
+      "is_active": true,
+      "created_date": "2023-07-08T00:00:00",
+      "tags": [
+        "limited",
+        "premium",
+        "eco-friendly"
+      ],
+      "rating": 3.7,
+      "review_count": 95
+    },
+    {
+      "product_id": "PROD-0109",
+      "product_name": "Water Sports Item 109",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 156.43,
+      "cost_price": 99.99,
+      "supplier_id": "SUP-009",
+      "brand": "BrandA",
+      "weight_kg": 10.93,
+      "dimensions": {
+        "length_cm": 15,
+        "width_cm": 60,
+        "height_cm": 40
+      },
+      "is_active": true,
+      "created_date": "2023-10-07T00:00:00",
+      "tags": [
+        "sale",
+        "bestseller"
+      ],
+      "rating": 3.2,
+      "review_count": 338
+    },
+    {
+      "product_id": "PROD-0110",
+      "product_name": "Kitchen Item 110",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 186.68,
+      "cost_price": 114.86,
+      "supplier_id": "SUP-006",
+      "brand": "Generic",
+      "weight_kg": 6.71,
+      "dimensions": {
+        "length_cm": 62,
+        "width_cm": 10,
+        "height_cm": 48
+      },
+      "is_active": true,
+      "created_date": "2023-11-11T00:00:00",
+      "tags": [
+        "sale",
+        "bestseller",
+        "eco-friendly"
+      ],
+      "rating": 4.3,
+      "review_count": 207
+    },
+    {
+      "product_id": "PROD-0111",
+      "product_name": "Bedding Item 111",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 323.42,
+      "cost_price": 195.29,
+      "supplier_id": "SUP-001",
+      "brand": "BrandB",
+      "weight_kg": 12.75,
+      "dimensions": {
+        "length_cm": 91,
+        "width_cm": 61,
+        "height_cm": 4
+      },
+      "is_active": true,
+      "created_date": "2023-02-04T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.7,
+      "review_count": 196
+    },
+    {
+      "product_id": "PROD-0112",
+      "product_name": "Audio Item 112",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 74.07,
+      "cost_price": 39.63,
+      "supplier_id": "SUP-012",
+      "brand": "BrandC",
+      "weight_kg": 6.71,
+      "dimensions": {
+        "length_cm": 14,
+        "width_cm": 78,
+        "height_cm": 10
+      },
+      "is_active": false,
+      "created_date": "2023-07-07T00:00:00",
+      "tags": [
+        "sale",
+        "premium",
+        "new"
+      ],
+      "rating": 4.9,
+      "review_count": 13
+    },
+    {
+      "product_id": "PROD-0113",
+      "product_name": "Accessories Item 113",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 214.33,
+      "cost_price": 144.47,
+      "supplier_id": "SUP-004",
+      "brand": "BrandC",
+      "weight_kg": 11.65,
+      "dimensions": {
+        "length_cm": 95,
+        "width_cm": 62,
+        "height_cm": 15
+      },
+      "is_active": false,
+      "created_date": "2023-05-27T00:00:00",
+      "tags": [
+        "new",
+        "bestseller",
+        "premium"
+      ],
+      "rating": 4.7,
+      "review_count": 231
+    },
+    {
+      "product_id": "PROD-0114",
+      "product_name": "Accessories Item 114",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 398.95,
+      "cost_price": 256.58,
+      "supplier_id": "SUP-011",
+      "brand": "Generic",
+      "weight_kg": 5.28,
+      "dimensions": {
+        "length_cm": 13,
+        "width_cm": 75,
+        "height_cm": 36
+      },
+      "is_active": true,
+      "created_date": "2023-06-03T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 4.4,
+      "review_count": 358
+    },
+    {
+      "product_id": "PROD-0115",
+      "product_name": "Kids Item 115",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 210.87,
+      "cost_price": 92.03,
+      "supplier_id": "SUP-007",
+      "brand": "BrandB",
+      "weight_kg": 3.63,
+      "dimensions": {
+        "length_cm": 68,
+        "width_cm": 8,
+        "height_cm": 25
+      },
+      "is_active": false,
+      "created_date": "2023-10-21T00:00:00",
+      "tags": [
+        "limited",
+        "eco-friendly"
+      ],
+      "rating": 3.3,
+      "review_count": 452
+    },
+    {
+      "product_id": "PROD-0116",
+      "product_name": "Smartphones Item 116",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 134.08,
+      "cost_price": 93.84,
+      "supplier_id": "SUP-016",
+      "brand": "BrandE",
+      "weight_kg": 6.22,
+      "dimensions": {
+        "length_cm": 57,
+        "width_cm": 78,
+        "height_cm": 6
+      },
+      "is_active": true,
+      "created_date": "2023-06-12T00:00:00",
+      "tags": [],
+      "rating": 3.9,
+      "review_count": 348
+    },
+    {
+      "product_id": "PROD-0117",
+      "product_name": "Decor Item 117",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 353.01,
+      "cost_price": 223.84,
+      "supplier_id": "SUP-019",
+      "brand": "BrandB",
+      "weight_kg": 11.54,
+      "dimensions": {
+        "length_cm": 21,
+        "width_cm": 60,
+        "height_cm": 34
+      },
+      "is_active": true,
+      "created_date": "2023-03-05T00:00:00",
+      "tags": [
+        "sale"
+      ],
+      "rating": 3.3,
+      "review_count": 165
+    },
+    {
+      "product_id": "PROD-0118",
+      "product_name": "Kids Item 118",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 379.78,
+      "cost_price": 211.03,
+      "supplier_id": "SUP-010",
+      "brand": "BrandA",
+      "weight_kg": 3.83,
+      "dimensions": {
+        "length_cm": 86,
+        "width_cm": 75,
+        "height_cm": 19
+      },
+      "is_active": true,
+      "created_date": "2023-11-17T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "premium"
+      ],
+      "rating": 3.2,
+      "review_count": 328
+    },
+    {
+      "product_id": "PROD-0119",
+      "product_name": "Footwear Item 119",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 377.52,
+      "cost_price": 168.47,
+      "supplier_id": "SUP-020",
+      "brand": "Generic",
+      "weight_kg": 13.54,
+      "dimensions": {
+        "length_cm": 48,
+        "width_cm": 77,
+        "height_cm": 4
+      },
+      "is_active": true,
+      "created_date": "2023-02-11T00:00:00",
+      "tags": [],
+      "rating": 4.9,
+      "review_count": 394
+    },
+    {
+      "product_id": "PROD-0120",
+      "product_name": "Decor Item 120",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 310.28,
+      "cost_price": 162.89,
+      "supplier_id": "SUP-001",
+      "brand": "BrandD",
+      "weight_kg": 13.35,
+      "dimensions": {
+        "length_cm": 74,
+        "width_cm": 42,
+        "height_cm": 43
+      },
+      "is_active": true,
+      "created_date": "2023-09-05T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.8,
+      "review_count": 232
+    },
+    {
+      "product_id": "PROD-0121",
+      "product_name": "Smartphones Item 121",
+      "category": "Electronics",
+      "subcategory": "Smartphones",
+      "base_price": 75.86,
+      "cost_price": 39.8,
+      "supplier_id": "SUP-015",
+      "brand": "BrandB",
+      "weight_kg": 5.17,
+      "dimensions": {
+        "length_cm": 23,
+        "width_cm": 45,
+        "height_cm": 47
+      },
+      "is_active": true,
+      "created_date": "2023-06-26T00:00:00",
+      "tags": [
+        "new",
+        "sale",
+        "bestseller"
+      ],
+      "rating": 3.6,
+      "review_count": 238
+    },
+    {
+      "product_id": "PROD-0122",
+      "product_name": "Tablets Item 122",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 188.09,
+      "cost_price": 83.19,
+      "supplier_id": "SUP-002",
+      "brand": "BrandC",
+      "weight_kg": 14.19,
+      "dimensions": {
+        "length_cm": 83,
+        "width_cm": 58,
+        "height_cm": 17
+      },
+      "is_active": true,
+      "created_date": "2023-06-17T00:00:00",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "rating": 4.0,
+      "review_count": 263
+    },
+    {
+      "product_id": "PROD-0123",
+      "product_name": "Water Sports Item 123",
+      "category": "Sports",
+      "subcategory": "Water Sports",
+      "base_price": 353.44,
+      "cost_price": 194.12,
+      "supplier_id": "SUP-003",
+      "brand": "BrandD",
+      "weight_kg": 7.63,
+      "dimensions": {
+        "length_cm": 35,
+        "width_cm": 32,
+        "height_cm": 39
+      },
+      "is_active": true,
+      "created_date": "2023-01-25T00:00:00",
+      "tags": [],
+      "rating": 3.6,
+      "review_count": 305
+    },
+    {
+      "product_id": "PROD-0124",
+      "product_name": "Team Sports Item 124",
+      "category": "Sports",
+      "subcategory": "Team Sports",
+      "base_price": 221.63,
+      "cost_price": 144.98,
+      "supplier_id": "SUP-014",
+      "brand": "BrandB",
+      "weight_kg": 13.25,
+      "dimensions": {
+        "length_cm": 98,
+        "width_cm": 51,
+        "height_cm": 50
+      },
+      "is_active": true,
+      "created_date": "2023-07-07T00:00:00",
+      "tags": [],
+      "rating": 3.8,
+      "review_count": 291
+    },
+    {
+      "product_id": "PROD-0125",
+      "product_name": "Kids Item 125",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 227.99,
+      "cost_price": 96.23,
+      "supplier_id": "SUP-017",
+      "brand": "BrandD",
+      "weight_kg": 11.49,
+      "dimensions": {
+        "length_cm": 40,
+        "width_cm": 20,
+        "height_cm": 10
+      },
+      "is_active": true,
+      "created_date": "2023-07-21T00:00:00",
+      "tags": [
+        "sale",
+        "eco-friendly"
+      ],
+      "rating": 4.9,
+      "review_count": 386
+    },
+    {
+      "product_id": "PROD-0126",
+      "product_name": "Women Item 126",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 246.95,
+      "cost_price": 128.52,
+      "supplier_id": "SUP-002",
+      "brand": "BrandA",
+      "weight_kg": 0.68,
+      "dimensions": {
+        "length_cm": 96,
+        "width_cm": 47,
+        "height_cm": 32
+      },
+      "is_active": false,
+      "created_date": "2023-08-22T00:00:00",
+      "tags": [
+        "eco-friendly"
+      ],
+      "rating": 4.8,
+      "review_count": 71
+    },
+    {
+      "product_id": "PROD-0127",
+      "product_name": "Bedding Item 127",
+      "category": "Home & Garden",
+      "subcategory": "Bedding",
+      "base_price": 137.63,
+      "cost_price": 71.28,
+      "supplier_id": "SUP-020",
+      "brand": "Generic",
+      "weight_kg": 12.65,
+      "dimensions": {
+        "length_cm": 80,
+        "width_cm": 48,
+        "height_cm": 34
+      },
+      "is_active": false,
+      "created_date": "2023-09-30T00:00:00",
+      "tags": [
+        "premium",
+        "eco-friendly",
+        "sale"
+      ],
+      "rating": 3.9,
+      "review_count": 8
+    },
+    {
+      "product_id": "PROD-0128",
+      "product_name": "Kitchen Item 128",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 274.42,
+      "cost_price": 190.44,
+      "supplier_id": "SUP-019",
+      "brand": "BrandC",
+      "weight_kg": 11.97,
+      "dimensions": {
+        "length_cm": 97,
+        "width_cm": 8,
+        "height_cm": 40
+      },
+      "is_active": true,
+      "created_date": "2023-05-16T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.1,
+      "review_count": 245
+    },
+    {
+      "product_id": "PROD-0129",
+      "product_name": "Footwear Item 129",
+      "category": "Clothing",
+      "subcategory": "Footwear",
+      "base_price": 257.17,
+      "cost_price": 150.68,
+      "supplier_id": "SUP-013",
+      "brand": "BrandB",
+      "weight_kg": 12.34,
+      "dimensions": {
+        "length_cm": 36,
+        "width_cm": 9,
+        "height_cm": 38
+      },
+      "is_active": true,
+      "created_date": "2023-04-08T00:00:00",
+      "tags": [],
+      "rating": 3.9,
+      "review_count": 214
+    },
+    {
+      "product_id": "PROD-0130",
+      "product_name": "Accessories Item 130",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 280.84,
+      "cost_price": 146.91,
+      "supplier_id": "SUP-020",
+      "brand": "BrandD",
+      "weight_kg": 13.1,
+      "dimensions": {
+        "length_cm": 99,
+        "width_cm": 12,
+        "height_cm": 47
+      },
+      "is_active": true,
+      "created_date": "2023-09-23T00:00:00",
+      "tags": [
+        "eco-friendly"
+      ],
+      "rating": 3.7,
+      "review_count": 339
+    },
+    {
+      "product_id": "PROD-0131",
+      "product_name": "Cycling Item 131",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 160.08,
+      "cost_price": 109.97,
+      "supplier_id": "SUP-015",
+      "brand": "BrandE",
+      "weight_kg": 5.2,
+      "dimensions": {
+        "length_cm": 50,
+        "width_cm": 38,
+        "height_cm": 41
+      },
+      "is_active": true,
+      "created_date": "2023-04-09T00:00:00",
+      "tags": [
+        "sale"
+      ],
+      "rating": 4.1,
+      "review_count": 115
+    },
+    {
+      "product_id": "PROD-0132",
+      "product_name": "Kitchen Item 132",
+      "category": "Home & Garden",
+      "subcategory": "Kitchen",
+      "base_price": 286.39,
+      "cost_price": 173.86,
+      "supplier_id": "SUP-016",
+      "brand": "BrandC",
+      "weight_kg": 7.25,
+      "dimensions": {
+        "length_cm": 76,
+        "width_cm": 40,
+        "height_cm": 20
+      },
+      "is_active": true,
+      "created_date": "2023-10-21T00:00:00",
+      "tags": [
+        "limited",
+        "sale",
+        "new"
+      ],
+      "rating": 3.6,
+      "review_count": 147
+    },
+    {
+      "product_id": "PROD-0133",
+      "product_name": "Tablets Item 133",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "base_price": 370.74,
+      "cost_price": 221.26,
+      "supplier_id": "SUP-016",
+      "brand": "BrandB",
+      "weight_kg": 3.11,
+      "dimensions": {
+        "length_cm": 73,
+        "width_cm": 39,
+        "height_cm": 37
+      },
+      "is_active": true,
+      "created_date": "2023-03-12T00:00:00",
+      "tags": [],
+      "rating": 4.2,
+      "review_count": 300
+    },
+    {
+      "product_id": "PROD-0134",
+      "product_name": "Women Item 134",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 34.54,
+      "cost_price": 23.2,
+      "supplier_id": "SUP-008",
+      "brand": "Generic",
+      "weight_kg": 3.57,
+      "dimensions": {
+        "length_cm": 17,
+        "width_cm": 57,
+        "height_cm": 23
+      },
+      "is_active": true,
+      "created_date": "2023-02-21T00:00:00",
+      "tags": [
+        "bestseller"
+      ],
+      "rating": 4.9,
+      "review_count": 500
+    },
+    {
+      "product_id": "PROD-0135",
+      "product_name": "Accessories Item 135",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 266.36,
+      "cost_price": 176.92,
+      "supplier_id": "SUP-016",
+      "brand": "BrandD",
+      "weight_kg": 9.79,
+      "dimensions": {
+        "length_cm": 41,
+        "width_cm": 46,
+        "height_cm": 20
+      },
+      "is_active": true,
+      "created_date": "2023-02-15T00:00:00",
+      "tags": [
+        "eco-friendly"
+      ],
+      "rating": 4.5,
+      "review_count": 435
+    },
+    {
+      "product_id": "PROD-0136",
+      "product_name": "Laptops Item 136",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "base_price": 175.89,
+      "cost_price": 114.55,
+      "supplier_id": "SUP-002",
+      "brand": "BrandD",
+      "weight_kg": 11.84,
+      "dimensions": {
+        "length_cm": 28,
+        "width_cm": 42,
+        "height_cm": 4
+      },
+      "is_active": true,
+      "created_date": "2023-06-02T00:00:00",
+      "tags": [],
+      "rating": 4.9,
+      "review_count": 171
+    },
+    {
+      "product_id": "PROD-0137",
+      "product_name": "Garden Item 137",
+      "category": "Home & Garden",
+      "subcategory": "Garden",
+      "base_price": 395.8,
+      "cost_price": 222.83,
+      "supplier_id": "SUP-016",
+      "brand": "BrandB",
+      "weight_kg": 12.78,
+      "dimensions": {
+        "length_cm": 64,
+        "width_cm": 39,
+        "height_cm": 14
+      },
+      "is_active": true,
+      "created_date": "2023-06-19T00:00:00",
+      "tags": [
+        "premium"
+      ],
+      "rating": 3.9,
+      "review_count": 131
+    },
+    {
+      "product_id": "PROD-0138",
+      "product_name": "Men Item 138",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "base_price": 298.6,
+      "cost_price": 190.28,
+      "supplier_id": "SUP-019",
+      "brand": "Generic",
+      "weight_kg": 11.38,
+      "dimensions": {
+        "length_cm": 27,
+        "width_cm": 56,
+        "height_cm": 29
+      },
+      "is_active": false,
+      "created_date": "2023-06-17T00:00:00",
+      "tags": [],
+      "rating": 3.8,
+      "review_count": 48
+    },
+    {
+      "product_id": "PROD-0139",
+      "product_name": "Women Item 139",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "base_price": 198.82,
+      "cost_price": 135.35,
+      "supplier_id": "SUP-001",
+      "brand": "BrandC",
+      "weight_kg": 5.82,
+      "dimensions": {
+        "length_cm": 62,
+        "width_cm": 39,
+        "height_cm": 23
+      },
+      "is_active": true,
+      "created_date": "2023-10-26T00:00:00",
+      "tags": [],
+      "rating": 3.5,
+      "review_count": 184
+    },
+    {
+      "product_id": "PROD-0140",
+      "product_name": "Men Item 140",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "base_price": 272.1,
+      "cost_price": 146.83,
+      "supplier_id": "SUP-006",
+      "brand": "BrandD",
+      "weight_kg": 10.32,
+      "dimensions": {
+        "length_cm": 95,
+        "width_cm": 44,
+        "height_cm": 46
+      },
+      "is_active": true,
+      "created_date": "2023-11-24T00:00:00",
+      "tags": [
+        "sale",
+        "eco-friendly"
+      ],
+      "rating": 3.4,
+      "review_count": 490
+    },
+    {
+      "product_id": "PROD-0141",
+      "product_name": "Accessories Item 141",
+      "category": "Clothing",
+      "subcategory": "Accessories",
+      "base_price": 73.98,
+      "cost_price": 46.19,
+      "supplier_id": "SUP-020",
+      "brand": "BrandC",
+      "weight_kg": 6.3,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 65,
+        "height_cm": 50
+      },
+      "is_active": false,
+      "created_date": "2023-12-07T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 4.4,
+      "review_count": 305
+    },
+    {
+      "product_id": "PROD-0142",
+      "product_name": "Audio Item 142",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "base_price": 187.0,
+      "cost_price": 114.28,
+      "supplier_id": "SUP-003",
+      "brand": "BrandE",
+      "weight_kg": 1.77,
+      "dimensions": {
+        "length_cm": 75,
+        "width_cm": 69,
+        "height_cm": 14
+      },
+      "is_active": false,
+      "created_date": "2023-10-02T00:00:00",
+      "tags": [
+        "new"
+      ],
+      "rating": 3.7,
+      "review_count": 266
+    },
+    {
+      "product_id": "PROD-0143",
+      "product_name": "Fitness Item 143",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 276.91,
+      "cost_price": 170.32,
+      "supplier_id": "SUP-016",
+      "brand": "BrandA",
+      "weight_kg": 13.49,
+      "dimensions": {
+        "length_cm": 62,
+        "width_cm": 12,
+        "height_cm": 31
+      },
+      "is_active": true,
+      "created_date": "2023-09-20T00:00:00",
+      "tags": [
+        "limited",
+        "eco-friendly",
+        "bestseller"
+      ],
+      "rating": 4.1,
+      "review_count": 344
+    },
+    {
+      "product_id": "PROD-0144",
+      "product_name": "Furniture Item 144",
+      "category": "Home & Garden",
+      "subcategory": "Furniture",
+      "base_price": 167.44,
+      "cost_price": 107.99,
+      "supplier_id": "SUP-007",
+      "brand": "BrandE",
+      "weight_kg": 1.19,
+      "dimensions": {
+        "length_cm": 59,
+        "width_cm": 49,
+        "height_cm": 46
+      },
+      "is_active": true,
+      "created_date": "2023-10-05T00:00:00",
+      "tags": [],
+      "rating": 4.9,
+      "review_count": 35
+    },
+    {
+      "product_id": "PROD-0145",
+      "product_name": "Fitness Item 145",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "base_price": 125.53,
+      "cost_price": 56.99,
+      "supplier_id": "SUP-005",
+      "brand": "Generic",
+      "weight_kg": 14.68,
+      "dimensions": {
+        "length_cm": 87,
+        "width_cm": 58,
+        "height_cm": 25
+      },
+      "is_active": true,
+      "created_date": "2023-08-18T00:00:00",
+      "tags": [
+        "limited",
+        "bestseller",
+        "new"
+      ],
+      "rating": 4.3,
+      "review_count": 178
+    },
+    {
+      "product_id": "PROD-0146",
+      "product_name": "Laptops Item 146",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "base_price": 397.25,
+      "cost_price": 205.74,
+      "supplier_id": "SUP-005",
+      "brand": "Generic",
+      "weight_kg": 14.68,
+      "dimensions": {
+        "length_cm": 5,
+        "width_cm": 7,
+        "height_cm": 21
+      },
+      "is_active": true,
+      "created_date": "2023-12-11T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "limited",
+        "new"
+      ],
+      "rating": 3.5,
+      "review_count": 177
+    },
+    {
+      "product_id": "PROD-0147",
+      "product_name": "Kids Item 147",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "base_price": 87.56,
+      "cost_price": 58.02,
+      "supplier_id": "SUP-004",
+      "brand": "BrandA",
+      "weight_kg": 12.16,
+      "dimensions": {
+        "length_cm": 58,
+        "width_cm": 7,
+        "height_cm": 17
+      },
+      "is_active": true,
+      "created_date": "2023-02-04T00:00:00",
+      "tags": [],
+      "rating": 4.2,
+      "review_count": 228
+    },
+    {
+      "product_id": "PROD-0148",
+      "product_name": "Laptops Item 148",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "base_price": 300.11,
+      "cost_price": 156.26,
+      "supplier_id": "SUP-008",
+      "brand": "BrandE",
+      "weight_kg": 3.34,
+      "dimensions": {
+        "length_cm": 12,
+        "width_cm": 22,
+        "height_cm": 34
+      },
+      "is_active": true,
+      "created_date": "2023-04-30T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "premium"
+      ],
+      "rating": 4.5,
+      "review_count": 419
+    },
+    {
+      "product_id": "PROD-0149",
+      "product_name": "Decor Item 149",
+      "category": "Home & Garden",
+      "subcategory": "Decor",
+      "base_price": 131.18,
+      "cost_price": 58.11,
+      "supplier_id": "SUP-017",
+      "brand": "BrandB",
+      "weight_kg": 6.26,
+      "dimensions": {
+        "length_cm": 40,
+        "width_cm": 12,
+        "height_cm": 37
+      },
+      "is_active": false,
+      "created_date": "2023-03-31T00:00:00",
+      "tags": [
+        "eco-friendly",
+        "limited",
+        "bestseller"
+      ],
+      "rating": 4.9,
+      "review_count": 482
+    },
+    {
+      "product_id": "PROD-0150",
+      "product_name": "Cycling Item 150",
+      "category": "Sports",
+      "subcategory": "Cycling",
+      "base_price": 137.71,
+      "cost_price": 72.29,
+      "supplier_id": "SUP-005",
+      "brand": "BrandC",
+      "weight_kg": 5.71,
+      "dimensions": {
+        "length_cm": 73,
+        "width_cm": 65,
+        "height_cm": 17
+      },
+      "is_active": true,
+      "created_date": "2023-06-03T00:00:00",
+      "tags": [
+        "limited"
+      ],
+      "rating": 4.8,
+      "review_count": 287
+    }
+  ],
+  "last_updated": "2025-12-07T06:24:57.006976"
+}

@@ -1,0 +1,1181 @@
+customer_id,email,first_name,last_name,signup_date,segment,region,city,age,gender,marketing_opt_in,preferred_channel,lifetime_value,total_orders,tenure_days
+CUST-00001,customer_00001@email.com,Chris,Jones,2022-04-25,Silver,Central,Chicago,42,F,True,SMS,1684.8,6,1322
+CUST-00003,customer_00003@email.com,Sarah,Brown,2024-07-05,Bronze,South,Philadelphia,37,M,True,SMS,4812.28,8,520
+CUST-00004,customer_00004@email.com,Lisa,Johnson,2024-03-09,Bronze,Central,Houston,43,F,True,Push,1934.28,35,638
+CUST-00005,customer_00005@email.com,Emily,Williams,2023-08-21,Gold,East,Philadelphia,50,Prefer not to say,False,Email,4023.94,47,839
+CUST-00006,customer_00006@email.com,Emily,Johnson,2022-08-19,Bronze,East,Philadelphia,44,M,True,SMS,130.29,36,1206
+CUST-00007,customer_00007@email.com,Chris,Williams,2023-04-11,Gold,South,Houston,39,F,False,SMS,2521.54,42,971
+CUST-00008,invalid-email,Emily,Williams,2023-11-03,Bronze,West,San Diego,47,F,True,SMS,742.79,35,765
+CUST-00009,customer_00009@email.com,Mike,Jones,2022-09-27,Bronze,North,Dallas,20,M,True,Email,2091.34,41,1167
+CUST-00010,customer_00010@email.com,Jane,Garcia,2021-04-18,Silver,South,New York,31,Prefer not to say,True,Email,3108.28,43,1694
+CUST-00011,customer_00011@email.com,Lisa,Garcia,2023-06-16,Bronze,West,New York,18,Prefer not to say,True,Email,2670.62,18,905
+CUST-00012,customer_00012@email.com,David,Smith,2023-01-02,Silver,Central,San Antonio,69,F,True,Email,2645.71,16,1070
+CUST-00013,customer_00013@email.com,David,Miller,2021-01-28,Gold,East,Phoenix,68,Prefer not to say,True,Push,4798.52,30,1774
+CUST-00014,customer_00014@email.com,Sarah,Garcia,2023-03-03,Gold,South,Phoenix,61,M,True,Email,2056.13,25,1010
+CUST-00015,customer_00015@email.com,Lisa,Smith,2023-02-05,Bronze,North,Chicago,23,Prefer not to say,False,Push,2850.99,7,1036
+CUST-00016,customer_00016@email.com,John,Johnson,2022-12-17,Bronze,South,Austin,48,Other,True,Email,3437.92,18,1086
+CUST-00017,customer_00017@email.com,John,Johnson,2023-01-17,Gold,East,New York,31,F,False,Email,1531.42,37,1055
+CUST-00018,customer_00018@email.com,Chris,Garcia,2021-05-07,Gold,Central,Philadelphia,42,F,True,Push,315.8,28,1675
+CUST-00019,customer_00019@email.com,Jane,Williams,2021-04-20,Bronze,Central,Austin,56,Prefer not to say,True,Email,3188.91,29,1692
+CUST-00020,customer_00020@email.com,Sarah,Williams,2022-10-01,Gold,Central,San Antonio,45,F,False,Email,3872.23,19,1163
+CUST-00021,customer_00021@email.com,Sarah,Garcia,2024-06-22,Silver,North,Los Angeles,35,F,False,SMS,3711.29,21,533
+CUST-00022,customer_00022@email.com,Jane,Smith,2022-01-08,Bronze,North,Phoenix,46,Other,True,Email,705.91,12,1429
+CUST-00023,customer_00023@email.com,Lisa,Jones,2022-06-01,Gold,Central,Dallas,44,M,True,Email,1801.88,6,1285
+CUST-00024,customer_00024@email.com,Emily,Miller,2023-05-07,Bronze,West,New York,36,Prefer not to say,False,Email,3637.98,36,945
+CUST-00025,customer_00025@email.com,Mike,Garcia,2021-05-12,Bronze,West,Chicago,26,Other,True,Push,2490.96,5,1670
+CUST-00026,customer_00026@email.com,Chris,Williams,2020-12-08,Silver,West,Phoenix,48,M,True,Push,4723.9,47,1825
+CUST-00027,customer_00027@email.com,Lisa,Jones,2023-07-04,Bronze,Central,Houston,47,M,True,Push,83.5,26,887
+CUST-00028,customer_00028@email.com,Chris,Miller,2021-11-11,Silver,East,San Diego,39,Prefer not to say,True,Push,1637.29,45,1487
+CUST-00029,customer_00029@email.com,Lisa,Williams,2021-02-15,Silver,South,San Antonio,38,Other,False,SMS,1663.14,18,1756
+CUST-00030,customer_00030@email.com,Chris,Williams,2024-07-30,Bronze,North,Austin,30,F,True,,4717.73,14,495
+CUST-00031,customer_00031@email.com,David,Miller,2022-06-16,Bronze,North,San Antonio,61,Prefer not to say,True,Push,1248.0,43,1270
+CUST-00032,customer_00032@email.com,Chris,Miller,2020-11-11,Silver,West,Los Angeles,46,Prefer not to say,False,,2741.04,24,1852
+CUST-00033,customer_00033@email.com,Jane,Smith,2023-12-07,Gold,South,Philadelphia,28,M,False,Push,4830.3,28,731
+CUST-00034,customer_00034@email.com,John,Smith,2020-08-04,Gold,East,Houston,50,F,False,Push,1986.11,50,1951
+CUST-00035,customer_00035@email.com,Mike,Williams,2023-10-23,Bronze,North,San Diego,24,Other,False,Email,624.54,47,776
+CUST-00036,customer_00036@email.com,Emily,Williams,2020-10-17,Silver,East,San Diego,68,F,False,Push,2407.0,29,1877
+CUST-00037,customer_00037@email.com,Lisa,Williams,2024-01-18,Bronze,North,Phoenix,20,M,True,Push,3257.45,44,689
+CUST-00038,customer_00038@email.com,Mike,Garcia,2024-06-26,Bronze,South,Dallas,29,F,True,,4794.39,15,529
+CUST-00039,customer_00039@email.com,Chris,Garcia,2024-06-21,Silver,South,Chicago,58,Prefer not to say,False,Email,3700.07,13,534
+CUST-00040,customer_00040@email.com,Chris,Brown,2022-07-09,Bronze,North,Houston,31,Other,True,Email,4007.54,35,1247
+CUST-00041,customer_00041@email.com,Emily,Williams,2021-01-17,Gold,South,San Diego,25,Other,False,Push,3005.01,40,1785
+CUST-00042,customer_00042@email.com,Jane,Williams,2022-03-14,Gold,East,San Diego,57,F,True,Email,3376.94,21,1364
+CUST-00043,customer_00043@email.com,Sarah,Williams,2020-08-29,Bronze,North,Chicago,41,F,False,,3002.31,37,1926
+CUST-00044,customer_00044@email.com,Chris,Johnson,2022-02-24,Bronze,West,Dallas,62,F,True,,1479.73,12,1382
+CUST-00045,customer_00045@email.com,Lisa,Jones,2021-10-06,Gold,North,Philadelphia,18,Prefer not to say,True,SMS,4085.32,36,1523
+CUST-00046,customer_00046@email.com,Lisa,Brown,2022-11-01,Bronze,West,San Antonio,63,Prefer not to say,False,SMS,459.22,2,1132
+CUST-00047,customer_00047@email.com,Sarah,Williams,2024-06-17,Bronze,North,Phoenix,32,Other,True,,2849.97,50,538
+CUST-00048,customer_00048@email.com,Lisa,Jones,2024-04-17,Bronze,Central,Los Angeles,54,M,True,Push,2733.11,49,599
+CUST-00049,customer_00049@email.com,Lisa,Jones,2020-03-26,Bronze,South,San Antonio,24,F,True,Email,2276.18,23,2082
+CUST-00050,customer_00050@email.com,Jane,Brown,2024-07-30,Platinum,North,Houston,31,Other,False,SMS,3099.95,14,495
+CUST-00051,customer_00051@email.com,Sarah,Miller,2024-07-24,Bronze,North,Austin,40,Other,True,Push,4896.05,19,501
+CUST-00052,customer_00052@email.com,David,Miller,2021-08-15,Bronze,Central,Los Angeles,26,Prefer not to say,True,Push,4341.89,9,1575
+CUST-00053,customer_00053@email.com,Mike,Johnson,2023-12-07,Gold,South,Philadelphia,71,F,False,,753.75,41,731
+CUST-00054,customer_00054@email.com,Chris,Brown,2021-07-04,Silver,West,Los Angeles,58,M,False,Push,3488.78,24,1617
+CUST-00055,customer_00055@email.com,Lisa,Williams,2022-07-20,Silver,Central,New York,73,M,False,Push,4258.03,35,1236
+CUST-00056,customer_00056@email.com,Sarah,Brown,2022-03-25,Bronze,South,San Diego,35,Other,True,Push,2759.19,9,1353
+CUST-00057,customer_00057@email.com,Lisa,Miller,2023-03-05,Bronze,East,New York,20,M,False,Email,664.97,11,1008
+CUST-00059,customer_00059@email.com,Emily,Williams,2020-07-10,Bronze,North,Philadelphia,60,F,True,,3146.74,47,1976
+CUST-00060,customer_00060@email.com,Sarah,Brown,2023-12-03,Gold,North,Los Angeles,18,F,False,Email,706.86,15,735
+CUST-00061,customer_00061@email.com,Lisa,Smith,2022-11-29,Gold,North,Philadelphia,70,M,False,SMS,2414.62,15,1104
+CUST-00062,customer_00062@email.com,Jane,Garcia,2022-02-23,Bronze,North,Los Angeles,38,Other,True,SMS,1944.47,49,1383
+CUST-00063,customer_00063@email.com,Mike,Smith,2020-09-29,Gold,Central,Austin,18,F,False,Push,3626.04,41,1895
+CUST-00064,customer_00064@email.com,Mike,Brown,2024-03-12,Bronze,Central,San Diego,73,F,True,Email,743.07,8,635
+CUST-00065,customer_00065@email.com,Chris,Williams,2023-04-22,Gold,West,Philadelphia,68,F,True,Push,3240.87,16,960
+CUST-00066,customer_00066@email.com,David,Miller,2023-02-07,Silver,North,Phoenix,31,F,False,Push,3248.54,16,1034
+CUST-00067,customer_00067@email.com,Chris,Smith,2022-10-10,Bronze,South,San Diego,58,M,True,Push,4672.93,9,1154
+CUST-00068,customer_00068@email.com,Chris,Williams,2022-03-03,Silver,Central,Chicago,66,Prefer not to say,True,Email,2957.45,1,1375
+CUST-00069,customer_00069@email.com,Sarah,Smith,2021-06-20,Gold,North,San Antonio,50,Other,False,,3523.96,6,1631
+CUST-00070,customer_00070@email.com,Mike,Williams,2023-08-04,Silver,North,Phoenix,23,F,True,Push,1984.12,41,856
+CUST-00072,customer_00072@email.com,John,Williams,2023-05-31,Silver,South,Los Angeles,18,F,True,SMS,2507.24,23,921
+CUST-00073,customer_00073@email.com,David,Johnson,2022-12-07,Silver,East,Chicago,65,Other,True,Email,1708.3,28,1096
+CUST-00074,customer_00074@email.com,Jane,Williams,2021-07-11,Bronze,Central,Los Angeles,49,Prefer not to say,True,Email,2523.07,37,1610
+CUST-00075,customer_00075@email.com,Emily,Johnson,2020-12-07,Silver,East,Los Angeles,75,M,True,Email,267.99,1,1826
+CUST-00076,customer_00076@email.com,John,Brown,2021-05-15,Silver,East,San Antonio,27,F,True,,1161.35,16,1667
+CUST-00077,customer_00077@email.com,Emily,Williams,2022-05-02,Bronze,North,Austin,41,M,True,SMS,1154.77,34,1315
+CUST-00078,customer_00078@email.com,Chris,Smith,2020-04-04,Bronze,West,Phoenix,67,Other,True,Email,2787.8,1,2073
+CUST-00079,invalid-email,Sarah,Williams,2022-01-25,Gold,Central,Phoenix,65,F,False,Push,2978.87,32,1412
+CUST-00080,customer_00080@email.com,Sarah,Garcia,2024-05-01,Bronze,Central,Houston,27,M,False,Email,1203.34,23,585
+CUST-00081,customer_00081@email.com,John,Williams,2023-07-26,Bronze,North,San Antonio,72,Other,True,SMS,2672.58,16,865
+CUST-00082,customer_00082@email.com,Lisa,Smith,2022-05-09,Bronze,South,Phoenix,23,M,True,,3519.19,24,1308
+CUST-00083,customer_00083@email.com,Jane,Jones,2022-07-27,Bronze,North,Dallas,26,Prefer not to say,True,Email,2203.17,9,1229
+CUST-00084,customer_00084@email.com,David,Williams,2021-04-29,Bronze,East,San Antonio,62,Other,True,,1396.18,5,1683
+CUST-00085,customer_00085@email.com,Mike,Miller,2021-02-19,Bronze,Central,Los Angeles,27,M,True,,2356.97,27,1752
+CUST-00086,customer_00086@email.com,Emily,Miller,2020-09-04,Gold,South,San Diego,37,Prefer not to say,True,Email,497.58,44,1920
+CUST-00087,customer_00087@email.com,John,Johnson,2021-09-15,Bronze,East,Chicago,23,F,True,,2591.63,44,1544
+CUST-00088,customer_00088@email.com,David,Miller,2021-09-04,Platinum,South,New York,43,Prefer not to say,True,Email,2337.11,9,1555
+CUST-00089,customer_00089@email.com,John,Smith,2020-09-05,Bronze,South,Chicago,30,Prefer not to say,True,Email,2932.5,17,1919
+CUST-00090,customer_00090@email.com,Jane,Smith,2024-07-22,Silver,North,Houston,75,Prefer not to say,True,Email,4530.14,22,503
+CUST-00091,customer_00091@email.com,John,Brown,2020-09-07,Silver,North,Chicago,54,Prefer not to say,False,,195.94,44,1917
+CUST-00092,customer_00092@email.com,Mike,Williams,2022-05-23,Silver,South,Chicago,35,Other,False,SMS,221.51,40,1294
+CUST-00093,customer_00093@email.com,Sarah,Garcia,2023-06-17,Bronze,East,San Diego,44,Prefer not to say,True,Email,1434.89,9,904
+CUST-00094,customer_00094@email.com,Sarah,Garcia,2022-05-08,Silver,Central,Houston,58,M,False,Push,2424.44,32,1309
+CUST-00095,customer_00095@email.com,Emily,Brown,2021-12-05,Bronze,East,Chicago,19,Other,True,Email,4484.04,50,1463
+CUST-00096,customer_00096@email.com,John,Miller,2021-07-29,Bronze,West,Dallas,40,F,True,Email,1276.89,16,1592
+CUST-00097,customer_00097@email.com,John,Miller,2021-06-29,Bronze,South,Austin,72,Prefer not to say,True,SMS,921.7,38,1622
+CUST-00098,customer_00098@email.com,Emily,Jones,2021-10-13,Bronze,North,Philadelphia,54,F,True,,2733.52,12,1516
+CUST-00099,customer_00099@email.com,John,Smith,2022-10-01,Bronze,North,Houston,56,F,True,,53.38,40,1163
+CUST-00100,customer_00100@email.com,Mike,Williams,2021-02-16,Silver,South,Philadelphia,21,M,True,SMS,3883.11,34,1755
+CUST-00101,customer_00101@email.com,Jane,Williams,2022-01-17,Platinum,West,Austin,24,Other,True,Push,725.44,11,1420
+CUST-00102,customer_00102@email.com,Chris,Miller,2024-02-08,Bronze,West,Philadelphia,29,Other,True,SMS,1923.0,47,668
+CUST-00103,customer_00103@email.com,David,Johnson,2023-11-11,Bronze,South,New York,62,Prefer not to say,True,SMS,3031.82,40,757
+CUST-00104,customer_00104@email.com,Jane,Brown,2021-03-28,Bronze,South,Philadelphia,65,M,True,Push,4912.78,11,1715
+CUST-00105,customer_00105@email.com,Jane,Miller,2023-07-26,Silver,East,San Diego,18,Other,True,SMS,3481.22,23,865
+CUST-00106,customer_00106@email.com,Jane,Garcia,2021-06-09,Gold,North,New York,42,Prefer not to say,False,SMS,4428.53,32,1642
+CUST-00107,customer_00107@email.com,Emily,Jones,2022-02-14,Bronze,West,Los Angeles,71,Prefer not to say,True,SMS,2283.87,3,1392
+CUST-00108,customer_00108@email.com,John,Williams,2021-08-26,Gold,East,Los Angeles,22,Other,True,,846.48,5,1564
+CUST-00109,customer_00109@email.com,Jane,Williams,2023-01-25,Bronze,Central,Austin,75,Prefer not to say,True,,4715.09,11,1047
+CUST-00110,invalid-email,Chris,Johnson,2023-05-28,Bronze,North,Los Angeles,39,F,True,,3501.12,47,924
+CUST-00111,customer_00111@email.com,David,Garcia,2024-02-03,Bronze,East,Phoenix,33,M,True,,2880.26,32,673
+CUST-00112,customer_00112@email.com,John,Williams,2020-11-10,Bronze,North,San Antonio,23,Other,False,SMS,530.09,14,1853
+CUST-00113,customer_00113@email.com,David,Smith,2020-12-15,Bronze,West,Los Angeles,37,Prefer not to say,False,,4479.64,17,1818
+CUST-00114,customer_00114@email.com,Chris,Johnson,2020-07-05,Bronze,East,San Antonio,41,F,False,Email,1353.32,30,1981
+CUST-00115,customer_00115@email.com,Sarah,Miller,2021-06-23,Silver,East,Austin,21,F,True,Email,3357.3,35,1628
+CUST-00116,customer_00116@email.com,Sarah,Jones,2022-04-27,Bronze,North,San Antonio,70,Prefer not to say,False,SMS,2407.5,6,1320
+CUST-00117,customer_00117@email.com,John,Jones,2022-03-19,Bronze,Central,Dallas,69,F,True,,905.75,11,1359
+CUST-00118,customer_00118@email.com,Sarah,Johnson,2021-03-09,Bronze,North,San Antonio,23,Prefer not to say,True,SMS,4178.84,17,1734
+CUST-00119,customer_00119@email.com,Jane,Smith,2021-10-16,Gold,West,Dallas,43,Other,True,,4589.95,1,1513
+CUST-00120,customer_00120@email.com,Chris,Smith,2024-05-29,Bronze,West,Chicago,27,M,True,Email,3939.44,35,557
+CUST-00121,customer_00121@email.com,Chris,Williams,2021-12-05,Bronze,West,San Diego,54,Prefer not to say,True,SMS,1413.3,10,1463
+CUST-00122,invalid-email,Chris,Smith,2023-06-20,Bronze,West,Philadelphia,62,F,True,,4608.13,24,901
+CUST-00123,customer_00123@email.com,Emily,Miller,2020-02-11,Bronze,East,Phoenix,35,Prefer not to say,True,SMS,715.21,48,2126
+CUST-00124,customer_00124@email.com,Emily,Williams,2022-06-26,Silver,West,Austin,59,M,True,,1096.38,27,1260
+CUST-00125,customer_00125@email.com,Lisa,Miller,2024-02-26,Bronze,Central,Philadelphia,70,M,True,Email,1590.06,33,650
+CUST-00126,customer_00126@email.com,Mike,Miller,2022-04-06,Bronze,Central,Austin,19,F,True,SMS,4193.03,16,1341
+CUST-00127,customer_00127@email.com,Lisa,Smith,2020-03-08,Gold,East,Houston,35,Other,False,,3195.28,8,2100
+CUST-00128,customer_00128@email.com,John,Johnson,2023-10-27,Platinum,East,San Diego,56,Prefer not to say,True,,2955.06,23,772
+CUST-00129,customer_00129@email.com,Mike,Miller,2021-12-06,Gold,East,Los Angeles,36,M,False,Email,856.39,37,1462
+CUST-00130,customer_00130@email.com,Sarah,Miller,2024-05-16,Platinum,South,Houston,61,F,True,,2590.74,50,570
+CUST-00131,customer_00131@email.com,John,Brown,2024-04-20,Silver,South,Chicago,56,M,True,Push,3061.3,20,596
+CUST-00132,customer_00132@email.com,David,Brown,2023-12-30,Platinum,West,Philadelphia,47,Other,True,,1545.62,34,708
+CUST-00133,customer_00133@email.com,Chris,Jones,2024-08-15,Bronze,North,New York,50,Other,True,Push,3437.85,31,479
+CUST-00134,customer_00134@email.com,Emily,Williams,2020-05-10,Silver,East,Phoenix,34,Other,True,SMS,2610.6,16,2037
+CUST-00135,customer_00135@email.com,Chris,Garcia,2020-04-26,Platinum,East,Chicago,64,M,False,Push,1334.16,27,2051
+CUST-00136,customer_00136@email.com,Chris,Garcia,2022-04-08,Silver,North,Austin,63,F,True,SMS,3447.27,41,1339
+CUST-00137,customer_00137@email.com,Lisa,Garcia,2024-05-26,Platinum,East,Dallas,37,F,True,Push,533.14,9,560
+CUST-00138,customer_00138@email.com,David,Garcia,2024-02-26,Bronze,Central,Chicago,61,Other,True,SMS,1808.65,48,650
+CUST-00139,customer_00139@email.com,Chris,Miller,2021-09-20,Bronze,East,Philadelphia,34,Other,False,Email,2379.16,41,1539
+CUST-00140,customer_00140@email.com,Jane,Brown,2023-04-10,Bronze,South,Dallas,25,Prefer not to say,True,,317.61,10,972
+CUST-00141,customer_00141@email.com,Sarah,Williams,2020-10-08,Bronze,West,Austin,75,Prefer not to say,True,Push,4318.85,12,1886
+CUST-00142,customer_00142@email.com,Jane,Brown,2024-05-14,Gold,East,Chicago,38,M,True,,1403.96,49,572
+CUST-00143,customer_00143@email.com,Mike,Jones,2024-05-03,Gold,South,San Diego,68,M,True,,3185.76,26,583
+CUST-00144,customer_00144@email.com,Lisa,Brown,2022-05-28,Silver,North,New York,52,F,True,Email,4465.43,49,1289
+CUST-00145,customer_00145@email.com,Sarah,Smith,2022-12-23,Bronze,North,Houston,32,Other,True,SMS,558.41,33,1080
+CUST-00146,customer_00146@email.com,David,Johnson,2023-04-20,Bronze,North,New York,37,Other,False,Push,2196.64,44,962
+CUST-00147,customer_00147@email.com,Emily,Brown,2020-10-01,Silver,East,Houston,28,Prefer not to say,True,SMS,1160.39,9,1893
+CUST-00148,customer_00148@email.com,John,Jones,2021-03-08,Silver,Central,Chicago,25,Other,True,,4388.89,17,1735
+CUST-00149,customer_00149@email.com,John,Jones,2024-04-28,Bronze,North,Los Angeles,59,M,True,Email,2113.04,25,588
+CUST-00150,customer_00150@email.com,David,Brown,2020-09-10,Bronze,South,Houston,62,M,True,,3325.24,43,1914
+CUST-00151,customer_00151@email.com,David,Jones,2022-12-01,Silver,Central,Chicago,44,M,True,Push,614.36,7,1102
+CUST-00152,customer_00152@email.com,Sarah,Jones,2022-10-16,Gold,South,Phoenix,71,F,True,,1511.99,3,1148
+CUST-00153,customer_00153@email.com,Lisa,Johnson,2023-01-27,Bronze,West,Philadelphia,33,M,True,Email,4539.06,37,1045
+CUST-00154,customer_00154@email.com,Lisa,Johnson,2023-10-02,Bronze,North,Dallas,22,M,True,SMS,2310.92,19,797
+CUST-00155,customer_00155@email.com,Lisa,Smith,2021-06-24,Silver,North,Chicago,73,M,True,Push,4017.9,21,1627
+CUST-00156,customer_00156@email.com,Jane,Smith,2022-05-22,Bronze,North,New York,72,F,True,Push,1819.76,29,1295
+CUST-00157,customer_00157@email.com,David,Garcia,2023-06-27,Platinum,North,Philadelphia,70,Other,True,Email,2033.85,30,894
+CUST-00158,customer_00158@email.com,Chris,Garcia,2021-07-10,Bronze,West,San Antonio,59,F,True,SMS,3496.04,4,1611
+CUST-00159,customer_00159@email.com,Jane,Brown,2020-11-22,Gold,Central,San Diego,69,Prefer not to say,True,,3906.86,40,1841
+CUST-00160,customer_00160@email.com,Mike,Brown,2020-02-29,Bronze,West,Los Angeles,74,Prefer not to say,False,Email,363.51,42,2108
+CUST-00161,customer_00161@email.com,John,Garcia,2021-10-05,Silver,Central,Austin,64,F,True,Email,2192.6,47,1524
+CUST-00162,customer_00162@email.com,Lisa,Williams,2021-05-24,Bronze,West,Chicago,71,M,True,SMS,2552.56,31,1658
+CUST-00163,customer_00163@email.com,Mike,Smith,2022-10-12,Platinum,West,Philadelphia,33,Other,True,Email,2559.3,36,1152
+CUST-00164,customer_00164@email.com,Chris,Brown,2023-08-10,Bronze,South,Los Angeles,47,Prefer not to say,False,Email,4290.12,29,850
+CUST-00165,customer_00165@email.com,Jane,Brown,2021-10-09,Silver,North,Los Angeles,43,Prefer not to say,True,Email,4138.25,39,1520
+CUST-00166,customer_00166@email.com,David,Jones,2023-06-21,Gold,Central,Houston,59,Prefer not to say,True,Push,4135.29,15,900
+CUST-00167,customer_00167@email.com,Emily,Jones,2022-07-19,Bronze,Central,Austin,48,Other,False,Email,532.31,43,1237
+CUST-00168,customer_00168@email.com,John,Williams,2021-03-30,Gold,East,Phoenix,53,Other,True,Email,4489.54,32,1713
+CUST-00169,customer_00169@email.com,Chris,Smith,2020-10-14,Gold,East,Austin,30,F,True,,1117.17,13,1880
+CUST-00170,customer_00170@email.com,Emily,Smith,2024-01-07,Bronze,West,New York,58,M,False,,3309.36,33,700
+CUST-00171,customer_00171@email.com,Lisa,Smith,2020-10-02,Bronze,Central,New York,53,Prefer not to say,False,SMS,3474.5,12,1892
+CUST-00172,customer_00172@email.com,Mike,Smith,2024-02-05,Silver,West,Austin,56,Other,False,,4898.53,45,671
+CUST-00173,customer_00173@email.com,Sarah,Williams,2024-04-10,Gold,West,Philadelphia,36,Prefer not to say,True,SMS,2093.09,45,606
+CUST-00174,customer_00174@email.com,David,Miller,2024-03-12,Bronze,Central,Philadelphia,63,F,True,SMS,3139.63,19,635
+CUST-00175,customer_00175@email.com,Emily,Garcia,2023-11-07,Silver,South,Chicago,50,Other,True,Push,2833.29,38,761
+CUST-00176,customer_00176@email.com,Chris,Garcia,2023-03-14,Bronze,Central,Phoenix,74,Prefer not to say,True,Email,175.1,10,999
+CUST-00177,customer_00177@email.com,John,Johnson,2020-04-18,Silver,East,Chicago,36,Other,True,Email,3468.44,19,2059
+CUST-00178,customer_00178@email.com,John,Williams,2021-02-21,Bronze,West,Los Angeles,57,F,False,SMS,2579.07,45,1750
+CUST-00179,customer_00179@email.com,John,Brown,2021-08-12,Bronze,West,San Antonio,68,Other,True,Email,3731.17,13,1578
+CUST-00180,customer_00180@email.com,Lisa,Miller,2023-06-24,Silver,South,Philadelphia,66,F,True,Push,2271.63,44,897
+CUST-00181,customer_00181@email.com,Mike,Johnson,2020-06-01,Gold,Central,Los Angeles,42,M,False,Push,2805.16,9,2015
+CUST-00182,customer_00182@email.com,David,Smith,2020-11-25,Bronze,East,San Diego,63,F,True,SMS,4646.71,39,1838
+CUST-00183,customer_00183@email.com,David,Brown,2020-04-14,Silver,Central,Dallas,40,M,True,SMS,4787.09,34,2063
+CUST-00184,customer_00184@email.com,Mike,Brown,2020-05-19,Silver,Central,Dallas,43,M,True,SMS,4422.81,43,2028
+CUST-00185,customer_00185@email.com,Emily,Williams,2021-11-10,Silver,East,Houston,66,Prefer not to say,True,Email,3361.25,29,1488
+CUST-00186,customer_00186@email.com,Sarah,Smith,2021-05-07,Silver,East,San Antonio,68,M,False,Push,2724.17,19,1675
+CUST-00187,customer_00187@email.com,Emily,Jones,2020-02-20,Bronze,Central,San Diego,49,M,True,SMS,1635.55,6,2117
+CUST-00188,customer_00188@email.com,Mike,Miller,2020-07-15,Silver,Central,Dallas,18,M,True,SMS,4331.51,28,1971
+CUST-00189,customer_00189@email.com,Sarah,Jones,2020-07-31,Bronze,West,Los Angeles,65,F,True,,3598.5,3,1955
+CUST-00190,customer_00190@email.com,Jane,Smith,2020-06-28,Gold,South,Phoenix,53,M,True,Push,2067.78,29,1988
+CUST-00191,customer_00191@email.com,Chris,Brown,2023-07-14,Silver,East,New York,42,M,True,Email,3792.0,38,877
+CUST-00192,customer_00192@email.com,Jane,Williams,2020-04-03,Bronze,Central,Los Angeles,36,Other,True,Push,3838.11,29,2074
+CUST-00193,customer_00193@email.com,Chris,Miller,2022-02-20,Bronze,West,San Diego,28,F,True,,3994.01,35,1386
+CUST-00194,customer_00194@email.com,Mike,Williams,2021-08-27,Bronze,East,New York,53,F,True,Email,74.9,39,1563
+CUST-00195,customer_00195@email.com,Jane,Williams,2022-03-18,Bronze,South,Philadelphia,31,Prefer not to say,True,SMS,960.76,40,1360
+CUST-00196,customer_00196@email.com,Sarah,Smith,2021-06-01,Silver,South,Austin,72,M,False,Email,1488.73,5,1650
+CUST-00197,customer_00197@email.com,Jane,Johnson,2021-05-28,Platinum,Central,San Diego,39,Other,True,SMS,545.22,40,1654
+CUST-00198,customer_00198@email.com,Sarah,Williams,2020-05-22,Silver,West,San Diego,39,Other,True,Push,4048.11,28,2025
+CUST-00199,customer_00199@email.com,John,Williams,2020-12-11,Silver,South,Houston,63,Prefer not to say,True,Push,714.81,47,1822
+CUST-00200,customer_00200@email.com,Lisa,Brown,2021-11-10,Silver,West,Philadelphia,67,Other,False,Email,920.06,39,1488
+CUST-00201,customer_00201@email.com,David,Miller,2020-06-16,Silver,South,Dallas,30,Other,True,Email,4465.92,33,2000
+CUST-00202,customer_00202@email.com,John,Miller,2023-07-17,Bronze,Central,Austin,43,F,True,Push,2740.17,35,874
+CUST-00203,customer_00203@email.com,Mike,Williams,2022-08-24,Gold,West,Houston,75,Other,True,,2530.56,6,1201
+CUST-00204,customer_00204@email.com,Emily,Jones,2022-03-23,Bronze,North,Houston,72,F,True,,838.15,37,1355
+CUST-00205,customer_00205@email.com,Mike,Garcia,2023-03-04,Platinum,West,Philadelphia,20,F,False,SMS,361.16,24,1009
+CUST-00206,customer_00206@email.com,John,Garcia,2021-04-24,Bronze,South,Dallas,68,Other,False,,4593.61,3,1688
+CUST-00207,customer_00207@email.com,Emily,Smith,2020-03-22,Silver,Central,Phoenix,71,Other,True,,3285.69,24,2086
+CUST-00208,customer_00208@email.com,Jane,Jones,2023-04-18,Bronze,East,San Antonio,32,Prefer not to say,True,Push,2459.96,31,964
+CUST-00209,customer_00209@email.com,John,Jones,2023-05-22,Bronze,South,San Diego,28,F,True,Push,1097.01,12,930
+CUST-00211,customer_00211@email.com,Mike,Garcia,2021-03-07,Silver,West,New York,33,M,True,SMS,716.88,33,1736
+CUST-00212,customer_00212@email.com,Mike,Smith,2020-03-21,Bronze,South,Phoenix,29,Prefer not to say,True,Push,4738.91,14,2087
+CUST-00213,customer_00213@email.com,Lisa,Miller,2022-07-08,Bronze,West,Chicago,32,Prefer not to say,True,SMS,3134.9,33,1248
+CUST-00214,invalid-email,Mike,Garcia,2021-06-25,Platinum,East,San Diego,56,M,True,,1958.04,7,1626
+CUST-00215,customer_00215@email.com,Sarah,Jones,2020-02-03,Gold,Central,San Antonio,70,F,True,SMS,2405.55,40,2134
+CUST-00216,customer_00216@email.com,John,Miller,2023-05-13,Bronze,Central,Dallas,66,M,True,,3313.99,39,939
+CUST-00217,customer_00217@email.com,John,Miller,2023-01-09,Bronze,West,Dallas,44,Other,True,,1185.96,31,1063
+CUST-00218,customer_00218@email.com,Chris,Williams,2024-06-05,Bronze,Central,Austin,24,Prefer not to say,True,Push,2411.85,15,550
+CUST-00219,customer_00219@email.com,David,Jones,2020-06-20,Bronze,Central,San Antonio,34,F,True,Email,2911.04,8,1996
+CUST-00220,customer_00220@email.com,John,Brown,2022-11-30,Silver,South,Philadelphia,44,Other,True,SMS,2159.05,38,1103
+CUST-00221,customer_00221@email.com,David,Miller,2021-06-03,Gold,Central,San Antonio,54,Other,True,,3787.11,27,1648
+CUST-00222,customer_00222@email.com,Lisa,Johnson,2023-02-04,Bronze,East,Dallas,53,Prefer not to say,True,Push,2909.37,50,1037
+CUST-00223,customer_00223@email.com,Chris,Garcia,2023-12-15,Bronze,South,Los Angeles,65,F,False,SMS,546.38,33,723
+CUST-00224,customer_00224@email.com,Emily,Miller,2022-03-31,Bronze,Central,Austin,62,M,True,,4824.62,1,1347
+CUST-00225,customer_00225@email.com,Jane,Miller,2024-07-05,Bronze,West,San Diego,56,Prefer not to say,True,Email,1352.31,24,520
+CUST-00226,invalid-email,John,Garcia,2020-06-12,Bronze,West,San Antonio,57,Other,True,SMS,3219.44,29,2004
+CUST-00227,customer_00227@email.com,Sarah,Miller,2020-01-22,Silver,Central,Phoenix,30,M,True,SMS,3386.42,24,2146
+CUST-00228,customer_00228@email.com,John,Johnson,2021-05-04,Bronze,North,Phoenix,67,Prefer not to say,True,,2056.98,13,1678
+CUST-00229,customer_00229@email.com,John,Garcia,2022-11-26,Silver,North,Los Angeles,53,Other,True,Push,4818.27,18,1107
+CUST-00230,customer_00230@email.com,Sarah,Brown,2021-04-08,Bronze,West,Austin,18,Other,True,,2555.88,36,1704
+CUST-00231,customer_00231@email.com,David,Williams,2020-05-28,Gold,North,Dallas,34,Other,False,,2837.68,50,2019
+CUST-00232,customer_00232@email.com,Emily,Miller,2021-05-13,Silver,West,San Diego,75,M,False,Email,1326.21,25,1669
+CUST-00233,customer_00233@email.com,Sarah,Garcia,2023-07-21,Silver,South,Philadelphia,44,Other,True,Push,1278.88,6,870
+CUST-00234,customer_00234@email.com,Emily,Smith,2022-03-28,Silver,Central,Chicago,48,Other,True,SMS,4476.87,18,1350
+CUST-00235,customer_00235@email.com,Sarah,Brown,2021-01-09,Bronze,South,Houston,65,F,True,SMS,1184.58,16,1793
+CUST-00236,customer_00236@email.com,Emily,Johnson,2023-06-20,Silver,North,Los Angeles,23,Prefer not to say,True,Email,4247.65,24,901
+CUST-00237,invalid-email,Emily,Brown,2023-06-25,Silver,Central,Phoenix,49,F,True,,1149.36,37,896
+CUST-00238,customer_00238@email.com,John,Jones,2020-09-19,Gold,West,San Diego,52,M,True,,4308.98,50,1905
+CUST-00239,customer_00239@email.com,Lisa,Smith,2020-12-23,Bronze,Central,San Diego,38,M,True,SMS,1928.17,7,1810
+CUST-00240,customer_00240@email.com,Emily,Jones,2021-10-28,Bronze,East,Chicago,53,Other,True,Push,2383.16,40,1501
+CUST-00241,customer_00241@email.com,Emily,Johnson,2021-12-03,Bronze,West,San Antonio,31,Prefer not to say,True,Push,4278.91,18,1465
+CUST-00242,customer_00242@email.com,Mike,Jones,2022-07-12,Bronze,West,Austin,61,F,True,Push,4030.23,36,1244
+CUST-00243,customer_00243@email.com,Chris,Johnson,2022-06-04,Bronze,South,Chicago,48,M,True,,2523.01,41,1282
+CUST-00244,customer_00244@email.com,Emily,Miller,2022-11-24,Bronze,West,Phoenix,34,M,False,Email,3468.19,4,1109
+CUST-00245,customer_00245@email.com,David,Brown,2021-03-17,Silver,North,San Diego,65,Other,True,Push,1833.52,36,1726
+CUST-00246,customer_00246@email.com,David,Williams,2024-07-16,Silver,North,San Antonio,25,Other,True,SMS,4897.9,19,509
+CUST-00247,customer_00247@email.com,Emily,Garcia,2021-12-28,Bronze,Central,San Diego,67,Prefer not to say,True,,3087.64,30,1440
+CUST-00248,customer_00248@email.com,Mike,Miller,2023-07-17,Bronze,South,Philadelphia,44,Prefer not to say,True,Email,851.9,15,874
+CUST-00249,customer_00249@email.com,Emily,Garcia,2021-10-04,Silver,East,Phoenix,56,Prefer not to say,True,,3915.82,24,1525
+CUST-00250,customer_00250@email.com,Lisa,Brown,2024-03-11,Silver,South,Chicago,72,M,True,SMS,3327.01,48,636
+CUST-00251,customer_00251@email.com,Jane,Johnson,2023-12-06,Silver,South,San Antonio,24,M,True,,2764.75,2,732
+CUST-00252,customer_00252@email.com,Chris,Jones,2024-04-27,Platinum,North,Los Angeles,34,F,True,,1581.38,16,589
+CUST-00253,customer_00253@email.com,David,Brown,2024-02-19,Silver,South,Chicago,51,F,True,Email,3334.57,21,657
+CUST-00254,customer_00254@email.com,Lisa,Miller,2022-09-02,Silver,Central,Phoenix,53,Prefer not to say,True,SMS,2974.61,30,1192
+CUST-00255,customer_00255@email.com,Chris,Jones,2023-07-16,Bronze,Central,Phoenix,40,Prefer not to say,True,Email,2237.21,24,875
+CUST-00256,customer_00256@email.com,David,Johnson,2022-04-24,Silver,East,New York,18,F,True,Push,2372.53,1,1323
+CUST-00257,customer_00257@email.com,Lisa,Miller,2023-11-09,Gold,West,Phoenix,18,Prefer not to say,True,SMS,3994.0,36,759
+CUST-00258,customer_00258@email.com,Sarah,Brown,2022-02-04,Bronze,Central,San Antonio,43,F,True,,4150.71,15,1402
+CUST-00259,customer_00259@email.com,Jane,Brown,2021-06-22,Silver,South,Dallas,66,Other,True,Push,2093.87,5,1629
+CUST-00260,customer_00260@email.com,Mike,Williams,2021-01-08,Bronze,North,San Diego,57,Prefer not to say,True,,979.56,2,1794
+CUST-00261,customer_00261@email.com,John,Jones,2020-11-07,Gold,North,Chicago,24,Other,True,SMS,3590.22,47,1856
+CUST-00262,customer_00262@email.com,Sarah,Smith,2020-01-17,Silver,South,New York,49,F,True,,1592.3,32,2151
+CUST-00263,customer_00263@email.com,Lisa,Garcia,2022-01-30,Bronze,North,Philadelphia,23,F,True,Push,3889.48,5,1407
+CUST-00264,customer_00264@email.com,Lisa,Johnson,2023-01-17,Gold,South,Phoenix,70,Prefer not to say,True,Email,4874.26,46,1055
+CUST-00265,customer_00265@email.com,Chris,Miller,2021-05-24,Platinum,West,Houston,65,M,True,,3689.85,7,1658
+CUST-00266,customer_00266@email.com,Sarah,Brown,2022-12-03,Bronze,West,Phoenix,38,F,True,Email,1303.9,41,1100
+CUST-00267,customer_00267@email.com,Sarah,Williams,2021-09-03,Bronze,North,Houston,25,F,False,Push,124.59,18,1556
+CUST-00268,customer_00268@email.com,Jane,Brown,2023-04-12,Gold,South,New York,20,Prefer not to say,True,Push,3865.45,16,970
+CUST-00269,customer_00269@email.com,Lisa,Smith,2020-11-18,Silver,Central,Philadelphia,66,M,True,Push,3240.65,45,1845
+CUST-00270,invalid-email,Jane,Johnson,2023-01-03,Gold,West,Houston,38,Other,False,SMS,155.7,25,1069
+CUST-00271,customer_00271@email.com,Mike,Williams,2022-01-03,Bronze,North,San Diego,63,Prefer not to say,True,,989.39,12,1434
+CUST-00272,customer_00272@email.com,Emily,Williams,2023-01-18,Silver,West,Phoenix,73,F,True,SMS,2274.45,17,1054
+CUST-00273,customer_00273@email.com,Emily,Brown,2023-01-14,Silver,North,Dallas,42,F,True,Push,3891.28,16,1058
+CUST-00274,customer_00274@email.com,Jane,Garcia,2021-10-18,Bronze,Central,San Antonio,30,Prefer not to say,True,Push,1646.87,42,1511
+CUST-00275,customer_00275@email.com,Jane,Smith,2021-10-21,Platinum,Central,Los Angeles,20,F,True,Email,1050.29,32,1508
+CUST-00276,customer_00276@email.com,Jane,Smith,2021-01-27,Silver,Central,San Antonio,60,Prefer not to say,True,Email,1863.45,39,1775
+CUST-00277,customer_00277@email.com,Jane,Smith,2024-01-10,Silver,South,San Diego,74,M,False,Email,1836.58,48,697
+CUST-00278,customer_00278@email.com,Emily,Miller,2022-05-01,Bronze,North,Austin,35,M,True,Push,435.78,14,1316
+CUST-00279,customer_00279@email.com,Jane,Smith,2022-11-29,Silver,South,Dallas,42,F,True,SMS,2871.64,12,1104
+CUST-00280,customer_00280@email.com,Chris,Garcia,2023-02-17,Gold,North,Austin,40,Prefer not to say,False,Email,875.71,12,1024
+CUST-00281,customer_00281@email.com,Chris,Jones,2023-01-31,Gold,East,Chicago,52,Prefer not to say,True,Push,2772.9,21,1041
+CUST-00282,customer_00282@email.com,Chris,Miller,2022-01-31,Gold,West,Philadelphia,56,F,True,,3840.26,48,1406
+CUST-00283,customer_00283@email.com,Emily,Brown,2021-06-04,Bronze,West,San Antonio,18,M,True,Email,2612.17,20,1647
+CUST-00284,customer_00284@email.com,David,Johnson,2020-01-14,Bronze,South,Philadelphia,19,Other,True,Email,236.79,23,2154
+CUST-00285,customer_00285@email.com,Mike,Williams,2020-11-15,Silver,East,Austin,33,F,True,Push,504.93,26,1848
+CUST-00286,customer_00286@email.com,Sarah,Garcia,2023-03-11,Gold,North,Philadelphia,68,Prefer not to say,True,,4137.24,45,1002
+CUST-00287,customer_00287@email.com,Jane,Jones,2023-12-10,Silver,East,New York,64,Prefer not to say,True,Email,4613.26,22,728
+CUST-00288,customer_00288@email.com,Chris,Brown,2021-12-13,Bronze,North,Houston,65,M,False,Email,1558.68,3,1455
+CUST-00289,customer_00289@email.com,Mike,Williams,2021-10-15,Silver,Central,Houston,27,M,False,,3776.56,37,1514
+CUST-00290,customer_00290@email.com,Jane,Johnson,2022-10-30,Silver,West,Phoenix,68,Prefer not to say,True,SMS,1714.03,31,1134
+CUST-00291,customer_00291@email.com,John,Jones,2023-03-16,Bronze,West,Phoenix,23,Prefer not to say,False,SMS,3822.06,31,997
+CUST-00292,customer_00292@email.com,Sarah,Brown,2023-02-19,Bronze,West,Austin,30,F,True,Email,1367.97,28,1022
+CUST-00293,customer_00293@email.com,Jane,Smith,2021-10-24,Bronze,West,San Antonio,41,Other,True,Push,1755.4,42,1505
+CUST-00294,customer_00294@email.com,David,Johnson,2020-02-19,Bronze,East,Austin,70,Prefer not to say,True,,272.14,15,2118
+CUST-00295,customer_00295@email.com,Emily,Johnson,2021-02-12,Bronze,North,Los Angeles,65,M,True,SMS,4350.32,19,1759
+CUST-00296,customer_00296@email.com,Emily,Garcia,2020-01-29,Bronze,North,Phoenix,46,Prefer not to say,True,Push,1084.6,35,2139
+CUST-00297,customer_00297@email.com,Sarah,Jones,2021-03-09,Silver,Central,Phoenix,53,Prefer not to say,True,Email,1914.2,43,1734
+CUST-00298,customer_00298@email.com,John,Williams,2022-12-14,Bronze,South,New York,36,F,True,Email,2351.56,1,1089
+CUST-00299,customer_00299@email.com,Chris,Garcia,2020-05-16,Silver,East,Philadelphia,73,M,True,Push,4343.68,42,2031
+CUST-00300,customer_00300@email.com,Sarah,Brown,2022-03-02,Bronze,Central,Los Angeles,75,Other,False,Email,972.77,33,1376
+CUST-00301,customer_00301@email.com,John,Smith,2022-07-26,Bronze,South,Dallas,37,Other,False,,3734.73,2,1230
+CUST-00302,customer_00302@email.com,Emily,Williams,2021-12-11,Platinum,East,Houston,50,Other,True,Push,4399.45,2,1457
+CUST-00303,customer_00303@email.com,David,Johnson,2023-02-10,Gold,South,Philadelphia,75,Prefer not to say,True,Email,3662.95,34,1031
+CUST-00304,customer_00304@email.com,Sarah,Brown,2023-10-20,Bronze,South,Austin,27,Prefer not to say,True,Push,2273.39,9,779
+CUST-00305,customer_00305@email.com,Mike,Jones,2021-02-27,Bronze,Central,Houston,73,F,True,SMS,2178.82,50,1744
+CUST-00306,customer_00306@email.com,Mike,Williams,2020-10-24,Bronze,North,Dallas,52,M,True,Push,4205.64,10,1870
+CUST-00307,customer_00307@email.com,John,Miller,2024-01-29,Gold,East,San Antonio,44,Other,False,Push,802.19,13,678
+CUST-00308,customer_00308@email.com,Mike,Johnson,2020-08-06,Bronze,North,Austin,57,Other,True,SMS,1193.02,2,1949
+CUST-00309,customer_00309@email.com,Jane,Garcia,2022-01-05,Bronze,West,Chicago,50,Prefer not to say,True,SMS,4268.04,32,1432
+CUST-00310,customer_00310@email.com,Mike,Johnson,2022-08-28,Silver,South,Houston,20,Prefer not to say,True,Push,4753.48,15,1197
+CUST-00311,customer_00311@email.com,Sarah,Miller,2024-02-29,Bronze,South,Los Angeles,29,Prefer not to say,False,Push,4340.54,16,647
+CUST-00312,customer_00312@email.com,Chris,Miller,2022-05-25,Silver,North,Austin,65,Prefer not to say,True,,3076.95,48,1292
+CUST-00313,customer_00313@email.com,John,Jones,2023-03-17,Bronze,North,San Diego,47,M,True,,4919.96,3,996
+CUST-00314,customer_00314@email.com,Chris,Jones,2023-02-16,Bronze,North,Houston,36,Prefer not to say,False,Push,3879.7,19,1025
+CUST-00315,customer_00315@email.com,Mike,Brown,2022-08-02,Silver,East,Austin,21,F,False,,497.68,33,1223
+CUST-00316,customer_00316@email.com,Mike,Miller,2020-08-19,Silver,Central,Dallas,26,Prefer not to say,False,Push,2281.88,12,1936
+CUST-00317,customer_00317@email.com,Sarah,Brown,2022-07-18,Bronze,North,Phoenix,38,F,True,Email,615.12,29,1238
+CUST-00318,customer_00318@email.com,Emily,Smith,2023-07-22,Bronze,Central,San Antonio,64,F,False,,267.34,11,869
+CUST-00319,customer_00319@email.com,Mike,Johnson,2021-11-17,Bronze,South,Chicago,67,M,False,Push,1582.12,50,1481
+CUST-00320,customer_00320@email.com,David,Garcia,2022-07-02,Gold,South,Los Angeles,75,F,True,Email,3131.67,17,1254
+CUST-00321,customer_00321@email.com,Lisa,Brown,2020-01-26,Silver,West,Dallas,69,M,False,SMS,1123.53,43,2142
+CUST-00322,customer_00322@email.com,Lisa,Brown,2022-09-01,Silver,West,Los Angeles,56,M,True,Push,3117.84,36,1193
+CUST-00323,customer_00323@email.com,Sarah,Smith,2024-08-06,Bronze,South,Chicago,21,Other,True,SMS,4276.45,43,488
+CUST-00324,customer_00324@email.com,David,Williams,2023-03-29,Silver,North,New York,24,Prefer not to say,True,SMS,3376.85,40,984
+CUST-00325,customer_00325@email.com,Mike,Brown,2023-09-15,Bronze,Central,Philadelphia,20,M,True,Push,1874.42,25,814
+CUST-00326,customer_00326@email.com,Jane,Miller,2024-08-06,Silver,West,Dallas,22,Other,False,SMS,654.01,18,488
+CUST-00327,customer_00327@email.com,Chris,Jones,2021-11-05,Silver,South,Houston,57,M,True,Email,2444.13,45,1493
+CUST-00328,customer_00328@email.com,David,Brown,2023-05-23,Gold,Central,Philadelphia,34,Other,True,,2622.54,41,929
+CUST-00329,customer_00329@email.com,Lisa,Miller,2022-10-16,Gold,South,Austin,32,Other,True,Email,635.13,30,1148
+CUST-00330,customer_00330@email.com,Jane,Garcia,2023-07-04,Bronze,South,Austin,44,Prefer not to say,True,Push,1780.77,41,887
+CUST-00331,customer_00331@email.com,John,Garcia,2021-03-10,Gold,South,Phoenix,34,M,True,Push,2558.11,21,1733
+CUST-00332,customer_00332@email.com,John,Smith,2024-04-19,Bronze,East,Philadelphia,43,M,True,SMS,1686.05,22,597
+CUST-00333,invalid-email,Lisa,Brown,2023-10-09,Bronze,North,Chicago,48,F,False,Push,2339.23,27,790
+CUST-00334,customer_00334@email.com,John,Miller,2024-02-29,Bronze,Central,Phoenix,54,Other,True,SMS,2908.12,22,647
+CUST-00335,invalid-email,Emily,Smith,2024-06-25,Silver,South,Phoenix,71,M,True,,3151.23,11,530
+CUST-00336,customer_00336@email.com,Chris,Johnson,2023-03-15,Silver,Central,Los Angeles,73,Other,True,Email,1393.91,6,998
+CUST-00337,customer_00337@email.com,Sarah,Williams,2022-10-14,Bronze,West,Phoenix,31,Other,True,Email,1902.37,3,1150
+CUST-00338,customer_00338@email.com,Sarah,Smith,2024-05-11,Bronze,West,Dallas,19,Prefer not to say,True,SMS,1733.57,31,575
+CUST-00339,customer_00339@email.com,David,Miller,2024-02-09,Bronze,East,Chicago,67,M,True,SMS,3636.62,30,667
+CUST-00340,customer_00340@email.com,Jane,Smith,2022-03-04,Gold,East,New York,61,M,True,,4451.47,7,1374
+CUST-00341,customer_00341@email.com,David,Smith,2022-12-02,Silver,Central,Phoenix,58,F,True,SMS,1003.1,18,1101
+CUST-00342,customer_00342@email.com,Emily,Miller,2022-12-26,Bronze,West,Los Angeles,35,F,True,Push,616.58,40,1077
+CUST-00343,invalid-email,Jane,Johnson,2023-02-20,Gold,Central,Philadelphia,53,Other,True,SMS,4719.23,19,1021
+CUST-00344,customer_00344@email.com,Sarah,Johnson,2023-03-21,Bronze,North,Phoenix,57,Other,False,Email,693.87,31,992
+CUST-00345,customer_00345@email.com,John,Smith,2023-10-15,Silver,West,New York,23,Prefer not to say,False,SMS,3538.15,38,784
+CUST-00346,customer_00346@email.com,Lisa,Jones,2023-07-13,Bronze,East,Phoenix,39,F,True,,2860.56,6,878
+CUST-00347,customer_00347@email.com,Lisa,Smith,2024-07-22,Bronze,West,Phoenix,61,Prefer not to say,False,SMS,4739.87,10,503
+CUST-00348,customer_00348@email.com,David,Williams,2023-06-17,Bronze,West,Chicago,62,Other,True,,2463.16,5,904
+CUST-00349,customer_00349@email.com,Jane,Williams,2022-08-31,Silver,West,San Diego,72,F,True,Push,3041.98,9,1194
+CUST-00350,customer_00350@email.com,Jane,Brown,2022-11-06,Gold,North,Philadelphia,53,M,True,,2034.04,27,1127
+CUST-00351,customer_00351@email.com,Sarah,Jones,2021-05-03,Silver,South,San Diego,42,M,True,SMS,4078.88,38,1679
+CUST-00352,customer_00352@email.com,Chris,Jones,2022-06-01,Silver,East,Dallas,62,F,True,Email,3709.87,46,1285
+CUST-00353,customer_00353@email.com,Lisa,Smith,2023-03-21,Gold,Central,Austin,47,Other,True,,922.06,26,992
+CUST-00354,customer_00354@email.com,Jane,Garcia,2020-05-22,Silver,Central,San Antonio,38,Prefer not to say,True,Email,1127.18,9,2025
+CUST-00355,customer_00355@email.com,John,Miller,2023-04-04,Bronze,South,Chicago,46,Other,False,,1018.55,44,978
+CUST-00356,customer_00356@email.com,David,Jones,2021-10-10,Platinum,East,San Antonio,63,Other,True,Email,3076.88,33,1519
+CUST-00357,customer_00357@email.com,Mike,Miller,2022-04-07,Silver,East,New York,41,M,True,Push,593.01,19,1340
+CUST-00358,customer_00358@email.com,Sarah,Brown,2020-03-04,Bronze,Central,San Antonio,58,Other,False,,1938.75,35,2104
+CUST-00359,customer_00359@email.com,Mike,Brown,2021-03-08,Silver,South,Houston,53,Prefer not to say,True,,813.62,43,1735
+CUST-00360,customer_00360@email.com,Mike,Smith,2020-09-14,Bronze,North,New York,27,Prefer not to say,False,SMS,469.08,42,1910
+CUST-00361,customer_00361@email.com,Chris,Miller,2024-07-08,Bronze,West,Austin,45,F,False,,2782.65,29,517
+CUST-00362,customer_00362@email.com,Emily,Johnson,2022-02-26,Bronze,South,San Antonio,56,M,False,SMS,3575.04,18,1380
+CUST-00363,customer_00363@email.com,Emily,Smith,2022-04-21,Bronze,North,Austin,48,Other,True,,4810.6,6,1326
+CUST-00364,customer_00364@email.com,David,Brown,2020-10-17,Bronze,Central,Los Angeles,51,M,True,,3171.78,43,1877
+CUST-00365,customer_00365@email.com,Jane,Garcia,2023-10-01,Silver,Central,Austin,37,M,True,Email,2370.9,33,798
+CUST-00366,customer_00366@email.com,Emily,Brown,2022-08-18,Bronze,East,Phoenix,36,F,True,Push,3648.51,37,1207
+CUST-00367,customer_00367@email.com,John,Garcia,2021-06-17,Silver,West,Austin,28,M,True,Email,1469.74,6,1634
+CUST-00368,customer_00368@email.com,Jane,Miller,2020-09-16,Platinum,East,Phoenix,26,Other,True,Push,120.3,8,1908
+CUST-00369,customer_00369@email.com,Mike,Jones,2023-05-21,Silver,South,San Diego,41,F,True,SMS,2450.35,34,931
+CUST-00370,customer_00370@email.com,Emily,Smith,2020-03-08,Silver,South,Austin,70,F,False,,3863.32,16,2100
+CUST-00371,customer_00371@email.com,Lisa,Garcia,2023-09-15,Bronze,South,Houston,54,Other,True,Push,3789.65,8,814
+CUST-00372,customer_00372@email.com,Mike,Brown,2020-04-17,Silver,West,San Diego,37,Prefer not to say,True,,3433.37,25,2060
+CUST-00373,customer_00373@email.com,David,Johnson,2022-08-29,Gold,Central,San Antonio,18,Other,False,,3408.54,34,1196
+CUST-00374,customer_00374@email.com,John,Smith,2023-10-30,Bronze,Central,Philadelphia,72,Prefer not to say,True,Push,1388.11,7,769
+CUST-00375,customer_00375@email.com,Chris,Brown,2021-06-06,Bronze,South,Austin,67,F,True,SMS,1600.69,1,1645
+CUST-00376,customer_00376@email.com,John,Miller,2023-10-09,Silver,North,New York,44,M,True,,1790.01,47,790
+CUST-00377,customer_00377@email.com,David,Johnson,2021-08-03,Silver,North,New York,57,M,True,SMS,4754.92,41,1587
+CUST-00378,customer_00378@email.com,Jane,Smith,2020-09-06,Gold,Central,Chicago,42,F,True,SMS,1304.01,30,1918
+CUST-00379,customer_00379@email.com,Jane,Garcia,2023-09-14,Silver,West,Phoenix,67,Prefer not to say,True,Push,851.73,5,815
+CUST-00380,customer_00380@email.com,John,Brown,2021-07-21,Gold,West,Philadelphia,21,Other,True,SMS,2230.85,32,1600
+CUST-00381,customer_00381@email.com,Chris,Johnson,2021-02-14,Bronze,West,Los Angeles,27,Prefer not to say,True,Email,4567.42,46,1757
+CUST-00382,invalid-email,Jane,Smith,2021-06-14,Bronze,North,Los Angeles,54,Other,False,Email,4487.74,10,1637
+CUST-00383,customer_00383@email.com,John,Smith,2023-08-30,Silver,West,Phoenix,27,Other,False,Email,2601.15,50,830
+CUST-00384,customer_00384@email.com,Lisa,Brown,2022-10-01,Bronze,West,Los Angeles,52,F,True,,4773.07,50,1163
+CUST-00385,customer_00385@email.com,Jane,Jones,2022-09-14,Bronze,Central,Philadelphia,39,Other,False,Email,3179.75,42,1180
+CUST-00386,customer_00386@email.com,Emily,Jones,2020-07-04,Bronze,East,Los Angeles,71,Prefer not to say,True,SMS,924.26,3,1982
+CUST-00387,customer_00387@email.com,Sarah,Williams,2022-02-25,Silver,West,Los Angeles,58,Other,False,Email,4431.81,29,1381
+CUST-00388,customer_00388@email.com,Sarah,Johnson,2024-02-14,Gold,North,Houston,19,F,False,,361.81,35,662
+CUST-00389,invalid-email,David,Brown,2023-08-10,Bronze,Central,San Diego,19,M,True,Email,1721.71,47,850
+CUST-00390,customer_00390@email.com,Chris,Smith,2020-03-28,Gold,South,Dallas,47,F,True,Email,232.54,10,2080
+CUST-00391,customer_00391@email.com,John,Brown,2022-09-28,Bronze,Central,New York,33,F,True,SMS,3181.67,20,1166
+CUST-00392,customer_00392@email.com,Jane,Brown,2024-08-07,Platinum,Central,Chicago,71,M,True,Email,2510.86,40,487
+CUST-00393,customer_00393@email.com,Jane,Miller,2021-03-27,Platinum,South,San Antonio,39,Prefer not to say,True,Email,4880.47,37,1716
+CUST-00394,customer_00394@email.com,Mike,Williams,2023-01-22,Gold,South,New York,55,F,True,Email,647.69,10,1050
+CUST-00395,customer_00395@email.com,Chris,Johnson,2024-03-31,Bronze,East,Dallas,28,Prefer not to say,True,Email,710.19,41,616
+CUST-00396,customer_00396@email.com,Chris,Miller,2023-06-08,Bronze,South,New York,74,Prefer not to say,True,Email,85.76,6,913
+CUST-00397,customer_00397@email.com,David,Brown,2023-12-18,Silver,West,Chicago,31,F,True,,2089.56,12,720
+CUST-00398,customer_00398@email.com,John,Jones,2023-06-04,Bronze,South,San Diego,57,M,True,Push,2122.99,36,917
+CUST-00399,customer_00399@email.com,Sarah,Smith,2021-04-27,Gold,Central,Los Angeles,57,Other,True,,3863.14,43,1685
+CUST-00400,customer_00400@email.com,David,Smith,2021-03-02,Gold,South,Los Angeles,68,F,False,,922.8,43,1741
+CUST-00401,customer_00401@email.com,John,Garcia,2020-03-29,Platinum,East,Phoenix,31,Prefer not to say,True,Push,3103.26,49,2079
+CUST-00402,customer_00402@email.com,John,Smith,2022-07-17,Bronze,North,Dallas,29,F,True,,2598.77,5,1239
+CUST-00403,customer_00403@email.com,Lisa,Jones,2021-04-26,Bronze,Central,Philadelphia,44,F,True,SMS,3905.93,21,1686
+CUST-00404,customer_00404@email.com,Jane,Johnson,2021-04-11,Bronze,West,Houston,42,F,True,,2946.21,4,1701
+CUST-00405,customer_00405@email.com,Mike,Johnson,2022-06-11,Bronze,Central,San Diego,29,Prefer not to say,True,SMS,2315.81,13,1275
+CUST-00406,customer_00406@email.com,Emily,Williams,2023-07-18,Bronze,South,Philadelphia,26,M,True,Push,725.68,30,873
+CUST-00407,customer_00407@email.com,Chris,Johnson,2022-07-28,Bronze,East,Houston,74,Other,True,SMS,2911.7,36,1228
+CUST-00408,customer_00408@email.com,Jane,Brown,2021-04-15,Bronze,Central,San Diego,73,F,False,,1431.9,47,1697
+CUST-00409,customer_00409@email.com,Sarah,Johnson,2022-05-26,Bronze,East,San Antonio,55,F,True,Email,2117.97,3,1291
+CUST-00410,customer_00410@email.com,Lisa,Garcia,2020-03-23,Gold,Central,New York,45,Prefer not to say,False,Email,2289.58,16,2085
+CUST-00411,customer_00411@email.com,John,Garcia,2020-06-19,Silver,West,Houston,26,Other,True,SMS,3255.82,6,1997
+CUST-00412,customer_00412@email.com,Lisa,Garcia,2020-02-02,Silver,East,Chicago,63,Prefer not to say,True,,2345.62,9,2135
+CUST-00413,customer_00413@email.com,Chris,Johnson,2023-12-11,Silver,East,San Diego,63,M,True,,4472.5,22,727
+CUST-00414,customer_00414@email.com,John,Williams,2022-12-23,Bronze,West,Phoenix,62,F,True,Push,3692.02,4,1080
+CUST-00415,customer_00415@email.com,Emily,Smith,2022-11-20,Gold,North,San Antonio,41,Prefer not to say,True,Push,1863.84,42,1113
+CUST-00416,customer_00416@email.com,Jane,Jones,2023-02-18,Bronze,South,Chicago,39,F,True,,3700.03,49,1023
+CUST-00417,customer_00417@email.com,Sarah,Miller,2023-04-03,Silver,South,Philadelphia,40,Other,False,Push,319.58,24,979
+CUST-00418,customer_00418@email.com,Lisa,Brown,2021-12-08,Bronze,Central,Dallas,71,M,False,Push,2287.29,24,1460
+CUST-00419,customer_00419@email.com,Jane,Johnson,2024-06-26,Platinum,West,Los Angeles,23,Prefer not to say,True,Push,4793.37,5,529
+CUST-00420,customer_00420@email.com,Mike,Williams,2020-08-11,Gold,North,Chicago,49,F,True,Email,1501.19,44,1944
+CUST-00421,customer_00421@email.com,Mike,Brown,2023-01-13,Bronze,East,San Antonio,46,M,True,SMS,361.6,15,1059
+CUST-00422,customer_00422@email.com,Emily,Brown,2022-11-30,Platinum,Central,Philadelphia,59,Other,False,,2317.14,37,1103
+CUST-00423,customer_00423@email.com,David,Johnson,2020-09-27,Silver,East,Houston,48,Other,True,Email,784.27,19,1897
+CUST-00424,customer_00424@email.com,Mike,Jones,2022-07-22,Silver,South,Dallas,36,F,True,SMS,848.21,8,1234
+CUST-00425,customer_00425@email.com,Emily,Jones,2020-03-25,Bronze,South,San Diego,34,Other,True,SMS,2834.31,3,2083
+CUST-00426,customer_00426@email.com,Emily,Williams,2023-09-25,Bronze,South,Philadelphia,46,F,True,Email,4606.15,26,804
+CUST-00427,customer_00427@email.com,Mike,Brown,2022-10-19,Gold,East,Chicago,18,Other,True,,4485.09,49,1145
+CUST-00428,customer_00428@email.com,Mike,Miller,2023-03-20,Bronze,Central,San Diego,39,M,False,Email,740.15,36,993
+CUST-00429,customer_00429@email.com,David,Smith,2020-08-27,Gold,West,Austin,71,F,False,Push,507.78,4,1928
+CUST-00430,customer_00430@email.com,Sarah,Jones,2023-05-30,Bronze,Central,Houston,68,Other,True,Email,463.77,29,922
+CUST-00431,customer_00431@email.com,Jane,Jones,2023-10-18,Bronze,West,Houston,49,Other,True,Push,2017.91,46,781
+CUST-00432,invalid-email,Emily,Brown,2022-05-25,Silver,East,New York,36,Other,True,Push,4888.74,36,1292
+CUST-00433,customer_00433@email.com,Sarah,Garcia,2020-06-28,Bronze,West,San Antonio,69,Prefer not to say,True,SMS,4038.08,28,1988
+CUST-00434,customer_00434@email.com,Chris,Johnson,2024-02-01,Platinum,Central,Austin,23,F,True,Push,2399.33,34,675
+CUST-00435,customer_00435@email.com,Jane,Jones,2021-11-17,Bronze,West,Los Angeles,18,Prefer not to say,True,,915.72,30,1481
+CUST-00436,customer_00436@email.com,Mike,Johnson,2023-12-25,Bronze,South,San Antonio,36,Prefer not to say,True,Push,4181.2,20,713
+CUST-00437,customer_00437@email.com,Lisa,Johnson,2022-10-08,Silver,North,New York,27,Other,True,,664.68,43,1156
+CUST-00438,customer_00438@email.com,Chris,Johnson,2021-08-12,Silver,West,Houston,19,M,True,,4971.95,5,1578
+CUST-00439,customer_00439@email.com,Emily,Jones,2023-05-11,Platinum,West,Austin,45,Other,False,Email,1897.35,47,941
+CUST-00440,customer_00440@email.com,John,Miller,2023-03-24,Bronze,East,Chicago,55,M,True,Push,2332.17,45,989
+CUST-00441,customer_00441@email.com,Emily,Johnson,2020-10-04,Bronze,North,Phoenix,41,Prefer not to say,True,Email,1484.79,34,1890
+CUST-00442,customer_00442@email.com,Jane,Jones,2023-08-01,Silver,South,Chicago,66,M,True,Push,4368.59,44,859
+CUST-00443,customer_00443@email.com,David,Williams,2024-06-26,Bronze,East,Los Angeles,52,Other,True,Email,727.9,19,529
+CUST-00444,customer_00444@email.com,Lisa,Brown,2022-02-02,Bronze,East,Chicago,24,F,True,SMS,4166.29,36,1404
+CUST-00445,customer_00445@email.com,Jane,Brown,2023-06-10,Gold,West,Los Angeles,25,F,True,,1773.64,45,911
+CUST-00446,customer_00446@email.com,Mike,Miller,2022-01-12,Bronze,West,Austin,51,Other,True,Push,192.36,8,1425
+CUST-00447,customer_00447@email.com,Mike,Miller,2021-03-31,Bronze,South,Houston,37,F,True,SMS,4906.49,28,1712
+CUST-00448,customer_00448@email.com,Jane,Smith,2023-11-15,Bronze,North,San Diego,66,Prefer not to say,True,SMS,583.7,43,753
+CUST-00449,customer_00449@email.com,John,Brown,2022-11-17,Silver,North,Phoenix,20,M,True,Email,3785.02,8,1116
+CUST-00450,customer_00450@email.com,Sarah,Jones,2023-05-17,Bronze,South,Chicago,60,Other,True,Email,770.51,48,935
+CUST-00451,customer_00451@email.com,Emily,Williams,2021-07-22,Bronze,South,Dallas,67,F,True,Email,4106.95,49,1599
+CUST-00452,customer_00452@email.com,Sarah,Garcia,2020-01-29,Bronze,South,Phoenix,28,M,True,SMS,4606.36,46,2139
+CUST-00453,invalid-email,Emily,Garcia,2022-08-30,Platinum,West,Chicago,46,M,True,Push,4907.44,28,1195
+CUST-00454,customer_00454@email.com,Sarah,Brown,2021-03-14,Bronze,North,Philadelphia,25,Prefer not to say,True,SMS,2504.29,24,1729
+CUST-00455,customer_00455@email.com,David,Jones,2023-12-14,Bronze,North,Los Angeles,38,Prefer not to say,True,,1453.88,39,724
+CUST-00456,customer_00456@email.com,David,Garcia,2024-02-16,Bronze,West,Houston,53,Prefer not to say,True,,984.49,5,660
+CUST-00457,customer_00457@email.com,Lisa,Garcia,2024-07-01,Bronze,East,Chicago,18,Prefer not to say,True,,2218.39,43,524
+CUST-00458,customer_00458@email.com,Jane,Smith,2023-10-17,Bronze,South,San Antonio,43,M,True,Email,1850.36,13,782
+CUST-00459,customer_00459@email.com,Sarah,Jones,2021-11-24,Silver,West,Los Angeles,32,Prefer not to say,False,Push,3835.84,50,1474
+CUST-00460,customer_00460@email.com,David,Miller,2023-04-06,Silver,West,Philadelphia,48,Prefer not to say,False,Push,779.5,30,976
+CUST-00461,invalid-email,Jane,Williams,2020-08-09,Silver,West,San Diego,32,F,True,Email,3702.1,5,1946
+CUST-00462,customer_00462@email.com,John,Johnson,2022-10-17,Bronze,West,Austin,61,Other,True,Push,3128.74,7,1147
+CUST-00463,invalid-email,Jane,Garcia,2024-04-05,Bronze,Central,San Diego,68,Prefer not to say,True,Push,3327.36,32,611
+CUST-00464,customer_00464@email.com,David,Jones,2022-10-30,Bronze,East,Dallas,52,M,True,,4406.62,8,1134
+CUST-00465,customer_00465@email.com,Lisa,Williams,2022-02-24,Bronze,West,San Diego,47,M,True,SMS,2805.5,50,1382
+CUST-00466,customer_00466@email.com,Mike,Brown,2021-09-12,Bronze,West,Chicago,37,Prefer not to say,False,Email,2865.83,32,1547
+CUST-00467,customer_00467@email.com,Lisa,Brown,2023-09-13,Silver,Central,Chicago,50,M,False,Push,2498.72,25,816
+CUST-00468,customer_00468@email.com,Emily,Miller,2023-06-17,Bronze,East,Philadelphia,21,M,True,SMS,4192.82,23,904
+CUST-00469,customer_00469@email.com,John,Miller,2024-07-15,Bronze,East,San Antonio,24,Prefer not to say,True,Push,2089.05,4,510
+CUST-00470,customer_00470@email.com,Sarah,Johnson,2023-09-16,Silver,South,Phoenix,55,M,True,Push,616.63,11,813
+CUST-00471,customer_00471@email.com,Emily,Smith,2020-02-10,Bronze,West,San Antonio,54,Prefer not to say,True,Email,3494.99,38,2127
+CUST-00472,customer_00472@email.com,Emily,Brown,2020-02-15,Gold,Central,San Antonio,38,M,False,Email,3469.78,14,2122
+CUST-00473,customer_00473@email.com,Lisa,Jones,2021-11-19,Gold,East,Chicago,57,Other,True,,1048.71,41,1479
+CUST-00474,customer_00474@email.com,Jane,Miller,2024-05-31,Bronze,Central,Houston,36,Other,True,Push,4981.33,26,555
+CUST-00475,customer_00475@email.com,Sarah,Jones,2024-07-05,Platinum,North,Austin,24,Other,True,Email,2853.82,34,520
+CUST-00477,customer_00477@email.com,Chris,Brown,2021-02-13,Platinum,East,Austin,50,Prefer not to say,True,Email,3157.83,34,1758
+CUST-00478,customer_00478@email.com,Lisa,Johnson,2021-01-17,Platinum,West,Phoenix,58,Prefer not to say,True,SMS,1853.16,10,1785
+CUST-00479,customer_00479@email.com,Mike,Garcia,2021-05-07,Gold,East,San Antonio,44,Other,True,SMS,4237.54,18,1675
+CUST-00480,customer_00480@email.com,David,Garcia,2024-08-13,Bronze,South,Phoenix,61,F,False,SMS,612.11,13,481
+CUST-00481,customer_00481@email.com,Sarah,Miller,2020-02-26,Silver,East,San Diego,49,Prefer not to say,False,Email,1049.85,18,2111
+CUST-00482,customer_00482@email.com,John,Williams,2020-10-06,Silver,East,Dallas,29,M,False,Email,323.87,6,1888
+CUST-00483,customer_00483@email.com,David,Miller,2021-10-04,Bronze,North,San Antonio,75,Other,True,,4718.65,47,1525
+CUST-00486,customer_00486@email.com,David,Brown,2021-03-14,Gold,West,Phoenix,73,M,False,Push,3513.11,8,1729
+CUST-00487,customer_00487@email.com,Chris,Brown,2021-10-10,Silver,South,Phoenix,74,F,True,,3592.57,20,1519
+CUST-00488,customer_00488@email.com,John,Miller,2020-02-13,Bronze,North,Houston,34,Prefer not to say,True,Push,4520.63,44,2124
+CUST-00489,customer_00489@email.com,Sarah,Miller,2020-09-06,Silver,West,San Antonio,18,Prefer not to say,True,Push,496.74,49,1918
+CUST-00490,customer_00490@email.com,David,Johnson,2021-04-27,Silver,South,San Diego,58,Other,False,Email,1406.48,6,1685
+CUST-00491,customer_00491@email.com,Lisa,Brown,2024-08-12,Bronze,West,Philadelphia,63,Prefer not to say,True,SMS,3507.49,33,482
+CUST-00492,customer_00492@email.com,Emily,Brown,2020-05-15,Bronze,West,Dallas,65,Other,False,Email,3821.78,42,2032
+CUST-00493,customer_00493@email.com,Mike,Garcia,2023-08-06,Bronze,West,Chicago,18,Prefer not to say,True,Push,1602.92,6,854
+CUST-00494,customer_00494@email.com,Mike,Johnson,2020-08-14,Bronze,Central,Chicago,72,Prefer not to say,True,,2417.91,48,1941
+CUST-00495,customer_00495@email.com,David,Johnson,2020-09-30,Bronze,Central,Philadelphia,69,Other,True,Email,2101.76,12,1894
+CUST-00496,customer_00496@email.com,Chris,Miller,2022-03-16,Silver,Central,Houston,19,M,True,Email,4871.93,13,1362
+CUST-00497,customer_00497@email.com,Mike,Smith,2021-06-20,Bronze,West,Austin,45,Other,True,Email,4792.26,11,1631
+CUST-00498,customer_00498@email.com,Jane,Smith,2023-03-07,Bronze,Central,San Antonio,67,Prefer not to say,False,Email,1161.2,14,1006
+CUST-00499,customer_00499@email.com,David,Williams,2021-01-25,Bronze,West,San Antonio,26,Prefer not to say,True,SMS,4976.28,19,1777
+CUST-00500,customer_00500@email.com,Sarah,Brown,2024-01-28,Silver,South,San Antonio,68,F,True,Push,4881.83,16,679
+CUST-00501,customer_00501@email.com,Lisa,Johnson,2023-06-19,Gold,East,Austin,61,Prefer not to say,True,Email,2370.96,21,902
+CUST-00502,customer_00502@email.com,Chris,Garcia,2023-11-20,Bronze,South,San Antonio,63,Prefer not to say,True,Email,521.63,4,748
+CUST-00503,customer_00503@email.com,Emily,Johnson,2020-04-16,Bronze,West,Philadelphia,56,M,True,Push,2547.48,25,2061
+CUST-00504,customer_00504@email.com,Chris,Garcia,2021-09-11,Gold,East,Chicago,75,M,True,Push,890.84,32,1548
+CUST-00505,customer_00505@email.com,Lisa,Johnson,2021-11-25,Bronze,North,Philadelphia,63,Prefer not to say,True,Push,628.37,3,1473
+CUST-00506,customer_00506@email.com,Lisa,Miller,2020-09-18,Bronze,East,Philadelphia,45,Other,True,Push,2609.01,28,1906
+CUST-00507,customer_00507@email.com,Emily,Garcia,2020-12-03,Silver,West,Chicago,53,Prefer not to say,True,SMS,785.67,15,1830
+CUST-00508,customer_00508@email.com,John,Brown,2021-01-10,Bronze,East,Chicago,63,Prefer not to say,False,Email,4976.25,32,1792
+CUST-00509,customer_00509@email.com,Lisa,Williams,2020-03-24,Bronze,Central,San Diego,47,Prefer not to say,True,SMS,662.09,6,2084
+CUST-00510,customer_00510@email.com,David,Johnson,2021-02-21,Gold,South,Dallas,70,Other,True,Email,2653.78,37,1750
+CUST-00511,customer_00511@email.com,Chris,Smith,2021-01-04,Bronze,South,San Diego,61,M,True,Email,1457.19,44,1798
+CUST-00512,customer_00512@email.com,Chris,Williams,2020-09-06,Bronze,Central,Los Angeles,71,Other,True,Email,451.26,46,1918
+CUST-00513,customer_00513@email.com,Lisa,Brown,2023-09-12,Bronze,East,Austin,60,M,True,Email,3298.06,29,817
+CUST-00514,customer_00514@email.com,Mike,Johnson,2021-10-27,Bronze,North,Phoenix,38,M,True,,508.13,17,1502
+CUST-00516,customer_00516@email.com,Mike,Smith,2023-08-18,Bronze,East,San Diego,69,Prefer not to say,True,SMS,1827.27,7,842
+CUST-00517,customer_00517@email.com,Sarah,Brown,2022-01-22,Gold,West,San Antonio,48,Other,False,Email,3794.63,24,1415
+CUST-00518,customer_00518@email.com,Mike,Brown,2023-06-11,Silver,West,Los Angeles,20,Other,False,SMS,3255.67,46,910
+CUST-00519,customer_00519@email.com,Lisa,Jones,2020-11-13,Bronze,Central,Los Angeles,36,Prefer not to say,False,Email,4540.68,31,1850
+CUST-00520,customer_00520@email.com,Mike,Johnson,2021-09-07,Bronze,East,Houston,51,Prefer not to say,True,Email,2777.42,3,1552
+CUST-00521,customer_00521@email.com,Jane,Jones,2022-11-17,Bronze,West,San Antonio,24,Prefer not to say,True,Push,1311.56,6,1116
+CUST-00522,customer_00522@email.com,John,Smith,2024-04-23,Bronze,West,Chicago,68,F,False,Email,462.29,46,593
+CUST-00523,customer_00523@email.com,Emily,Jones,2021-09-01,Bronze,West,San Diego,57,Other,True,SMS,1094.79,6,1558
+CUST-00524,customer_00524@email.com,David,Miller,2024-03-09,Silver,North,San Antonio,52,M,True,,627.56,11,638
+CUST-00525,customer_00525@email.com,Lisa,Brown,2023-09-05,Silver,West,Austin,64,Prefer not to say,True,Push,3468.78,45,824
+CUST-00526,customer_00526@email.com,Chris,Miller,2023-10-14,Platinum,East,Los Angeles,26,F,True,SMS,603.97,2,785
+CUST-00527,customer_00527@email.com,Sarah,Miller,2023-11-26,Silver,North,Houston,48,F,True,,4218.34,35,742
+CUST-00528,customer_00528@email.com,Jane,Williams,2021-01-25,Bronze,West,Chicago,48,Prefer not to say,True,Email,872.22,10,1777
+CUST-00529,customer_00529@email.com,Lisa,Brown,2024-02-22,Silver,West,New York,73,Prefer not to say,True,SMS,1509.42,26,654
+CUST-00530,customer_00530@email.com,Emily,Smith,2020-04-14,Bronze,North,San Antonio,44,Prefer not to say,True,Email,2463.11,32,2063
+CUST-00531,customer_00531@email.com,Lisa,Johnson,2022-11-17,Bronze,North,Dallas,19,Prefer not to say,True,Email,1375.85,42,1116
+CUST-00532,customer_00532@email.com,Lisa,Smith,2022-05-04,Silver,West,Austin,59,Other,False,,152.99,19,1313
+CUST-00533,customer_00533@email.com,Sarah,Brown,2024-01-27,Bronze,East,San Diego,32,F,True,,699.23,19,680
+CUST-00534,customer_00534@email.com,Chris,Brown,2024-01-20,Silver,East,San Diego,69,F,True,Push,3468.95,6,687
+CUST-00535,customer_00535@email.com,Lisa,Johnson,2023-09-28,Gold,West,Houston,28,Prefer not to say,True,,4718.12,32,801
+CUST-00536,customer_00536@email.com,Sarah,Johnson,2021-09-13,Gold,Central,New York,19,Other,True,Push,3400.79,12,1546
+CUST-00537,customer_00537@email.com,John,Miller,2024-08-22,Bronze,North,Philadelphia,45,M,True,Email,2831.81,32,472
+CUST-00538,customer_00538@email.com,Emily,Miller,2021-06-12,Silver,East,New York,67,Other,True,Email,3546.7,29,1639
+CUST-00539,customer_00539@email.com,Lisa,Miller,2024-06-24,Platinum,North,Los Angeles,68,M,True,Email,876.88,8,531
+CUST-00540,customer_00540@email.com,Emily,Johnson,2021-02-24,Silver,East,San Diego,66,Prefer not to say,True,SMS,3253.11,22,1747
+CUST-00541,customer_00541@email.com,Mike,Smith,2024-08-04,Silver,South,San Diego,44,M,True,,1739.53,33,490
+CUST-00543,customer_00543@email.com,Chris,Brown,2024-06-30,Bronze,West,San Diego,72,Other,True,,770.64,1,525
+CUST-00544,customer_00544@email.com,Jane,Smith,2024-01-09,Bronze,East,Philadelphia,43,F,False,Email,1996.67,3,698
+CUST-00545,customer_00545@email.com,Mike,Jones,2023-09-14,Silver,North,Dallas,36,Prefer not to say,False,Push,3621.68,21,815
+CUST-00546,customer_00546@email.com,John,Miller,2021-12-05,Silver,East,Dallas,57,F,False,,3237.2,35,1463
+CUST-00547,customer_00547@email.com,Lisa,Garcia,2023-07-02,Bronze,East,San Antonio,67,F,True,Email,233.0,22,889
+CUST-00548,customer_00548@email.com,Mike,Jones,2022-03-09,Bronze,Central,Phoenix,31,M,True,Push,3797.38,11,1369
+CUST-00549,invalid-email,John,Miller,2020-02-17,Bronze,Central,Austin,34,F,True,,4935.43,8,2120
+CUST-00550,customer_00550@email.com,John,Miller,2024-02-08,Silver,East,Phoenix,58,Other,True,Email,3794.97,8,668
+CUST-00551,customer_00551@email.com,David,Jones,2022-07-08,Bronze,North,San Diego,39,F,True,Push,1531.05,43,1248
+CUST-00552,customer_00552@email.com,Mike,Garcia,2024-05-26,Bronze,West,Dallas,65,F,True,Push,2606.44,13,560
+CUST-00553,customer_00553@email.com,Emily,Brown,2024-08-12,Bronze,North,Chicago,63,Prefer not to say,False,Email,506.63,28,482
+CUST-00554,customer_00554@email.com,Lisa,Johnson,2020-09-23,Bronze,West,Los Angeles,41,Prefer not to say,False,Push,2942.3,41,1901
+CUST-00555,customer_00555@email.com,Lisa,Garcia,2022-05-17,Bronze,West,San Antonio,70,F,True,SMS,2449.58,30,1300
+CUST-00556,customer_00556@email.com,Jane,Garcia,2020-09-21,Bronze,South,San Diego,48,M,True,Push,4612.4,8,1903
+CUST-00557,customer_00557@email.com,Chris,Smith,2023-05-17,Silver,North,Philadelphia,54,Other,True,SMS,632.82,20,935
+CUST-00558,customer_00558@email.com,David,Williams,2022-02-05,Silver,West,New York,68,F,True,,290.82,20,1401
+CUST-00559,customer_00559@email.com,Sarah,Johnson,2021-08-03,Bronze,West,New York,25,Other,True,Email,2117.0,37,1587
+CUST-00560,customer_00560@email.com,Lisa,Williams,2021-09-26,Bronze,West,San Diego,71,F,True,,3820.31,43,1533
+CUST-00561,customer_00561@email.com,Mike,Miller,2022-07-08,Gold,East,Los Angeles,69,Prefer not to say,False,SMS,4506.21,22,1248
+CUST-00562,customer_00562@email.com,John,Garcia,2023-01-12,Bronze,West,Phoenix,59,M,True,Email,2881.37,50,1060
+CUST-00563,customer_00563@email.com,David,Jones,2023-12-19,Platinum,North,Dallas,23,F,True,SMS,3765.26,33,719
+CUST-00564,customer_00564@email.com,Jane,Garcia,2020-02-08,Bronze,Central,Chicago,19,Other,True,SMS,4156.97,38,2129
+CUST-00565,customer_00565@email.com,Jane,Miller,2022-06-28,Bronze,Central,Austin,38,Prefer not to say,True,,4316.77,2,1258
+CUST-00566,customer_00566@email.com,Chris,Johnson,2021-11-27,Bronze,West,New York,73,Other,False,Push,500.57,7,1471
+CUST-00567,invalid-email,Mike,Williams,2023-01-14,Bronze,South,Chicago,34,M,True,Push,4763.22,44,1058
+CUST-00568,customer_00568@email.com,John,Jones,2020-12-12,Bronze,East,Chicago,19,M,True,,538.78,10,1821
+CUST-00569,customer_00569@email.com,Emily,Williams,2022-04-25,Bronze,West,Los Angeles,21,F,True,SMS,2490.25,49,1322
+CUST-00570,customer_00570@email.com,Chris,Smith,2022-10-30,Gold,East,New York,38,Prefer not to say,False,Email,2446.65,27,1134
+CUST-00571,customer_00571@email.com,Sarah,Smith,2023-07-21,Bronze,East,Dallas,55,M,True,SMS,1557.83,27,870
+CUST-00573,customer_00573@email.com,Lisa,Smith,2022-05-17,Bronze,North,San Diego,71,Other,True,Email,347.87,31,1300
+CUST-00574,customer_00574@email.com,David,Miller,2021-07-13,Gold,West,Philadelphia,71,F,True,Email,849.01,35,1608
+CUST-00575,customer_00575@email.com,Jane,Williams,2023-02-27,Gold,North,San Antonio,62,M,True,Push,4397.48,14,1014
+CUST-00576,customer_00576@email.com,Emily,Garcia,2023-06-04,Bronze,East,Phoenix,66,Prefer not to say,True,SMS,3328.27,21,917
+CUST-00577,customer_00577@email.com,Sarah,Brown,2021-11-30,Silver,Central,Philadelphia,19,F,True,,71.18,1,1468
+CUST-00578,customer_00578@email.com,Mike,Brown,2023-10-09,Bronze,Central,San Diego,66,Prefer not to say,True,Email,2716.31,43,790
+CUST-00579,customer_00579@email.com,Jane,Williams,2022-06-30,Bronze,West,Austin,40,Prefer not to say,True,Email,667.58,24,1256
+CUST-00580,customer_00580@email.com,Lisa,Smith,2021-01-30,Silver,South,New York,66,Other,True,SMS,495.33,40,1772
+CUST-00581,customer_00581@email.com,David,Miller,2023-07-04,Silver,South,Houston,49,Other,True,Push,2489.55,46,887
+CUST-00582,customer_00582@email.com,Sarah,Smith,2023-12-18,Silver,South,San Antonio,25,Other,False,SMS,2781.34,43,720
+CUST-00583,customer_00583@email.com,Mike,Smith,2024-02-22,Bronze,Central,Chicago,65,M,True,Push,4671.14,15,654
+CUST-00584,customer_00584@email.com,David,Johnson,2022-12-07,Bronze,North,Dallas,57,Other,False,Email,4692.56,42,1096
+CUST-00585,invalid-email,John,Miller,2023-10-10,Bronze,East,San Antonio,72,Prefer not to say,True,Email,3416.86,30,789
+CUST-00586,customer_00586@email.com,Emily,Jones,2022-10-11,Bronze,North,Houston,21,Other,False,,1615.4,26,1153
+CUST-00587,customer_00587@email.com,Emily,Smith,2021-02-02,Bronze,Central,New York,65,F,False,Email,4589.13,13,1769
+CUST-00588,customer_00588@email.com,Emily,Williams,2020-12-02,Bronze,North,Los Angeles,19,Prefer not to say,False,Email,2983.03,41,1831
+CUST-00589,customer_00589@email.com,David,Johnson,2021-11-15,Silver,North,San Diego,33,Other,True,Push,2622.39,16,1483
+CUST-00590,customer_00590@email.com,Lisa,Miller,2020-05-29,Bronze,North,San Diego,55,M,True,Email,4587.74,25,2018
+CUST-00591,customer_00591@email.com,Jane,Miller,2021-10-03,Bronze,South,New York,69,Prefer not to say,True,Push,3073.16,28,1526
+CUST-00593,customer_00593@email.com,Sarah,Miller,2022-04-21,Silver,Central,Austin,18,Prefer not to say,False,,3986.07,40,1326
+CUST-00594,customer_00594@email.com,Jane,Williams,2023-06-22,Bronze,North,San Diego,51,Other,True,Email,558.31,39,899
+CUST-00595,customer_00595@email.com,Jane,Jones,2023-12-31,Bronze,South,Austin,26,Other,True,,2432.93,40,707
+CUST-00596,customer_00596@email.com,Mike,Johnson,2022-06-29,Bronze,South,New York,21,F,True,,2589.97,42,1257
+CUST-00597,customer_00597@email.com,Emily,Williams,2024-03-24,Bronze,Central,Dallas,67,F,True,,1577.94,22,623
+CUST-00598,customer_00598@email.com,Emily,Smith,2021-08-19,Silver,Central,Austin,60,F,True,SMS,2560.18,36,1571
+CUST-00599,customer_00599@email.com,Chris,Williams,2020-04-21,Bronze,South,Houston,58,F,True,Push,987.31,31,2056
+CUST-00600,customer_00600@email.com,Lisa,Jones,2023-11-23,Bronze,East,Austin,54,Other,True,,1676.66,7,745
+CUST-00601,invalid-email,John,Brown,2022-07-19,Silver,South,New York,58,F,True,,3138.4,16,1237
+CUST-00602,customer_00602@email.com,Emily,Miller,2022-09-11,Silver,West,Houston,43,F,True,Push,98.97,23,1183
+CUST-00603,customer_00603@email.com,Jane,Johnson,2020-03-02,Bronze,East,San Diego,30,Other,True,Email,1035.66,19,2106
+CUST-00604,customer_00604@email.com,Sarah,Williams,2020-12-22,Bronze,South,Philadelphia,72,F,True,SMS,156.39,17,1811
+CUST-00605,customer_00605@email.com,John,Miller,2020-07-26,Bronze,South,San Antonio,59,M,True,SMS,1560.11,16,1960
+CUST-00606,customer_00606@email.com,Emily,Garcia,2022-01-27,Bronze,South,Dallas,69,Prefer not to say,True,Email,764.94,9,1410
+CUST-00607,customer_00607@email.com,Sarah,Johnson,2024-06-15,Bronze,Central,San Antonio,62,Other,True,,4886.06,16,540
+CUST-00608,customer_00608@email.com,Sarah,Miller,2020-04-04,Gold,Central,Phoenix,68,F,True,SMS,313.63,18,2073
+CUST-00609,customer_00609@email.com,Lisa,Johnson,2020-09-15,Bronze,North,San Diego,68,M,True,,3768.97,42,1909
+CUST-00610,customer_00610@email.com,Emily,Brown,2024-03-18,Silver,Central,San Diego,29,Other,True,,3592.47,32,629
+CUST-00611,customer_00611@email.com,David,Jones,2022-08-28,Gold,West,Austin,59,M,True,SMS,4479.68,29,1197
+CUST-00612,customer_00612@email.com,Chris,Johnson,2021-04-25,Bronze,East,San Antonio,74,Prefer not to say,True,Push,1309.92,6,1687
+CUST-00613,customer_00613@email.com,Jane,Williams,2020-10-02,Gold,West,Dallas,40,F,True,,2585.7,22,1892
+CUST-00614,customer_00614@email.com,Lisa,Brown,2022-05-22,Platinum,West,San Antonio,41,Prefer not to say,True,Push,1942.74,12,1295
+CUST-00615,customer_00615@email.com,Sarah,Williams,2022-06-23,Silver,North,Philadelphia,75,M,True,Email,3940.07,15,1263
+CUST-00616,customer_00616@email.com,Jane,Smith,2020-07-20,Bronze,East,New York,52,F,True,SMS,3391.78,17,1966
+CUST-00617,customer_00617@email.com,David,Johnson,2021-09-11,Gold,Central,Chicago,72,Other,True,Push,1445.13,23,1548
+CUST-00618,customer_00618@email.com,Chris,Brown,2024-05-22,Silver,Central,New York,48,F,False,SMS,1173.29,48,564
+CUST-00619,customer_00619@email.com,Lisa,Johnson,2021-03-05,Silver,Central,Austin,68,Prefer not to say,False,Push,3969.98,21,1738
+CUST-00620,customer_00620@email.com,Chris,Miller,2021-01-19,Gold,West,Houston,46,Prefer not to say,True,Push,737.8,9,1783
+CUST-00621,customer_00621@email.com,John,Brown,2021-09-17,Silver,East,Philadelphia,32,Prefer not to say,False,,3826.07,45,1542
+CUST-00622,customer_00622@email.com,David,Williams,2023-01-06,Silver,Central,New York,54,M,True,SMS,4887.35,22,1066
+CUST-00623,customer_00623@email.com,Chris,Brown,2023-03-09,Bronze,South,San Antonio,22,Prefer not to say,True,,587.76,37,1004
+CUST-00624,customer_00624@email.com,David,Smith,2022-07-13,Silver,South,Los Angeles,61,F,True,,182.85,13,1243
+CUST-00625,customer_00625@email.com,Chris,Williams,2020-05-22,Gold,South,Houston,36,M,False,Email,1874.83,1,2025
+CUST-00626,customer_00626@email.com,Emily,Miller,2020-12-17,Silver,West,San Antonio,28,M,True,,2417.34,5,1816
+CUST-00627,customer_00627@email.com,Sarah,Johnson,2022-03-07,Gold,South,Phoenix,45,Prefer not to say,True,Push,2958.09,33,1371
+CUST-00628,customer_00628@email.com,Lisa,Williams,2024-01-07,Bronze,South,New York,27,Prefer not to say,True,,3044.0,16,700
+CUST-00629,customer_00629@email.com,Emily,Jones,2022-12-12,Bronze,West,San Diego,47,M,True,Push,3249.18,30,1091
+CUST-00630,customer_00630@email.com,David,Brown,2021-12-11,Bronze,Central,Chicago,44,F,True,,2316.25,43,1457
+CUST-00631,customer_00631@email.com,Jane,Brown,2021-01-10,Bronze,North,Houston,74,F,True,Push,3349.95,5,1792
+CUST-00632,customer_00632@email.com,Sarah,Brown,2023-11-30,Bronze,West,Dallas,25,Other,True,Email,2546.75,50,738
+CUST-00633,customer_00633@email.com,Chris,Brown,2021-10-29,Bronze,South,Phoenix,31,M,False,Email,412.32,45,1500
+CUST-00634,customer_00634@email.com,Lisa,Brown,2023-10-15,Silver,East,San Antonio,72,F,False,Email,103.15,8,784
+CUST-00635,customer_00635@email.com,Mike,Williams,2023-12-23,Gold,West,San Diego,47,M,True,SMS,3582.23,29,715
+CUST-00636,customer_00636@email.com,Lisa,Miller,2020-10-14,Bronze,East,Chicago,28,M,True,SMS,1506.02,35,1880
+CUST-00637,customer_00637@email.com,Chris,Johnson,2024-02-27,Bronze,North,New York,61,Other,True,,1822.53,14,649
+CUST-00638,customer_00638@email.com,John,Garcia,2024-01-03,Platinum,Central,Houston,46,M,True,,3467.22,29,704
+CUST-00639,customer_00639@email.com,John,Smith,2020-04-17,Gold,West,Houston,33,Other,True,SMS,502.36,27,2060
+CUST-00640,customer_00640@email.com,John,Williams,2020-02-27,Gold,South,Los Angeles,32,M,True,SMS,267.86,33,2110
+CUST-00641,customer_00641@email.com,Emily,Williams,2020-08-08,Bronze,Central,Houston,57,F,False,,647.98,14,1947
+CUST-00642,customer_00642@email.com,Emily,Williams,2020-08-04,Silver,South,New York,43,Other,True,,1103.2,15,1951
+CUST-00643,customer_00643@email.com,David,Garcia,2020-05-15,Bronze,Central,Philadelphia,20,M,True,,1542.59,39,2032
+CUST-00644,customer_00644@email.com,Jane,Garcia,2022-10-20,Silver,Central,Austin,28,Other,True,Push,4908.01,45,1144
+CUST-00645,customer_00645@email.com,Mike,Williams,2022-03-06,Bronze,South,Philadelphia,72,Prefer not to say,True,Push,137.36,38,1372
+CUST-00646,customer_00646@email.com,Chris,Jones,2022-07-08,Silver,South,Dallas,55,M,True,Email,3100.93,8,1248
+CUST-00647,customer_00647@email.com,Sarah,Garcia,2021-09-24,Bronze,West,Houston,57,M,True,SMS,1903.89,19,1535
+CUST-00648,customer_00648@email.com,Mike,Brown,2021-02-17,Gold,South,New York,33,Prefer not to say,True,SMS,1426.73,42,1754
+CUST-00649,customer_00649@email.com,John,Jones,2024-05-30,Bronze,West,Phoenix,66,M,True,Push,1746.51,14,556
+CUST-00650,customer_00650@email.com,John,Garcia,2023-01-09,Bronze,South,Houston,56,Prefer not to say,True,SMS,2239.69,1,1063
+CUST-00651,customer_00651@email.com,Lisa,Smith,2020-05-12,Gold,South,New York,58,F,True,SMS,504.21,38,2035
+CUST-00652,customer_00652@email.com,Sarah,Johnson,2023-01-29,Silver,Central,Los Angeles,45,Prefer not to say,True,SMS,3622.29,16,1043
+CUST-00653,customer_00653@email.com,Mike,Jones,2022-05-18,Bronze,South,Phoenix,36,Prefer not to say,True,Push,4319.01,31,1299
+CUST-00654,customer_00654@email.com,Emily,Brown,2020-06-12,Bronze,West,Chicago,48,Prefer not to say,False,,3813.61,31,2004
+CUST-00655,customer_00655@email.com,Chris,Brown,2020-02-10,Bronze,North,Phoenix,56,F,True,Push,1933.23,20,2127
+CUST-00657,customer_00657@email.com,Sarah,Smith,2020-11-12,Bronze,North,Dallas,64,Other,False,,4632.17,26,1851
+CUST-00658,customer_00658@email.com,Emily,Brown,2024-02-29,Gold,West,Phoenix,59,M,False,Email,4962.74,8,647
+CUST-00659,customer_00659@email.com,Mike,Johnson,2022-02-27,Silver,West,Phoenix,67,Other,False,Push,3497.45,42,1379
+CUST-00660,customer_00660@email.com,Chris,Garcia,2022-02-28,Gold,South,Houston,48,M,True,Email,3502.48,42,1378
+CUST-00661,customer_00661@email.com,David,Jones,2020-10-29,Bronze,West,Chicago,34,F,True,Email,627.82,6,1865
+CUST-00662,customer_00662@email.com,Chris,Brown,2023-08-12,Bronze,Central,Los Angeles,51,F,False,SMS,4157.26,17,848
+CUST-00663,customer_00663@email.com,David,Jones,2023-11-17,Gold,Central,San Antonio,55,Other,False,Email,590.91,37,751
+CUST-00664,customer_00664@email.com,Emily,Miller,2024-05-09,Bronze,South,Phoenix,65,F,False,Push,81.78,11,577
+CUST-00665,customer_00665@email.com,Lisa,Smith,2024-07-29,Bronze,North,Los Angeles,67,Prefer not to say,False,Push,3678.56,11,496
+CUST-00666,customer_00666@email.com,Emily,Johnson,2020-12-27,Bronze,South,Houston,49,F,True,,2857.11,14,1806
+CUST-00667,customer_00667@email.com,Sarah,Smith,2021-01-15,Bronze,South,Houston,34,Prefer not to say,False,Email,4348.39,11,1787
+CUST-00668,customer_00668@email.com,David,Smith,2020-06-12,Bronze,West,Los Angeles,35,M,True,Email,2948.95,31,2004
+CUST-00669,customer_00669@email.com,Jane,Smith,2022-09-20,Silver,North,Phoenix,66,M,True,Email,1094.79,1,1174
+CUST-00670,customer_00670@email.com,David,Brown,2022-02-08,Bronze,West,Philadelphia,56,Prefer not to say,True,Push,3425.21,22,1398
+CUST-00671,customer_00671@email.com,Sarah,Williams,2021-10-07,Bronze,West,San Antonio,57,M,True,Push,4041.04,1,1522
+CUST-00672,customer_00672@email.com,Chris,Garcia,2022-07-24,Platinum,South,New York,56,M,True,SMS,1873.73,40,1232
+CUST-00673,customer_00673@email.com,Lisa,Jones,2023-11-06,Bronze,West,Houston,18,Other,True,Push,4373.5,48,762
+CUST-00674,customer_00674@email.com,Lisa,Johnson,2021-10-28,Gold,Central,San Diego,43,M,True,,4698.47,31,1501
+CUST-00675,customer_00675@email.com,Jane,Garcia,2023-09-10,Silver,West,Phoenix,56,F,True,Email,682.91,6,819
+CUST-00676,customer_00676@email.com,Lisa,Johnson,2021-09-09,Bronze,West,Los Angeles,48,F,True,SMS,893.64,43,1550
+CUST-00677,customer_00677@email.com,Jane,Smith,2023-12-04,Silver,West,New York,28,Other,False,Push,1140.86,17,734
+CUST-00678,customer_00678@email.com,Lisa,Garcia,2023-09-25,Silver,North,Chicago,52,Prefer not to say,True,Push,4366.11,37,804
+CUST-00679,customer_00679@email.com,Jane,Garcia,2024-04-18,Silver,East,San Antonio,63,Prefer not to say,False,SMS,1156.58,8,598
+CUST-00680,customer_00680@email.com,Jane,Smith,2021-08-18,Bronze,North,Philadelphia,65,F,True,Push,680.72,21,1572
+CUST-00681,customer_00681@email.com,John,Williams,2022-02-17,Bronze,North,Austin,52,F,False,,1632.23,24,1389
+CUST-00682,customer_00682@email.com,Mike,Jones,2024-06-21,Silver,Central,Austin,32,M,False,Email,2714.55,30,534
+CUST-00683,customer_00683@email.com,Mike,Miller,2021-10-09,Silver,East,Houston,49,Prefer not to say,True,Push,772.06,43,1520
+CUST-00684,customer_00684@email.com,John,Jones,2024-06-29,Gold,West,Phoenix,50,M,True,,3173.83,14,526
+CUST-00685,customer_00685@email.com,David,Garcia,2022-10-10,Bronze,West,New York,69,Other,True,SMS,4247.95,15,1154
+CUST-00686,customer_00686@email.com,John,Miller,2023-12-05,Bronze,South,San Diego,64,Prefer not to say,True,SMS,4955.76,36,733
+CUST-00687,customer_00687@email.com,Emily,Brown,2022-03-14,Platinum,West,Philadelphia,66,Prefer not to say,False,Email,2662.83,19,1364
+CUST-00688,customer_00688@email.com,Sarah,Garcia,2021-08-01,Bronze,Central,San Antonio,24,F,True,Email,4256.56,46,1589
+CUST-00689,customer_00689@email.com,Lisa,Garcia,2021-09-14,Bronze,South,Austin,26,Prefer not to say,False,Push,4491.23,14,1545
+CUST-00690,customer_00690@email.com,Sarah,Garcia,2021-03-22,Gold,North,Philadelphia,64,M,True,,4754.47,28,1721
+CUST-00691,customer_00691@email.com,Mike,Smith,2023-10-23,Bronze,North,Philadelphia,48,F,True,Email,4902.37,42,776
+CUST-00692,customer_00692@email.com,Chris,Johnson,2021-11-24,Bronze,West,Houston,20,M,True,,2468.7,45,1474
+CUST-00693,customer_00693@email.com,Mike,Garcia,2023-05-05,Bronze,West,Los Angeles,67,Prefer not to say,False,Push,3180.05,29,947
+CUST-00694,invalid-email,John,Smith,2022-01-22,Bronze,North,Los Angeles,25,Prefer not to say,True,Email,2954.91,37,1415
+CUST-00695,customer_00695@email.com,David,Garcia,2022-09-09,Bronze,North,Austin,29,Prefer not to say,False,,1526.9,9,1185
+CUST-00696,customer_00696@email.com,Emily,Smith,2020-07-22,Bronze,Central,Chicago,43,M,False,,366.46,38,1964
+CUST-00697,customer_00697@email.com,Jane,Miller,2023-01-08,Bronze,South,Los Angeles,29,F,True,,4012.54,8,1064
+CUST-00698,customer_00698@email.com,Mike,Jones,2020-03-21,Bronze,South,Chicago,23,Other,True,Email,4900.65,33,2087
+CUST-00699,customer_00699@email.com,Emily,Jones,2021-09-03,Gold,South,San Antonio,60,M,True,Push,278.52,34,1556
+CUST-00700,customer_00700@email.com,David,Garcia,2024-05-22,Gold,Central,San Diego,26,Prefer not to say,True,Push,3050.55,33,564
+CUST-00701,customer_00701@email.com,Jane,Garcia,2021-03-05,Gold,North,Houston,20,F,True,Push,4287.62,14,1738
+CUST-00702,customer_00702@email.com,Sarah,Jones,2020-10-01,Silver,East,Phoenix,26,Prefer not to say,True,Push,1340.34,42,1893
+CUST-00703,customer_00703@email.com,Chris,Brown,2020-11-30,Silver,North,Phoenix,61,Prefer not to say,True,SMS,399.26,47,1833
+CUST-00704,customer_00704@email.com,Sarah,Garcia,2021-07-05,Bronze,East,Austin,60,F,False,SMS,1615.98,28,1616
+CUST-00705,customer_00705@email.com,John,Jones,2022-02-15,Bronze,South,Los Angeles,35,M,True,,376.5,41,1391
+CUST-00706,invalid-email,Emily,Williams,2020-07-01,Bronze,East,Chicago,73,F,True,Email,534.84,15,1985
+CUST-00707,customer_00707@email.com,Jane,Miller,2022-02-14,Platinum,North,Chicago,51,Other,False,Email,2668.35,45,1392
+CUST-00708,customer_00708@email.com,David,Jones,2023-03-17,Silver,East,Austin,24,M,True,Push,4735.23,25,996
+CUST-00709,customer_00709@email.com,Emily,Miller,2021-01-05,Platinum,West,Dallas,56,Prefer not to say,False,SMS,1332.35,44,1797
+CUST-00710,customer_00710@email.com,Mike,Garcia,2022-11-17,Bronze,South,Chicago,42,Other,True,Push,3552.14,16,1116
+CUST-00711,customer_00711@email.com,Chris,Garcia,2023-10-20,Silver,West,Chicago,46,Other,False,Push,1415.32,28,779
+CUST-00712,invalid-email,Sarah,Williams,2022-12-02,Silver,North,Phoenix,44,Other,True,Email,429.63,16,1101
+CUST-00713,customer_00713@email.com,Mike,Jones,2020-07-10,Bronze,North,Los Angeles,65,Other,False,Email,4812.72,28,1976
+CUST-00714,customer_00714@email.com,Mike,Brown,2023-10-18,Silver,West,Dallas,61,M,False,Email,3100.62,48,781
+CUST-00715,customer_00715@email.com,Chris,Garcia,2020-01-15,Bronze,Central,Philadelphia,33,M,False,SMS,3388.88,49,2153
+CUST-00716,customer_00716@email.com,Sarah,Johnson,2022-12-08,Bronze,North,Philadelphia,71,F,True,Email,2142.48,25,1095
+CUST-00717,customer_00717@email.com,Emily,Smith,2020-12-15,Silver,East,Houston,71,M,True,Push,2441.47,17,1818
+CUST-00718,customer_00718@email.com,John,Garcia,2021-03-12,Bronze,Central,San Antonio,31,Other,True,,4467.84,32,1731
+CUST-00719,customer_00719@email.com,Emily,Smith,2020-04-27,Gold,Central,San Diego,39,Other,True,Email,75.51,47,2050
+CUST-00720,customer_00720@email.com,Chris,Williams,2021-01-16,Bronze,North,Los Angeles,45,Prefer not to say,True,Email,2669.03,10,1786
+CUST-00721,customer_00721@email.com,Jane,Brown,2022-04-21,Bronze,North,Chicago,67,Other,True,,2007.03,20,1326
+CUST-00722,customer_00722@email.com,Chris,Johnson,2022-01-16,Bronze,Central,Phoenix,24,Prefer not to say,False,SMS,742.38,48,1421
+CUST-00723,customer_00723@email.com,John,Williams,2022-06-07,Gold,South,Los Angeles,30,Other,True,SMS,2003.0,48,1279
+CUST-00724,customer_00724@email.com,John,Johnson,2021-11-09,Gold,South,San Diego,60,Other,True,,2470.89,32,1489
+CUST-00725,customer_00725@email.com,Mike,Williams,2024-06-26,Bronze,West,Dallas,64,Prefer not to say,True,Email,4790.51,2,529
+CUST-00726,customer_00726@email.com,Mike,Williams,2020-09-15,Gold,Central,New York,67,F,True,Push,2176.84,39,1909
+CUST-00727,customer_00727@email.com,John,Brown,2024-02-19,Bronze,West,Phoenix,36,Prefer not to say,True,,1276.35,10,657
+CUST-00728,customer_00728@email.com,Mike,Johnson,2024-02-02,Bronze,East,Los Angeles,73,Other,True,,1032.14,46,674
+CUST-00729,customer_00729@email.com,Jane,Garcia,2024-05-22,Gold,Central,Austin,29,F,True,SMS,646.28,26,564
+CUST-00730,customer_00730@email.com,David,Johnson,2020-03-19,Gold,South,San Antonio,19,F,True,Email,1932.75,34,2089
+CUST-00731,customer_00731@email.com,Sarah,Johnson,2021-09-19,Bronze,East,San Antonio,48,M,False,Email,1556.24,18,1540
+CUST-00732,customer_00732@email.com,David,Williams,2022-01-14,Bronze,West,Houston,38,M,True,Email,52.65,43,1423
+CUST-00733,customer_00733@email.com,Emily,Johnson,2024-03-05,Gold,East,San Diego,35,M,False,SMS,1298.7,32,642
+CUST-00734,customer_00734@email.com,Emily,Williams,2022-01-14,Bronze,North,Los Angeles,60,M,True,Push,1834.82,24,1423
+CUST-00735,customer_00735@email.com,Emily,Johnson,2024-03-01,Gold,East,Houston,55,Prefer not to say,True,Email,695.9,48,646
+CUST-00736,customer_00736@email.com,Jane,Smith,2023-05-17,Silver,Central,Houston,30,Prefer not to say,True,Email,4712.0,40,935
+CUST-00737,customer_00737@email.com,David,Garcia,2021-12-03,Silver,West,Houston,52,F,True,SMS,998.95,36,1465
+CUST-00738,customer_00738@email.com,David,Miller,2023-12-28,Silver,Central,Philadelphia,75,Other,False,Email,4558.7,5,710
+CUST-00739,customer_00739@email.com,Chris,Jones,2022-09-15,Silver,Central,New York,28,Other,True,Push,274.95,37,1179
+CUST-00740,invalid-email,Sarah,Garcia,2020-05-04,Bronze,West,San Diego,61,M,True,,3766.1,25,2043
+CUST-00741,customer_00741@email.com,Chris,Brown,2023-02-25,Bronze,Central,Phoenix,31,F,True,SMS,2880.89,38,1016
+CUST-00742,customer_00742@email.com,John,Miller,2023-11-27,Silver,West,San Diego,50,Other,True,SMS,1517.0,18,741
+CUST-00743,customer_00743@email.com,Jane,Johnson,2023-02-04,Bronze,South,New York,52,F,True,Email,3216.1,18,1037
+CUST-00744,customer_00744@email.com,David,Miller,2020-09-29,Silver,North,Houston,70,F,True,Email,3260.8,41,1895
+CUST-00745,customer_00745@email.com,Emily,Williams,2023-05-24,Bronze,North,Dallas,34,F,False,Push,1656.94,4,928
+CUST-00746,customer_00746@email.com,John,Miller,2023-07-05,Bronze,East,Houston,64,Other,True,Push,4859.44,35,886
+CUST-00748,customer_00748@email.com,Chris,Johnson,2023-04-06,Bronze,West,Houston,64,Prefer not to say,True,SMS,4515.73,6,976
+CUST-00749,customer_00749@email.com,Mike,Brown,2022-10-12,Platinum,South,Chicago,30,Prefer not to say,True,Push,154.18,11,1152
+CUST-00750,customer_00750@email.com,Chris,Garcia,2020-12-29,Silver,Central,Houston,22,F,True,,1264.01,42,1804
+CUST-00751,customer_00751@email.com,Jane,Garcia,2022-04-04,Bronze,Central,Chicago,64,M,True,,1950.75,8,1343
+CUST-00752,customer_00752@email.com,John,Miller,2024-08-19,Silver,North,Chicago,33,M,True,SMS,4696.06,39,475
+CUST-00753,customer_00753@email.com,John,Miller,2020-01-28,Silver,North,Dallas,65,Other,True,SMS,739.19,49,2140
+CUST-00754,customer_00754@email.com,Lisa,Miller,2023-02-26,Gold,South,Phoenix,39,Prefer not to say,True,SMS,326.58,45,1015
+CUST-00755,customer_00755@email.com,Jane,Smith,2021-07-01,Silver,North,Los Angeles,52,Other,True,,752.08,15,1620
+CUST-00756,customer_00756@email.com,Sarah,Brown,2020-02-19,Bronze,West,Chicago,40,Other,True,,3449.49,46,2118
+CUST-00757,customer_00757@email.com,Jane,Brown,2024-08-12,Bronze,South,Los Angeles,32,M,True,Push,427.64,22,482
+CUST-00758,customer_00758@email.com,Emily,Smith,2020-08-30,Bronze,North,Austin,27,F,False,Push,3018.08,44,1925
+CUST-00759,customer_00759@email.com,Mike,Garcia,2022-05-20,Bronze,East,Austin,70,Other,True,Email,1391.91,32,1297
+CUST-00760,customer_00760@email.com,Emily,Williams,2023-09-17,Bronze,North,New York,73,F,True,Push,781.51,29,812
+CUST-00761,customer_00761@email.com,Lisa,Miller,2024-01-17,Bronze,North,Los Angeles,54,Prefer not to say,True,SMS,497.71,9,690
+CUST-00762,customer_00762@email.com,Chris,Williams,2021-01-07,Bronze,East,San Diego,45,Prefer not to say,False,Push,734.2,42,1795
+CUST-00763,customer_00763@email.com,Chris,Brown,2021-05-18,Bronze,Central,San Diego,52,Prefer not to say,True,,463.91,46,1664
+CUST-00764,customer_00764@email.com,Sarah,Garcia,2022-05-13,Gold,North,Houston,41,M,True,Email,1843.87,31,1304
+CUST-00765,customer_00765@email.com,Jane,Smith,2020-09-30,Bronze,East,Philadelphia,72,F,True,,763.49,36,1894
+CUST-00766,customer_00766@email.com,Sarah,Johnson,2022-05-12,Bronze,South,New York,65,F,True,SMS,1918.43,2,1305
+CUST-00767,customer_00767@email.com,Chris,Williams,2023-11-26,Bronze,North,Los Angeles,60,M,False,SMS,199.42,24,742
+CUST-00768,customer_00768@email.com,Jane,Johnson,2020-10-16,Bronze,North,New York,54,Prefer not to say,True,SMS,2375.34,9,1878
+CUST-00769,customer_00769@email.com,David,Brown,2024-03-12,Gold,West,Philadelphia,46,M,True,Email,821.64,42,635
+CUST-00770,customer_00770@email.com,Mike,Jones,2020-03-06,Bronze,South,New York,43,Prefer not to say,False,Push,4599.79,33,2102
+CUST-00771,customer_00771@email.com,Sarah,Brown,2021-09-18,Silver,South,Phoenix,23,Prefer not to say,True,SMS,2031.99,4,1541
+CUST-00772,customer_00772@email.com,Chris,Johnson,2021-03-24,Silver,Central,Austin,71,M,False,,1600.29,42,1719
+CUST-00773,customer_00773@email.com,Chris,Johnson,2022-04-09,Silver,North,Philadelphia,59,Prefer not to say,True,Push,586.58,5,1338
+CUST-00774,customer_00774@email.com,Emily,Smith,2022-01-12,Bronze,South,Phoenix,28,M,True,SMS,3005.7,49,1425
+CUST-00775,customer_00775@email.com,Sarah,Jones,2021-09-25,Silver,South,New York,33,Other,True,Email,2840.51,31,1534
+CUST-00776,customer_00776@email.com,John,Williams,2020-04-03,Silver,North,Phoenix,18,Other,True,,2526.07,21,2074
+CUST-00777,customer_00777@email.com,Chris,Garcia,2024-03-19,Platinum,East,Chicago,62,M,True,,4487.73,33,628
+CUST-00778,customer_00778@email.com,Mike,Smith,2020-07-25,Silver,Central,San Antonio,48,M,True,SMS,800.11,30,1961
+CUST-00779,invalid-email,Jane,Garcia,2020-06-10,Bronze,South,Houston,69,F,True,Push,2265.03,9,2006
+CUST-00780,customer_00780@email.com,David,Williams,2021-11-25,Bronze,Central,San Antonio,20,Prefer not to say,True,SMS,4985.2,39,1473
+CUST-00781,customer_00781@email.com,Mike,Jones,2020-06-02,Silver,West,Los Angeles,69,M,True,Push,2758.32,6,2014
+CUST-00782,customer_00782@email.com,Jane,Brown,2022-10-18,Silver,East,Chicago,36,F,True,Push,2903.73,23,1146
+CUST-00783,customer_00783@email.com,Jane,Johnson,2020-07-01,Bronze,West,Phoenix,48,Other,False,SMS,4702.16,37,1985
+CUST-00784,customer_00784@email.com,John,Williams,2022-09-26,Bronze,East,San Antonio,44,F,False,Push,2586.77,40,1168
+CUST-00785,customer_00785@email.com,Emily,Smith,2021-10-04,Platinum,West,Dallas,46,Other,True,Email,3718.16,16,1525
+CUST-00787,customer_00787@email.com,Jane,Williams,2023-10-02,Bronze,West,San Diego,59,Prefer not to say,True,Email,942.35,7,797
+CUST-00788,customer_00788@email.com,Chris,Johnson,2022-03-23,Bronze,West,Philadelphia,22,Other,True,,1102.54,48,1355
+CUST-00789,customer_00789@email.com,Jane,Williams,2022-09-02,Gold,West,New York,52,F,False,SMS,3219.07,21,1192
+CUST-00790,customer_00790@email.com,John,Jones,2023-03-09,Silver,West,New York,69,Other,False,,1106.43,14,1004
+CUST-00791,customer_00791@email.com,Chris,Williams,2020-02-16,Bronze,East,Chicago,23,F,True,Push,2055.09,20,2121
+CUST-00792,customer_00792@email.com,Lisa,Miller,2023-12-29,Bronze,West,Dallas,31,Other,True,Email,507.58,28,709
+CUST-00793,customer_00793@email.com,David,Johnson,2021-12-01,Bronze,South,Philadelphia,44,Prefer not to say,False,SMS,4829.67,28,1467
+CUST-00794,customer_00794@email.com,Chris,Miller,2021-12-27,Bronze,North,Dallas,68,F,True,SMS,1652.48,47,1441
+CUST-00795,customer_00795@email.com,Emily,Smith,2024-03-01,Silver,South,San Diego,27,Prefer not to say,True,Email,3970.48,44,646
+CUST-00796,customer_00796@email.com,David,Jones,2022-04-12,Silver,North,San Diego,71,F,False,Email,230.61,48,1335
+CUST-00797,customer_00797@email.com,Chris,Garcia,2021-01-19,Silver,Central,Chicago,56,Prefer not to say,True,Push,1088.33,13,1783
+CUST-00798,customer_00798@email.com,John,Williams,2023-10-23,Silver,East,New York,37,Other,True,,3262.11,30,776
+CUST-00799,customer_00799@email.com,Chris,Williams,2022-04-27,Silver,East,Dallas,45,Other,True,SMS,2321.18,24,1320
+CUST-00800,customer_00800@email.com,Mike,Jones,2020-12-28,Bronze,West,San Antonio,36,Prefer not to say,True,Email,4977.05,7,1805
+CUST-00801,customer_00801@email.com,John,Jones,2020-07-02,Bronze,West,Los Angeles,49,M,False,Email,3355.17,27,1984
+CUST-00802,customer_00802@email.com,Sarah,Miller,2021-03-09,Bronze,West,Dallas,42,M,True,,4755.23,23,1734
+CUST-00803,customer_00803@email.com,Lisa,Brown,2024-06-13,Gold,West,New York,41,F,True,Push,4404.06,17,542
+CUST-00804,customer_00804@email.com,Chris,Garcia,2021-09-21,Bronze,South,New York,75,Prefer not to say,True,Email,179.92,24,1538
+CUST-00805,customer_00805@email.com,Emily,Williams,2024-07-30,Bronze,South,Austin,45,F,False,SMS,3100.53,26,495
+CUST-00806,customer_00806@email.com,John,Miller,2024-08-23,Bronze,Central,San Antonio,26,Prefer not to say,True,,4525.65,34,471
+CUST-00807,customer_00807@email.com,Chris,Johnson,2020-11-20,Platinum,North,Chicago,50,M,False,Push,4194.82,11,1843
+CUST-00808,customer_00808@email.com,Sarah,Smith,2021-10-22,Silver,North,New York,45,M,True,Email,3109.59,35,1507
+CUST-00809,customer_00809@email.com,Chris,Smith,2020-06-10,Silver,South,San Diego,58,Other,True,SMS,3279.99,15,2006
+CUST-00810,customer_00810@email.com,Sarah,Jones,2021-08-31,Bronze,South,San Antonio,67,Other,True,Push,460.67,10,1559
+CUST-00811,customer_00811@email.com,John,Garcia,2023-07-08,Bronze,Central,Los Angeles,25,Prefer not to say,True,Email,752.09,17,883
+CUST-00812,customer_00812@email.com,Jane,Smith,2021-01-04,Bronze,West,Philadelphia,71,F,False,Email,2480.63,2,1798
+CUST-00813,customer_00813@email.com,Jane,Brown,2022-04-27,Gold,North,Houston,61,Prefer not to say,False,Push,3186.08,29,1320
+CUST-00814,customer_00814@email.com,Mike,Johnson,2024-07-13,Bronze,East,New York,75,F,True,Email,4880.78,23,512
+CUST-00815,customer_00815@email.com,John,Johnson,2022-09-18,Gold,Central,Phoenix,25,F,True,Email,2614.07,49,1176
+CUST-00816,customer_00816@email.com,Sarah,Miller,2020-11-08,Silver,East,Los Angeles,75,F,True,Push,735.9,6,1855
+CUST-00817,customer_00817@email.com,Mike,Williams,2024-01-30,Silver,East,San Diego,30,M,True,Push,2361.87,32,677
+CUST-00818,customer_00818@email.com,Chris,Johnson,2022-06-12,Bronze,East,Chicago,30,Other,False,Email,2939.06,50,1274
+CUST-00819,customer_00819@email.com,David,Johnson,2023-04-18,Gold,South,San Diego,45,Prefer not to say,False,Push,4088.67,40,964
+CUST-00820,customer_00820@email.com,Chris,Brown,2020-08-08,Bronze,South,Austin,40,Other,True,,877.88,3,1947
+CUST-00821,customer_00821@email.com,David,Jones,2022-11-13,Silver,West,Phoenix,56,Other,False,Email,617.52,21,1120
+CUST-00822,customer_00822@email.com,Mike,Williams,2022-05-29,Bronze,South,Los Angeles,31,Other,True,SMS,3908.6,8,1288
+CUST-00823,customer_00823@email.com,Emily,Garcia,2020-01-20,Bronze,North,Philadelphia,31,Prefer not to say,True,SMS,2830.12,25,2148
+CUST-00825,customer_00825@email.com,Emily,Johnson,2021-10-12,Bronze,South,New York,69,Prefer not to say,False,Email,4951.79,27,1517
+CUST-00826,customer_00826@email.com,Jane,Brown,2020-09-01,Silver,South,Austin,38,Prefer not to say,True,Email,1460.93,42,1923
+CUST-00827,customer_00827@email.com,John,Brown,2024-05-23,Silver,East,Chicago,71,Prefer not to say,True,Email,1720.08,2,563
+CUST-00828,customer_00828@email.com,Lisa,Smith,2020-05-22,Gold,West,Phoenix,35,Other,True,,444.85,50,2025
+CUST-00829,customer_00829@email.com,Lisa,Jones,2021-10-03,Bronze,North,San Antonio,37,Prefer not to say,False,Email,4223.22,40,1526
+CUST-00830,customer_00830@email.com,John,Johnson,2020-07-29,Silver,North,New York,26,M,True,,1170.39,6,1957
+CUST-00831,customer_00831@email.com,Emily,Miller,2021-01-26,Platinum,Central,New York,62,M,True,Email,598.48,20,1776
+CUST-00832,customer_00832@email.com,David,Williams,2020-06-02,Silver,Central,San Antonio,35,F,True,,643.51,21,2014
+CUST-00833,customer_00833@email.com,Chris,Garcia,2020-10-30,Gold,West,Los Angeles,51,F,False,,4882.93,21,1864
+CUST-00834,customer_00834@email.com,Lisa,Johnson,2024-05-01,Silver,North,Phoenix,67,Other,True,Push,2814.65,16,585
+CUST-00835,customer_00835@email.com,Sarah,Garcia,2023-09-12,Silver,North,Los Angeles,49,M,True,Email,3368.97,30,817
+CUST-00836,customer_00836@email.com,Chris,Johnson,2024-08-03,Bronze,West,Los Angeles,39,F,True,Push,3557.14,42,491
+CUST-00837,customer_00837@email.com,Jane,Johnson,2020-11-11,Bronze,South,Philadelphia,42,Prefer not to say,True,,980.37,18,1852
+CUST-00838,customer_00838@email.com,Mike,Garcia,2022-05-16,Bronze,East,Austin,59,M,True,,4387.17,48,1301
+CUST-00839,customer_00839@email.com,Sarah,Smith,2020-08-13,Bronze,West,Chicago,35,M,False,,1792.19,8,1942
+CUST-00840,customer_00840@email.com,Jane,Williams,2023-02-01,Bronze,West,Houston,27,Prefer not to say,False,Push,313.13,18,1040
+CUST-00841,customer_00841@email.com,Jane,Smith,2022-01-27,Bronze,West,San Antonio,30,Other,True,,924.39,18,1410
+CUST-00842,customer_00842@email.com,Lisa,Jones,2022-12-20,Bronze,West,Los Angeles,61,M,True,Email,1136.92,4,1083
+CUST-00843,customer_00843@email.com,David,Johnson,2020-03-14,Silver,North,Dallas,24,Other,True,,1989.95,7,2094
+CUST-00844,customer_00844@email.com,David,Brown,2021-03-26,Bronze,South,Chicago,68,F,True,Push,3543.97,19,1717
+CUST-00845,customer_00845@email.com,John,Smith,2024-02-11,Silver,South,Dallas,62,Prefer not to say,True,SMS,892.65,44,665
+CUST-00846,customer_00846@email.com,Mike,Johnson,2020-05-22,Gold,East,San Diego,27,M,False,,1703.57,12,2025
+CUST-00847,customer_00847@email.com,Jane,Johnson,2021-06-24,Silver,North,Austin,40,Prefer not to say,True,,4372.43,31,1627
+CUST-00848,customer_00848@email.com,John,Miller,2020-08-12,Bronze,North,Austin,61,Other,True,SMS,3787.21,50,1943
+CUST-00849,customer_00849@email.com,Jane,Williams,2020-07-11,Bronze,East,San Diego,49,Other,True,,1305.01,30,1975
+CUST-00850,customer_00850@email.com,Emily,Williams,2020-01-28,Bronze,East,Dallas,67,Prefer not to say,True,Push,3444.63,47,2140
+CUST-00851,customer_00851@email.com,John,Johnson,2023-08-03,Bronze,West,Houston,60,F,True,,202.98,37,857
+CUST-00852,customer_00852@email.com,Chris,Williams,2024-02-26,Silver,South,Los Angeles,30,Prefer not to say,True,Push,4391.86,44,650
+CUST-00853,customer_00853@email.com,Lisa,Jones,2023-01-20,Silver,South,Phoenix,61,Other,True,,2966.28,18,1052
+CUST-00854,customer_00854@email.com,Sarah,Smith,2021-09-25,Bronze,Central,Dallas,62,Other,True,,3986.9,37,1534
+CUST-00855,customer_00855@email.com,Emily,Williams,2024-06-11,Bronze,North,New York,49,F,False,SMS,2639.77,19,544
+CUST-00856,customer_00856@email.com,Mike,Williams,2023-07-01,Bronze,West,Phoenix,22,Other,True,,252.72,19,890
+CUST-00857,customer_00857@email.com,Jane,Smith,2024-08-17,Gold,West,Phoenix,18,Prefer not to say,True,Email,297.02,9,477
+CUST-00858,customer_00858@email.com,David,Miller,2021-12-18,Platinum,Central,Dallas,27,M,True,SMS,4979.78,13,1450
+CUST-00859,customer_00859@email.com,Jane,Williams,2022-06-03,Silver,South,New York,48,Other,True,,2141.69,7,1283
+CUST-00860,customer_00860@email.com,David,Jones,2021-06-19,Silver,East,Chicago,54,Prefer not to say,True,SMS,3432.44,13,1632
+CUST-00861,customer_00861@email.com,Mike,Brown,2021-05-27,Bronze,Central,Houston,37,Other,True,Push,2854.99,41,1655
+CUST-00862,customer_00862@email.com,Mike,Brown,2022-08-02,Silver,West,Los Angeles,26,Prefer not to say,True,Push,2368.48,28,1223
+CUST-00863,customer_00863@email.com,Chris,Brown,2022-08-13,Bronze,West,New York,53,M,False,Email,3791.49,40,1212
+CUST-00864,customer_00864@email.com,Sarah,Jones,2021-09-11,Silver,Central,Philadelphia,26,Other,True,,673.38,43,1548
+CUST-00865,customer_00865@email.com,Lisa,Miller,2020-01-13,Bronze,Central,San Diego,71,M,True,Email,1387.37,42,2155
+CUST-00866,customer_00866@email.com,Emily,Jones,2020-08-07,Bronze,North,Phoenix,54,Prefer not to say,True,Email,651.14,38,1948
+CUST-00867,customer_00867@email.com,John,Garcia,2023-10-13,Gold,South,Dallas,27,Prefer not to say,True,SMS,4480.51,41,786
+CUST-00868,customer_00868@email.com,David,Garcia,2020-11-12,Platinum,East,New York,69,Prefer not to say,True,Email,382.35,10,1851
+CUST-00869,customer_00869@email.com,Jane,Jones,2023-05-21,Silver,North,Houston,31,M,False,Email,4172.0,29,931
+CUST-00870,customer_00870@email.com,John,Smith,2022-03-11,Bronze,East,San Antonio,48,F,True,Push,4117.35,44,1367
+CUST-00871,customer_00871@email.com,Jane,Brown,2022-06-18,Silver,South,New York,29,F,True,SMS,2582.0,45,1268
+CUST-00872,customer_00872@email.com,Sarah,Brown,2023-01-24,Silver,West,Phoenix,36,M,False,Push,3355.11,26,1048
+CUST-00873,customer_00873@email.com,Jane,Brown,2022-03-01,Platinum,West,San Antonio,27,M,True,,644.63,25,1377
+CUST-00874,customer_00874@email.com,David,Smith,2020-01-23,Gold,Central,San Diego,20,Other,True,,4418.0,30,2145
+CUST-00875,customer_00875@email.com,John,Johnson,2021-07-21,Bronze,East,Dallas,72,F,True,,2589.57,12,1600
+CUST-00876,customer_00876@email.com,Mike,Williams,2023-09-05,Bronze,Central,Philadelphia,47,F,True,Push,4621.21,5,824
+CUST-00877,customer_00877@email.com,Lisa,Brown,2023-08-14,Gold,West,Austin,60,F,True,SMS,3503.96,38,846
+CUST-00878,customer_00878@email.com,Emily,Jones,2023-04-04,Platinum,Central,San Antonio,22,M,True,SMS,1196.94,43,978
+CUST-00879,customer_00879@email.com,Lisa,Garcia,2020-08-05,Bronze,West,Philadelphia,66,F,True,Email,4503.98,12,1950
+CUST-00880,customer_00880@email.com,Chris,Miller,2024-01-31,Silver,West,Los Angeles,21,Other,True,Email,4241.67,5,676
+CUST-00881,customer_00881@email.com,Emily,Jones,2022-06-23,Bronze,North,Chicago,38,M,False,,709.42,41,1263
+CUST-00882,customer_00882@email.com,Sarah,Johnson,2023-03-21,Bronze,East,San Diego,46,Other,True,SMS,3723.66,28,992
+CUST-00883,customer_00883@email.com,Sarah,Smith,2024-07-24,Gold,Central,New York,58,M,True,Email,4059.54,1,501
+CUST-00884,customer_00884@email.com,Chris,Jones,2022-01-06,Silver,Central,Los Angeles,39,F,False,SMS,4170.39,37,1431
+CUST-00885,customer_00885@email.com,Lisa,Jones,2024-08-21,Bronze,East,Philadelphia,57,F,True,,2166.18,25,473
+CUST-00886,customer_00886@email.com,Jane,Johnson,2020-05-25,Bronze,Central,Phoenix,24,M,False,SMS,304.82,35,2022
+CUST-00887,customer_00887@email.com,John,Johnson,2021-11-08,Platinum,East,Phoenix,42,Other,True,SMS,4842.17,5,1490
+CUST-00888,customer_00888@email.com,Sarah,Miller,2022-12-30,Silver,Central,Austin,50,Other,False,Email,2752.41,8,1073
+CUST-00889,customer_00889@email.com,Lisa,Williams,2023-04-08,Gold,North,New York,39,Prefer not to say,True,SMS,1705.98,49,974
+CUST-00890,customer_00890@email.com,Mike,Johnson,2020-05-01,Bronze,Central,Philadelphia,66,M,True,,410.91,37,2046
+CUST-00891,customer_00891@email.com,John,Williams,2023-06-03,Silver,North,San Antonio,56,M,False,SMS,1389.02,3,918
+CUST-00892,customer_00892@email.com,John,Brown,2020-08-01,Silver,Central,Houston,59,Other,False,,1551.92,15,1954
+CUST-00893,customer_00893@email.com,John,Smith,2020-02-13,Gold,South,Dallas,56,Prefer not to say,True,,308.1,50,2124
+CUST-00894,customer_00894@email.com,Mike,Brown,2022-02-11,Bronze,West,Dallas,26,M,False,Email,4490.88,24,1395
+CUST-00895,customer_00895@email.com,Sarah,Williams,2021-12-21,Silver,West,New York,33,F,True,Email,1174.27,48,1447
+CUST-00896,customer_00896@email.com,John,Miller,2024-03-21,Silver,North,Houston,70,M,True,Email,677.24,12,626
+CUST-00897,customer_00897@email.com,John,Williams,2021-08-01,Gold,East,Austin,59,F,True,SMS,3050.31,31,1589
+CUST-00898,customer_00898@email.com,Jane,Garcia,2023-09-08,Bronze,North,Los Angeles,34,F,False,Push,4493.32,15,821
+CUST-00899,customer_00899@email.com,David,Williams,2022-06-27,Bronze,Central,Phoenix,73,F,True,Push,3503.97,33,1259
+CUST-00900,customer_00900@email.com,John,Williams,2020-08-01,Bronze,West,Austin,49,Other,True,SMS,4564.64,34,1954
+CUST-00901,customer_00901@email.com,David,Garcia,2021-04-17,Bronze,Central,Houston,25,Other,True,Email,4890.65,45,1695
+CUST-00902,customer_00902@email.com,Lisa,Smith,2022-06-20,Silver,North,San Diego,71,M,True,Push,2961.79,20,1266
+CUST-00903,customer_00903@email.com,Jane,Smith,2024-08-21,Gold,East,Austin,42,Prefer not to say,True,,1954.08,3,473
+CUST-00904,customer_00904@email.com,Sarah,Brown,2021-04-04,Bronze,South,San Antonio,52,M,True,Email,2730.67,23,1708
+CUST-00905,customer_00905@email.com,Emily,Miller,2020-02-23,Platinum,East,Austin,31,M,True,,4335.42,47,2114
+CUST-00906,customer_00906@email.com,John,Miller,2024-02-15,Bronze,North,Dallas,42,Other,False,,2884.38,37,661
+CUST-00907,customer_00907@email.com,David,Johnson,2024-04-23,Bronze,West,San Diego,65,F,True,Email,1439.47,44,593
+CUST-00908,customer_00908@email.com,Jane,Johnson,2021-07-15,Bronze,Central,Phoenix,39,Prefer not to say,True,Push,1840.39,43,1606
+CUST-00909,customer_00909@email.com,John,Smith,2021-05-28,Platinum,East,Austin,60,Other,True,SMS,2246.85,2,1654
+CUST-00910,customer_00910@email.com,John,Brown,2022-06-19,Silver,North,Philadelphia,48,F,False,Email,2918.87,6,1267
+CUST-00911,customer_00911@email.com,Emily,Smith,2021-07-20,Bronze,West,Chicago,34,Other,True,,679.75,41,1601
+CUST-00912,customer_00912@email.com,Mike,Miller,2020-12-23,Bronze,Central,New York,32,M,True,SMS,3437.98,29,1810
+CUST-00913,customer_00913@email.com,Emily,Smith,2023-04-02,Platinum,Central,Houston,21,Other,True,Email,3408.02,23,980
+CUST-00914,customer_00914@email.com,John,Jones,2023-01-11,Gold,South,Philadelphia,24,M,False,Email,2579.63,16,1061
+CUST-00915,customer_00915@email.com,Emily,Jones,2021-02-21,Bronze,East,San Antonio,22,Prefer not to say,True,SMS,172.24,39,1750
+CUST-00916,customer_00916@email.com,Emily,Williams,2024-06-02,Bronze,West,Philadelphia,48,Other,True,SMS,1873.09,19,553
+CUST-00917,customer_00917@email.com,John,Smith,2020-11-03,Gold,Central,Houston,69,Other,True,SMS,1925.26,38,1860
+CUST-00918,customer_00918@email.com,Mike,Brown,2020-03-07,Gold,North,Los Angeles,32,Prefer not to say,True,Email,3055.15,43,2101
+CUST-00919,customer_00919@email.com,Lisa,Williams,2022-12-10,Gold,East,Houston,71,Other,True,Push,1253.21,50,1093
+CUST-00920,customer_00920@email.com,Sarah,Brown,2022-01-11,Gold,East,Los Angeles,62,F,False,,1841.31,23,1426
+CUST-00921,customer_00921@email.com,Jane,Williams,2023-02-21,Silver,West,Austin,32,Prefer not to say,False,SMS,2868.24,9,1020
+CUST-00922,customer_00922@email.com,Sarah,Miller,2023-01-06,Gold,West,Austin,60,F,True,Push,1740.78,8,1066
+CUST-00923,customer_00923@email.com,Chris,Brown,2020-06-15,Gold,Central,Chicago,54,Prefer not to say,True,SMS,4388.21,1,2001
+CUST-00924,customer_00924@email.com,Jane,Brown,2020-12-07,Gold,East,Dallas,63,Prefer not to say,True,SMS,4353.82,28,1826
+CUST-00925,customer_00925@email.com,Mike,Smith,2020-02-19,Silver,South,Dallas,73,Prefer not to say,False,Push,680.89,45,2118
+CUST-00926,customer_00926@email.com,Sarah,Garcia,2023-02-14,Silver,East,Los Angeles,39,Other,True,Email,415.08,23,1027
+CUST-00927,customer_00927@email.com,Chris,Garcia,2022-07-08,Silver,West,San Antonio,36,Prefer not to say,True,SMS,3632.35,38,1248
+CUST-00928,customer_00928@email.com,Jane,Johnson,2024-08-06,Gold,North,Austin,55,Other,False,,1636.16,12,488
+CUST-00929,customer_00929@email.com,David,Miller,2022-11-07,Bronze,North,Houston,37,Prefer not to say,True,Email,2842.45,34,1126
+CUST-00930,customer_00930@email.com,Chris,Williams,2023-04-02,Bronze,East,San Antonio,38,F,True,Email,4079.24,48,980
+CUST-00931,customer_00931@email.com,Sarah,Brown,2024-02-06,Silver,Central,Phoenix,54,Other,True,Push,1459.72,8,670
+CUST-00932,customer_00932@email.com,David,Brown,2021-08-12,Silver,West,Houston,74,F,True,Push,4944.59,49,1578
+CUST-00933,customer_00933@email.com,Sarah,Garcia,2020-08-05,Bronze,East,Chicago,24,F,True,Email,3012.04,3,1950
+CUST-00934,customer_00934@email.com,Sarah,Smith,2023-01-10,Silver,West,New York,41,F,True,,3673.84,34,1062
+CUST-00935,customer_00935@email.com,Lisa,Williams,2020-09-15,Bronze,North,Los Angeles,46,Prefer not to say,False,Push,479.98,9,1909
+CUST-00936,customer_00936@email.com,Jane,Williams,2021-07-24,Gold,North,Houston,64,M,True,SMS,2559.95,18,1597
+CUST-00937,customer_00937@email.com,Jane,Garcia,2022-07-17,Bronze,East,New York,45,M,True,SMS,4215.08,43,1239
+CUST-00938,customer_00938@email.com,John,Garcia,2023-07-06,Gold,North,Houston,26,Prefer not to say,True,SMS,1363.17,10,885
+CUST-00939,customer_00939@email.com,Mike,Garcia,2022-09-19,Silver,West,Phoenix,26,F,True,SMS,65.83,5,1175
+CUST-00940,customer_00940@email.com,Sarah,Garcia,2022-10-01,Gold,South,New York,44,Other,False,SMS,3206.69,31,1163
+CUST-00941,customer_00941@email.com,Mike,Williams,2022-12-22,Gold,South,Phoenix,60,Prefer not to say,False,,3009.32,35,1081
+CUST-00942,customer_00942@email.com,David,Smith,2022-09-12,Gold,South,Los Angeles,74,Other,False,,1660.72,43,1182
+CUST-00943,customer_00943@email.com,Jane,Johnson,2022-05-20,Silver,West,Philadelphia,60,M,True,,3538.85,50,1297
+CUST-00944,customer_00944@email.com,Lisa,Jones,2022-09-17,Bronze,West,Houston,19,Other,True,SMS,4454.56,27,1177
+CUST-00945,customer_00945@email.com,Emily,Williams,2020-05-04,Bronze,East,San Antonio,43,Prefer not to say,False,,1340.46,4,2043
+CUST-00946,customer_00946@email.com,Lisa,Garcia,2021-07-03,Bronze,South,Philadelphia,58,M,True,,2078.57,37,1618
+CUST-00947,customer_00947@email.com,Sarah,Miller,2020-12-07,Silver,North,Austin,57,Other,True,Email,4753.88,2,1826
+CUST-00949,customer_00949@email.com,Chris,Miller,2020-11-17,Bronze,South,Phoenix,69,F,True,Push,2096.31,36,1846
+CUST-00950,customer_00950@email.com,Sarah,Smith,2024-02-10,Bronze,North,New York,66,M,False,,259.31,19,666
+CUST-00951,customer_00951@email.com,John,Johnson,2021-09-09,Silver,South,New York,35,M,False,,699.41,48,1550
+CUST-00952,customer_00952@email.com,Jane,Smith,2021-07-06,Bronze,North,Dallas,64,Prefer not to say,True,Email,3726.13,35,1615
+CUST-00953,customer_00953@email.com,Mike,Smith,2023-05-23,Bronze,Central,San Antonio,30,Other,True,,2586.16,2,929
+CUST-00954,customer_00954@email.com,David,Brown,2021-09-10,Silver,South,Los Angeles,34,Prefer not to say,False,Push,2176.2,15,1549
+CUST-00955,customer_00955@email.com,David,Brown,2022-04-12,Silver,East,Dallas,50,F,False,Email,4966.11,47,1335
+CUST-00956,customer_00956@email.com,Emily,Miller,2022-03-17,Silver,Central,Los Angeles,46,F,True,,3867.47,29,1361
+CUST-00957,customer_00957@email.com,Lisa,Jones,2022-01-27,Bronze,North,Phoenix,39,F,True,Email,2826.38,14,1410
+CUST-00958,customer_00958@email.com,Sarah,Smith,2022-09-30,Silver,South,San Antonio,57,Prefer not to say,True,Email,3848.67,17,1164
+CUST-00959,customer_00959@email.com,David,Garcia,2022-04-23,Silver,East,Chicago,20,Other,False,Email,1377.32,14,1324
+CUST-00960,customer_00960@email.com,Lisa,Jones,2024-03-26,Gold,West,Philadelphia,59,F,True,,3558.9,33,621
+CUST-00961,customer_00961@email.com,Jane,Smith,2023-02-10,Silver,West,Los Angeles,42,F,True,SMS,2623.7,8,1031
+CUST-00962,customer_00962@email.com,Sarah,Brown,2020-12-06,Bronze,North,New York,74,Prefer not to say,False,SMS,3149.52,34,1827
+CUST-00963,customer_00963@email.com,Mike,Garcia,2022-09-24,Silver,Central,San Antonio,43,M,True,Email,2205.62,19,1170
+CUST-00964,customer_00964@email.com,David,Jones,2024-01-14,Silver,East,Austin,74,Other,True,SMS,1486.47,44,693
+CUST-00965,customer_00965@email.com,Emily,Jones,2021-02-22,Silver,Central,Phoenix,48,Prefer not to say,True,Push,4639.04,47,1749
+CUST-00966,customer_00966@email.com,Mike,Jones,2020-10-04,Silver,West,New York,38,Prefer not to say,True,SMS,2378.94,1,1890
+CUST-00967,customer_00967@email.com,Sarah,Johnson,2021-09-30,Bronze,North,Dallas,47,Other,True,Email,3143.62,39,1529
+CUST-00968,customer_00968@email.com,Jane,Williams,2020-11-16,Bronze,Central,Houston,40,M,True,Push,1456.73,28,1847
+CUST-00969,customer_00969@email.com,David,Williams,2023-04-11,Silver,West,San Antonio,34,F,True,SMS,559.73,14,971
+CUST-00970,customer_00970@email.com,Mike,Williams,2021-07-27,Gold,Central,Los Angeles,26,Prefer not to say,True,Push,4834.96,48,1594
+CUST-00971,customer_00971@email.com,Lisa,Johnson,2023-06-15,Bronze,South,New York,68,F,True,Email,4651.26,40,906
+CUST-00972,customer_00972@email.com,Mike,Johnson,2020-10-27,Bronze,West,New York,38,M,True,SMS,2582.94,29,1867
+CUST-00973,customer_00973@email.com,Lisa,Williams,2022-05-21,Platinum,East,Dallas,66,M,True,,1917.68,25,1296
+CUST-00974,customer_00974@email.com,Lisa,Williams,2023-12-17,Silver,East,Dallas,38,M,True,SMS,4730.18,18,721
+CUST-00975,customer_00975@email.com,Mike,Miller,2023-12-27,Bronze,West,Dallas,46,Prefer not to say,True,Email,2811.63,28,711
+CUST-00976,customer_00976@email.com,Emily,Johnson,2023-08-28,Bronze,North,Philadelphia,72,Prefer not to say,True,,1108.21,36,832
+CUST-00977,customer_00977@email.com,Chris,Williams,2021-01-26,Bronze,South,New York,30,Prefer not to say,True,SMS,77.79,20,1776
+CUST-00978,customer_00978@email.com,Jane,Williams,2021-11-03,Bronze,East,Dallas,18,Other,True,Push,3226.29,26,1495
+CUST-00979,customer_00979@email.com,David,Williams,2020-03-30,Gold,North,Austin,70,M,False,,2476.99,31,2078
+CUST-00980,customer_00980@email.com,Jane,Smith,2024-03-15,Silver,East,New York,57,F,True,SMS,459.98,8,632
+CUST-00981,customer_00981@email.com,Lisa,Garcia,2020-04-24,Gold,North,Philadelphia,24,Other,True,Email,1696.69,44,2053
+CUST-00982,customer_00982@email.com,Mike,Jones,2021-10-10,Gold,East,Dallas,18,Prefer not to say,False,Email,371.53,49,1519
+CUST-00983,customer_00983@email.com,Mike,Garcia,2022-10-24,Silver,East,Los Angeles,29,Prefer not to say,True,Push,3062.22,45,1140
+CUST-00984,customer_00984@email.com,Chris,Johnson,2022-11-01,Bronze,North,Phoenix,35,Other,True,Push,2357.95,45,1132
+CUST-00985,customer_00985@email.com,Lisa,Smith,2020-06-25,Silver,North,Los Angeles,29,M,True,Push,2976.19,2,1991
+CUST-00986,customer_00986@email.com,Mike,Miller,2024-04-19,Gold,North,Houston,58,Other,False,Email,4392.13,16,597
+CUST-00987,customer_00987@email.com,Sarah,Garcia,2021-09-22,Bronze,South,Phoenix,21,Prefer not to say,True,SMS,1430.87,37,1537
+CUST-00988,customer_00988@email.com,Chris,Johnson,2021-10-08,Gold,South,Phoenix,74,F,True,Push,1333.8,29,1521
+CUST-00989,customer_00989@email.com,Jane,Brown,2021-06-25,Platinum,East,Austin,41,Other,False,SMS,231.82,38,1626
+CUST-00990,customer_00990@email.com,Mike,Jones,2022-02-28,Silver,Central,Houston,62,Prefer not to say,True,Push,1076.86,45,1378
+CUST-00991,customer_00991@email.com,David,Smith,2022-10-28,Silver,Central,Houston,34,F,False,Push,205.67,8,1136
+CUST-00992,customer_00992@email.com,Mike,Brown,2022-11-24,Silver,South,San Diego,55,Other,True,,3308.61,3,1109
+CUST-00993,customer_00993@email.com,Jane,Garcia,2021-10-22,Silver,East,New York,28,Prefer not to say,False,Push,1716.53,7,1507
+CUST-00994,customer_00994@email.com,Emily,Williams,2021-01-18,Bronze,South,San Diego,52,F,True,,4055.65,30,1784
+CUST-00995,customer_00995@email.com,Chris,Garcia,2023-04-30,Bronze,West,San Diego,71,F,True,Push,3024.66,31,952
+CUST-00997,customer_00997@email.com,John,Johnson,2022-03-31,Bronze,Central,Chicago,37,F,True,SMS,3333.86,4,1347
+CUST-00998,customer_00998@email.com,David,Miller,2020-07-04,Bronze,South,Philadelphia,47,Prefer not to say,True,,54.17,10,1982
+CUST-00999,customer_00999@email.com,Mike,Williams,2021-02-14,Platinum,East,Los Angeles,29,F,True,,496.33,16,1757
+CUST-01000,customer_01000@email.com,Emily,Smith,2020-11-11,Silver,West,Chicago,40,M,False,,3508.96,31,1852
+CUST-01001,customer_01001@email.com,Chris,Miller,2023-09-30,Bronze,West,Houston,66,M,False,SMS,1625.87,9,799
+CUST-01002,customer_01002@email.com,Emily,Williams,2022-03-29,Silver,West,Austin,43,M,True,,3365.89,38,1349
+CUST-01003,customer_01003@email.com,Sarah,Jones,2020-02-25,Bronze,South,Houston,41,Other,True,Email,3072.3,49,2112
+CUST-01004,customer_01004@email.com,Jane,Garcia,2022-03-26,Bronze,South,Chicago,49,F,True,SMS,1544.59,6,1352
+CUST-01005,customer_01005@email.com,Chris,Garcia,2021-11-26,Gold,South,San Antonio,27,Other,True,,3392.6,31,1472
+CUST-01006,customer_01006@email.com,David,Brown,2020-03-12,Bronze,South,Chicago,43,M,False,Email,1764.12,47,2096
+CUST-01007,customer_01007@email.com,Chris,Miller,2020-07-26,Bronze,North,Chicago,38,F,False,,107.36,42,1960
+CUST-01008,customer_01008@email.com,Chris,Brown,2023-10-04,Bronze,North,Phoenix,45,Other,True,,2535.2,50,795
+CUST-01009,customer_01009@email.com,Emily,Miller,2022-08-27,Gold,Central,Philadelphia,25,F,False,,4358.06,6,1198
+CUST-01010,customer_01010@email.com,John,Williams,2020-11-03,Gold,Central,Phoenix,30,Prefer not to say,False,Email,2350.58,3,1860
+CUST-01011,customer_01011@email.com,Lisa,Brown,2020-09-05,Gold,East,New York,74,Other,True,,1720.44,19,1919
+CUST-01012,customer_01012@email.com,John,Jones,2024-04-19,Gold,East,Chicago,36,Other,False,Email,2261.51,20,597
+CUST-01013,customer_01013@email.com,John,Jones,2023-07-26,Bronze,North,Philadelphia,64,M,False,SMS,917.41,35,865
+CUST-01014,customer_01014@email.com,Mike,Garcia,2020-07-12,Silver,South,San Diego,45,Other,True,,3460.51,16,1974
+CUST-01015,customer_01015@email.com,Lisa,Smith,2024-08-17,Silver,North,Philadelphia,41,M,True,Email,1940.47,47,477
+CUST-01016,customer_01016@email.com,Emily,Garcia,2020-06-10,Platinum,East,San Antonio,43,M,True,Push,3621.89,48,2006
+CUST-01017,customer_01017@email.com,Chris,Smith,2020-06-11,Silver,South,Austin,34,Other,True,Email,1902.47,31,2005
+CUST-01018,customer_01018@email.com,Chris,Williams,2021-03-16,Silver,South,Phoenix,50,M,False,SMS,3407.13,18,1727
+CUST-01019,customer_01019@email.com,Chris,Johnson,2020-01-11,Silver,North,San Antonio,60,F,True,Push,2339.08,41,2157
+CUST-01020,customer_01020@email.com,Jane,Johnson,2021-10-13,Silver,South,New York,63,Other,True,Email,3076.36,47,1516
+CUST-01021,customer_01021@email.com,Lisa,Jones,2023-12-29,Silver,West,Austin,39,Prefer not to say,False,Email,1747.61,21,709
+CUST-01022,customer_01022@email.com,Lisa,Johnson,2021-12-10,Platinum,West,San Diego,31,F,False,Push,2044.54,43,1458
+CUST-01023,customer_01023@email.com,Jane,Garcia,2023-03-16,Gold,West,Dallas,40,M,True,Push,1554.96,49,997
+CUST-01024,customer_01024@email.com,Lisa,Garcia,2021-10-07,Bronze,West,New York,27,F,True,,2106.2,49,1522
+CUST-01025,customer_01025@email.com,David,Jones,2020-02-17,Bronze,West,Houston,42,F,False,Email,530.05,14,2120
+CUST-01026,customer_01026@email.com,Jane,Jones,2021-03-08,Silver,East,Chicago,73,F,False,,1792.52,14,1735
+CUST-01027,customer_01027@email.com,David,Williams,2022-05-06,Silver,East,Los Angeles,60,Other,False,SMS,4302.33,32,1311
+CUST-01028,customer_01028@email.com,Lisa,Williams,2024-03-29,Bronze,West,Chicago,73,F,False,Push,66.52,22,618
+CUST-01029,customer_01029@email.com,Lisa,Garcia,2024-04-11,Silver,South,Los Angeles,42,Prefer not to say,False,,984.93,2,605
+CUST-01030,customer_01030@email.com,Sarah,Johnson,2023-06-21,Bronze,Central,Austin,50,M,False,Email,1658.85,16,900
+CUST-01031,customer_01031@email.com,Lisa,Garcia,2020-12-06,Bronze,North,Philadelphia,19,Prefer not to say,True,SMS,2315.96,47,1827
+CUST-01032,customer_01032@email.com,Mike,Brown,2021-05-05,Platinum,South,Philadelphia,26,Other,True,Email,1074.69,30,1677
+CUST-01033,customer_01033@email.com,Sarah,Garcia,2022-07-29,Bronze,Central,San Diego,33,F,False,Email,4028.25,22,1227
+CUST-01034,customer_01034@email.com,Sarah,Brown,2020-11-22,Platinum,North,New York,65,M,False,,4317.74,5,1841
+CUST-01035,customer_01035@email.com,Chris,Williams,2024-05-22,Bronze,Central,Los Angeles,63,M,False,,4147.38,4,564
+CUST-01036,customer_01036@email.com,Chris,Miller,2021-08-22,Bronze,North,Philadelphia,43,Prefer not to say,False,Email,562.93,17,1568
+CUST-01037,customer_01037@email.com,Jane,Garcia,2024-04-01,Bronze,South,Philadelphia,44,Other,True,SMS,3987.99,14,615
+CUST-01038,customer_01038@email.com,Jane,Williams,2021-06-25,Silver,North,San Diego,75,Prefer not to say,True,Push,1745.09,45,1626
+CUST-01039,customer_01039@email.com,Emily,Miller,2022-06-29,Bronze,West,Phoenix,54,Other,True,SMS,782.72,19,1257
+CUST-01040,customer_01040@email.com,Sarah,Williams,2020-02-23,Silver,Central,Philadelphia,63,Other,True,SMS,2859.82,20,2114
+CUST-01041,customer_01041@email.com,Lisa,Garcia,2022-08-31,Silver,East,Chicago,65,F,True,Push,4302.78,17,1194
+CUST-01042,customer_01042@email.com,Sarah,Smith,2023-07-28,Silver,South,Austin,37,F,True,Push,1852.6,33,863
+CUST-01043,customer_01043@email.com,Chris,Brown,2024-03-06,Silver,Central,Chicago,40,F,True,Push,1920.99,32,641
+CUST-01044,customer_01044@email.com,Mike,Miller,2023-08-20,Bronze,Central,San Diego,29,Prefer not to say,False,Email,3360.29,5,840
+CUST-01045,customer_01045@email.com,Sarah,Williams,2021-12-02,Bronze,South,Houston,27,Other,True,SMS,1814.68,30,1466
+CUST-01046,customer_01046@email.com,John,Miller,2023-03-12,Bronze,Central,Houston,65,F,True,Email,2022.53,7,1001
+CUST-01047,customer_01047@email.com,Jane,Williams,2021-11-05,Bronze,Central,Dallas,72,M,True,,2855.18,16,1493
+CUST-01048,customer_01048@email.com,David,Miller,2021-05-16,Bronze,South,Houston,32,Prefer not to say,True,Email,4897.92,18,1666
+CUST-01049,customer_01049@email.com,David,Smith,2023-02-04,Bronze,South,Los Angeles,75,F,True,Email,1078.27,16,1037
+CUST-01050,customer_01050@email.com,Lisa,Brown,2023-04-14,Bronze,North,Dallas,74,M,True,Email,1022.31,8,968
+CUST-01051,customer_01051@email.com,Jane,Brown,2022-06-24,Bronze,South,Los Angeles,52,F,False,Push,2868.18,38,1262
+CUST-01052,customer_01052@email.com,Jane,Garcia,2022-05-30,Gold,West,Houston,55,Prefer not to say,True,Push,3785.07,39,1287
+CUST-01053,customer_01053@email.com,Lisa,Garcia,2021-07-08,Silver,South,Philadelphia,50,Prefer not to say,True,Push,1357.79,35,1613
+CUST-01054,customer_01054@email.com,Emily,Williams,2021-05-24,Silver,Central,Dallas,37,Prefer not to say,True,SMS,2463.52,21,1658
+CUST-01055,customer_01055@email.com,Lisa,Brown,2022-11-09,Silver,South,Chicago,22,Prefer not to say,True,Email,4630.21,29,1124
+CUST-01056,customer_01056@email.com,Mike,Johnson,2021-12-02,Silver,North,Houston,31,Other,True,Push,3843.78,31,1466
+CUST-01057,customer_01057@email.com,David,Jones,2020-07-29,Silver,South,Austin,61,F,True,SMS,999.93,26,1957
+CUST-01058,customer_01058@email.com,Mike,Miller,2024-05-28,Gold,South,Austin,60,F,True,,3284.78,27,558
+CUST-01059,customer_01059@email.com,David,Johnson,2024-05-15,Bronze,East,San Diego,72,Other,True,SMS,1565.85,47,571
+CUST-01060,customer_01060@email.com,Emily,Brown,2021-12-25,Bronze,East,San Antonio,54,Prefer not to say,False,Email,3823.0,26,1443
+CUST-01061,customer_01061@email.com,Chris,Williams,2020-04-23,Bronze,South,San Diego,67,Other,True,SMS,1082.61,46,2054
+CUST-01062,customer_01062@email.com,David,Miller,2021-06-08,Bronze,East,New York,38,Prefer not to say,False,Push,2812.44,48,1643
+CUST-01063,customer_01063@email.com,Sarah,Jones,2021-02-12,Bronze,Central,San Diego,72,Other,True,Email,1253.53,21,1759
+CUST-01064,customer_01064@email.com,Lisa,Garcia,2024-01-20,Bronze,Central,San Diego,20,Prefer not to say,False,SMS,1436.71,39,687
+CUST-01065,customer_01065@email.com,Chris,Smith,2023-04-15,Silver,North,New York,58,Other,True,Push,2218.72,19,967
+CUST-01066,customer_01066@email.com,Lisa,Johnson,2020-08-15,Bronze,North,Philadelphia,67,Prefer not to say,True,SMS,2969.55,37,1940
+CUST-01067,customer_01067@email.com,Jane,Brown,2021-02-13,Bronze,South,Philadelphia,54,Other,True,Email,745.31,50,1758
+CUST-01068,customer_01068@email.com,Emily,Miller,2020-05-19,Bronze,East,San Diego,65,F,True,Push,2368.22,30,2028
+CUST-01070,customer_01070@email.com,Lisa,Miller,2022-03-22,Gold,North,Dallas,21,Other,True,,4978.49,33,1356
+CUST-01071,customer_01071@email.com,Emily,Miller,2024-06-22,Silver,Central,San Diego,36,Other,True,Email,2848.27,36,533
+CUST-01072,customer_01072@email.com,Jane,Jones,2024-05-17,Bronze,South,Dallas,72,M,False,SMS,3771.94,50,569
+CUST-01073,customer_01073@email.com,Chris,Miller,2023-11-01,Bronze,East,San Diego,46,F,True,Email,949.29,37,767
+CUST-01074,customer_01074@email.com,Lisa,Jones,2021-11-26,Silver,West,New York,43,Other,True,,143.41,15,1472
+CUST-01075,customer_01075@email.com,Chris,Johnson,2021-10-22,Bronze,East,Houston,55,Other,False,SMS,3861.14,37,1507
+CUST-01076,customer_01076@email.com,Mike,Johnson,2021-12-27,Bronze,South,Houston,37,F,True,Email,2690.44,3,1441
+CUST-01077,customer_01077@email.com,Mike,Jones,2024-05-15,Bronze,East,Los Angeles,38,Other,True,SMS,1048.42,11,571
+CUST-01078,customer_01078@email.com,David,Johnson,2022-05-18,Bronze,South,Philadelphia,19,F,False,Email,4179.08,25,1299
+CUST-01079,customer_01079@email.com,Lisa,Miller,2020-02-22,Bronze,South,San Antonio,21,Prefer not to say,False,,1033.26,50,2115
+CUST-01080,customer_01080@email.com,Jane,Smith,2022-02-18,Bronze,South,Dallas,55,M,True,SMS,645.77,32,1388
+CUST-01081,customer_01081@email.com,Emily,Garcia,2024-02-25,Platinum,East,San Antonio,30,F,True,Push,2416.0,33,651
+CUST-01082,customer_01082@email.com,Lisa,Smith,2020-08-17,Gold,North,San Antonio,69,Prefer not to say,False,Email,1805.67,20,1938
+CUST-01083,customer_01083@email.com,Chris,Miller,2020-05-13,Silver,East,Houston,62,M,False,,128.46,18,2034
+CUST-01084,customer_01084@email.com,Emily,Smith,2024-02-03,Silver,South,Houston,29,M,True,SMS,744.09,31,673
+CUST-01085,customer_01085@email.com,John,Smith,2024-04-10,Silver,Central,Houston,73,Other,True,,4125.09,27,606
+CUST-01086,customer_01086@email.com,Mike,Jones,2020-12-19,Bronze,South,Chicago,41,M,True,Email,2512.9,20,1814
+CUST-01087,customer_01087@email.com,Emily,Miller,2022-04-06,Silver,East,Austin,38,M,True,Push,191.06,31,1341
+CUST-01088,customer_01088@email.com,Mike,Brown,2020-03-11,Bronze,North,Dallas,42,F,True,Email,123.95,15,2097
+CUST-01089,customer_01089@email.com,Chris,Smith,2020-07-07,Silver,North,San Diego,47,Prefer not to say,False,SMS,4291.73,41,1979
+CUST-01090,customer_01090@email.com,David,Brown,2020-01-02,Bronze,West,Phoenix,26,Other,True,Email,2415.06,48,2166
+CUST-01091,customer_01091@email.com,Sarah,Johnson,2023-03-15,Bronze,South,Dallas,26,F,True,Email,3728.77,46,998
+CUST-01092,customer_01092@email.com,David,Jones,2022-04-07,Silver,North,Houston,32,Other,True,Push,1676.7,30,1340
+CUST-01093,customer_01093@email.com,David,Miller,2023-09-30,Gold,South,Philadelphia,45,Other,True,Email,3752.28,25,799
+CUST-01094,customer_01094@email.com,John,Miller,2023-07-18,Gold,South,Chicago,18,F,True,SMS,851.33,21,873
+CUST-01095,customer_01095@email.com,Lisa,Brown,2020-01-24,Gold,East,Houston,58,Prefer not to say,False,SMS,2293.31,17,2144
+CUST-01096,customer_01096@email.com,Lisa,Smith,2023-01-22,Gold,East,Dallas,39,Other,True,Push,1737.87,32,1050
+CUST-01097,customer_01097@email.com,Lisa,Garcia,2024-04-30,Bronze,North,Philadelphia,66,Other,True,Push,2161.25,2,586
+CUST-01098,customer_01098@email.com,Mike,Smith,2023-01-17,Silver,South,San Diego,71,M,True,Push,675.18,23,1055
+CUST-01099,customer_01099@email.com,Lisa,Brown,2021-09-20,Silver,Central,Los Angeles,73,F,False,SMS,751.46,44,1539
+CUST-01100,customer_01100@email.com,John,Johnson,2021-03-30,Bronze,East,Dallas,56,F,True,Push,2720.31,45,1713
+CUST-01101,customer_01101@email.com,Mike,Williams,2022-12-23,Platinum,South,Los Angeles,61,F,True,SMS,2727.07,40,1080
+CUST-01102,customer_01102@email.com,Sarah,Williams,2022-05-18,Bronze,North,San Antonio,36,Prefer not to say,False,,2366.62,9,1299
+CUST-01103,customer_01103@email.com,David,Smith,2024-01-17,Silver,North,Phoenix,63,Other,True,Email,343.15,27,690
+CUST-01104,customer_01104@email.com,Mike,Brown,2020-10-14,Gold,South,Houston,43,F,False,,2977.51,16,1880
+CUST-01105,customer_01105@email.com,Jane,Johnson,2021-12-18,Bronze,East,Chicago,75,Prefer not to say,True,SMS,1068.86,10,1450
+CUST-01106,customer_01106@email.com,David,Miller,2023-10-08,Silver,East,New York,58,M,True,Email,3869.71,39,791
+CUST-01107,customer_01107@email.com,Sarah,Garcia,2022-08-22,Silver,West,Phoenix,70,M,False,SMS,398.49,49,1203
+CUST-01108,customer_01108@email.com,Emily,Williams,2024-01-14,Silver,North,San Antonio,71,Other,True,,2158.26,11,693
+CUST-01109,customer_01109@email.com,Lisa,Miller,2023-12-24,Bronze,East,Houston,51,M,True,Push,1244.4,43,714
+CUST-01110,customer_01110@email.com,Chris,Brown,2022-10-09,Gold,North,Los Angeles,73,Other,True,Push,3219.31,22,1155
+CUST-01111,customer_01111@email.com,David,Williams,2022-05-09,Silver,North,New York,24,Prefer not to say,True,,1145.87,28,1308
+CUST-01112,customer_01112@email.com,David,Smith,2023-09-25,Bronze,West,Dallas,56,Prefer not to say,False,Email,3028.23,38,804
+CUST-01113,customer_01113@email.com,Jane,Jones,2024-06-13,Gold,North,Los Angeles,66,F,True,,4085.65,46,542
+CUST-01114,customer_01114@email.com,John,Williams,2024-03-04,Silver,West,San Diego,54,M,False,,3361.89,2,643
+CUST-01115,customer_01115@email.com,Mike,Smith,2021-03-18,Bronze,East,Los Angeles,36,Prefer not to say,True,,4254.68,17,1725
+CUST-01116,customer_01116@email.com,Emily,Williams,2022-01-04,Bronze,South,Phoenix,46,M,True,,3510.57,41,1433
+CUST-01117,customer_01117@email.com,Mike,Johnson,2021-06-22,Bronze,Central,Dallas,59,Other,False,Push,3915.79,12,1629
+CUST-01118,customer_01118@email.com,Jane,Williams,2022-10-20,Bronze,East,Austin,52,F,True,Push,551.43,47,1144
+CUST-01119,customer_01119@email.com,Chris,Williams,2020-07-04,Bronze,Central,San Diego,58,F,False,SMS,1360.17,46,1982
+CUST-01120,customer_01120@email.com,Emily,Williams,2022-09-21,Bronze,West,Philadelphia,66,F,True,Push,128.84,13,1173
+CUST-01121,customer_01121@email.com,David,Jones,2023-04-06,Bronze,Central,Phoenix,66,F,False,Email,1033.17,6,976
+CUST-01122,customer_01122@email.com,Chris,Miller,2023-12-28,Platinum,East,Chicago,63,Other,True,,708.51,25,710
+CUST-01123,customer_01123@email.com,David,Jones,2020-07-31,Gold,Central,Los Angeles,38,F,False,Email,1267.22,10,1955
+CUST-01124,customer_01124@email.com,David,Smith,2023-09-29,Silver,West,Houston,71,F,True,SMS,2229.76,14,800
+CUST-01125,customer_01125@email.com,John,Williams,2020-10-24,Silver,South,New York,72,Prefer not to say,False,,2803.8,37,1870
+CUST-01126,customer_01126@email.com,Chris,Johnson,2021-01-28,Gold,Central,Austin,43,Prefer not to say,True,Push,4026.96,17,1774
+CUST-01127,customer_01127@email.com,Emily,Williams,2022-06-02,Bronze,South,Philadelphia,52,Other,True,SMS,1642.23,45,1284
+CUST-01128,customer_01128@email.com,Mike,Smith,2021-05-20,Bronze,Central,San Diego,52,Other,True,SMS,3614.53,46,1662
+CUST-01129,customer_01129@email.com,Sarah,Brown,2023-12-08,Silver,East,Austin,71,M,False,,2510.81,28,730
+CUST-01130,customer_01130@email.com,Mike,Smith,2020-05-12,Gold,Central,San Diego,53,M,True,,4344.51,10,2035
+CUST-01131,customer_01131@email.com,Emily,Smith,2020-05-10,Silver,East,Austin,34,M,False,,3535.88,9,2037
+CUST-01132,customer_01132@email.com,Sarah,Garcia,2022-03-22,Gold,West,Phoenix,52,Other,True,SMS,2870.79,33,1356
+CUST-01133,customer_01133@email.com,Mike,Miller,2022-04-13,Bronze,Central,Austin,38,M,True,Push,2957.87,50,1334
+CUST-01134,customer_01134@email.com,Jane,Jones,2020-05-25,Bronze,West,Chicago,64,F,True,SMS,4186.91,2,2022
+CUST-01135,customer_01135@email.com,Lisa,Garcia,2023-08-22,Silver,North,Philadelphia,23,M,False,,4034.32,25,838
+CUST-01136,customer_01136@email.com,Lisa,Johnson,2023-11-27,Bronze,East,Chicago,24,Other,True,SMS,3550.95,17,741
+CUST-01138,customer_01138@email.com,David,Smith,2020-07-11,Silver,Central,New York,53,M,True,Email,884.14,34,1975
+CUST-01139,customer_01139@email.com,John,Williams,2020-01-26,Bronze,West,Phoenix,19,Other,True,SMS,982.99,40,2142
+CUST-01140,customer_01140@email.com,Mike,Jones,2022-10-17,Bronze,South,Philadelphia,24,F,True,SMS,4462.61,46,1147
+CUST-01141,customer_01141@email.com,Mike,Jones,2024-04-30,Bronze,South,San Diego,19,M,True,Push,4678.41,7,586
+CUST-01142,customer_01142@email.com,Mike,Jones,2021-12-15,Gold,Central,Chicago,75,M,False,SMS,3037.34,40,1453
+CUST-01143,customer_01143@email.com,Lisa,Garcia,2021-11-21,Bronze,Central,San Antonio,68,Prefer not to say,True,Email,1724.8,24,1477
+CUST-01144,customer_01144@email.com,Sarah,Miller,2020-10-16,Bronze,West,Houston,68,Prefer not to say,True,Push,340.19,31,1878
+CUST-01145,customer_01145@email.com,Jane,Miller,2024-07-18,Silver,Central,Los Angeles,60,Other,False,SMS,1448.68,9,507
+CUST-01146,customer_01146@email.com,Sarah,Williams,2022-07-06,Bronze,West,San Antonio,45,Prefer not to say,True,,167.98,7,1250
+CUST-01147,customer_01147@email.com,Lisa,Jones,2021-10-20,Silver,West,Phoenix,49,Other,True,Email,980.99,6,1509
+CUST-01148,invalid-email,Mike,Garcia,2021-09-20,Silver,East,New York,52,M,True,Push,1955.26,23,1539
+CUST-01149,customer_01149@email.com,John,Miller,2023-01-06,Bronze,West,Dallas,51,F,True,Email,4557.78,7,1066
+CUST-01150,customer_01150@email.com,Mike,Johnson,2022-07-25,Bronze,East,Los Angeles,63,F,False,SMS,2877.17,40,1231
+CUST-01151,customer_01151@email.com,John,Brown,2020-02-01,Bronze,South,Los Angeles,36,M,True,Push,4922.79,25,2136
+CUST-01152,customer_01152@email.com,Sarah,Williams,2024-08-19,Bronze,West,New York,27,F,True,Push,4415.63,28,475
+CUST-01153,customer_01153@email.com,David,Johnson,2023-10-25,Bronze,East,San Antonio,62,M,False,,1916.8,13,774
+CUST-01154,customer_01154@email.com,Lisa,Williams,2024-07-30,Bronze,Central,New York,58,Prefer not to say,True,,688.0,45,495
+CUST-01155,customer_01155@email.com,Jane,Garcia,2021-04-01,Silver,North,Los Angeles,28,Prefer not to say,True,SMS,2707.85,11,1711
+CUST-01156,customer_01156@email.com,David,Garcia,2024-02-24,Bronze,West,Phoenix,52,Other,True,Push,587.04,8,652
+CUST-01157,customer_01157@email.com,Sarah,Smith,2022-03-19,Bronze,Central,San Diego,30,F,True,,2420.16,8,1359
+CUST-01158,customer_01158@email.com,John,Miller,2021-04-13,Platinum,West,Chicago,23,M,True,,3095.84,29,1699
+CUST-01159,customer_01159@email.com,Mike,Brown,2024-02-21,Bronze,Central,New York,60,F,True,Push,266.6,1,655
+CUST-01160,customer_01160@email.com,Emily,Miller,2020-11-08,Silver,East,Chicago,40,Prefer not to say,True,Email,1986.99,10,1855
+CUST-01161,customer_01161@email.com,Jane,Johnson,2021-08-20,Gold,South,Houston,39,Prefer not to say,True,,393.45,16,1570
+CUST-01162,customer_01162@email.com,David,Jones,2023-05-17,Bronze,South,Chicago,53,Other,True,Email,3439.58,27,935
+CUST-01163,customer_01163@email.com,John,Jones,2022-11-26,Platinum,South,Philadelphia,41,M,True,Email,3437.37,1,1107
+CUST-01164,customer_01164@email.com,John,Jones,2022-02-19,Silver,North,San Antonio,67,M,True,Email,2840.01,5,1387
+CUST-01165,customer_01165@email.com,Lisa,Jones,2020-02-10,Silver,West,Phoenix,61,Prefer not to say,False,SMS,3430.26,40,2127
+CUST-01166,customer_01166@email.com,Emily,Garcia,2021-05-27,Silver,West,San Diego,75,F,False,Push,1158.01,19,1655
+CUST-01167,customer_01167@email.com,Mike,Brown,2023-07-28,Silver,East,Chicago,41,M,False,Push,762.72,30,863
+CUST-01168,customer_01168@email.com,Sarah,Brown,2022-04-20,Silver,South,Philadelphia,31,Prefer not to say,False,,2329.88,29,1327
+CUST-01169,customer_01169@email.com,Chris,Brown,2022-06-28,Bronze,East,Philadelphia,38,Prefer not to say,True,SMS,1267.74,46,1258
+CUST-01170,customer_01170@email.com,Sarah,Miller,2021-01-26,Bronze,Central,Philadelphia,75,Prefer not to say,False,Push,3237.8,14,1776
+CUST-01171,customer_01171@email.com,Mike,Brown,2022-03-15,Platinum,North,Dallas,59,Prefer not to say,True,,301.88,14,1363
+CUST-01172,invalid-email,Mike,Garcia,2021-11-22,Bronze,West,Dallas,45,F,False,Email,3485.15,25,1476
+CUST-01173,customer_01173@email.com,Mike,Williams,2023-03-08,Bronze,Central,Chicago,59,Prefer not to say,True,SMS,2085.88,30,1005
+CUST-01174,customer_01174@email.com,Mike,Miller,2021-05-18,Silver,West,Philadelphia,57,M,True,Email,474.46,1,1664
+CUST-01175,customer_01175@email.com,Emily,Miller,2020-04-18,Bronze,North,Philadelphia,75,Other,True,SMS,4791.89,20,2059
+CUST-01176,customer_01176@email.com,Emily,Jones,2020-05-15,Silver,East,Austin,75,Prefer not to say,False,Push,3532.84,19,2032
+CUST-01177,customer_01177@email.com,Jane,Miller,2021-09-13,Silver,Central,Chicago,75,F,True,,636.28,40,1546
+CUST-01179,customer_01179@email.com,Jane,Miller,2022-06-30,Silver,North,Chicago,74,Prefer not to say,False,,2410.56,50,1256
+CUST-01180,customer_01180@email.com,Emily,Brown,2020-02-10,Silver,Central,Austin,29,Prefer not to say,True,,4735.69,37,2127
+CUST-01181,customer_01181@email.com,Emily,Smith,2021-12-05,Silver,East,Los Angeles,29,F,True,,4587.98,8,1463
+CUST-01182,customer_01182@email.com,Sarah,Garcia,2024-06-07,Bronze,East,Phoenix,63,M,True,,128.98,38,548
+CUST-01183,customer_01183@email.com,Mike,Williams,2022-05-05,Silver,East,Houston,50,Other,True,,1626.91,11,1312
+CUST-01184,customer_01184@email.com,Sarah,Garcia,2020-04-16,Gold,East,Phoenix,46,Prefer not to say,True,Email,1400.54,49,2061
+CUST-01185,customer_01185@email.com,Lisa,Garcia,2023-09-06,Silver,North,Philadelphia,53,M,True,Email,3686.47,2,823
+CUST-01186,customer_01186@email.com,Chris,Johnson,2021-09-11,Bronze,West,San Antonio,42,M,True,,1711.39,33,1548
+CUST-01187,customer_01187@email.com,Chris,Brown,2024-05-24,Silver,East,Chicago,40,Other,True,,1444.12,6,562
+CUST-01188,customer_01188@email.com,Jane,Miller,2022-07-10,Silver,East,Dallas,75,M,True,SMS,4040.82,7,1246
+CUST-01189,customer_01189@email.com,Jane,Johnson,2021-05-12,Bronze,East,Los Angeles,27,F,True,Email,97.74,1,1670
+CUST-01190,customer_01190@email.com,Emily,Miller,2024-02-17,Silver,Central,Los Angeles,27,Prefer not to say,True,Email,3082.2,4,659
+CUST-01191,customer_01191@email.com,Mike,Johnson,2023-12-13,Bronze,North,Chicago,23,M,True,,3968.38,15,725
+CUST-01192,customer_01192@email.com,John,Garcia,2021-03-06,Silver,North,San Antonio,38,F,False,SMS,3555.78,32,1737
+CUST-01193,customer_01193@email.com,Mike,Brown,2023-05-24,Platinum,East,Austin,73,M,False,SMS,2562.54,6,928
+CUST-01194,customer_01194@email.com,Sarah,Williams,2020-12-26,Platinum,South,Dallas,54,F,True,Email,981.58,21,1807
+CUST-01195,customer_01195@email.com,Sarah,Johnson,2024-03-28,Silver,West,Austin,36,Prefer not to say,True,SMS,2161.29,23,619
+CUST-01196,customer_01196@email.com,Sarah,Jones,2024-02-15,Bronze,North,Phoenix,36,F,True,Email,360.78,23,661
+CUST-01197,customer_01197@email.com,John,Jones,2024-02-10,Bronze,West,Los Angeles,61,Prefer not to say,True,Email,1626.07,50,666
+CUST-01198,customer_01198@email.com,Jane,Jones,2022-01-10,Bronze,East,Philadelphia,46,Other,False,Push,2523.49,49,1427
+CUST-01199,customer_01199@email.com,Emily,Jones,2022-09-28,Bronze,South,Houston,55,F,True,Push,2078.18,30,1166
+CUST-01200,customer_01200@email.com,Chris,Brown,2021-10-26,Silver,West,San Diego,27,F,False,,4750.69,9,1503

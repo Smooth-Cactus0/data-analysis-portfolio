@@ -137,8 +137,12 @@ with open('models/scaler.pkl', 'rb') as f:
 
 ## 👤 Author
 
-[Your Name]  
-Data Analyst | [Your LinkedIn] | [Your GitHub]
+**Alexy Louis**  
+Data Analyst
+
+📧 alexy.louis.scholar@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/alexy-louis-19a5a9262/)  
+💻 [GitHub](https://github.com/Smooth-Cactus0)
 
 ---
 

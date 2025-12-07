@@ -1,0 +1,384 @@
+{
+  "suppliers": [
+    {
+      "supplier_id": "SUP-001",
+      "company_name": "Supplier Company 1",
+      "contact_name": "Contact Person 1",
+      "contact_email": "contact1@supplier1.com",
+      "phone": "+1-555-395-9957",
+      "address": {
+        "street": "364 Business Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "14952",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.6,
+      "lead_time_days": 10,
+      "minimum_order_value": 778,
+      "active": false
+    },
+    {
+      "supplier_id": "SUP-002",
+      "company_name": "Supplier Company 2",
+      "contact_name": "Contact Person 2",
+      "contact_email": "contact2@supplier2.com",
+      "phone": "+1-555-836-5108",
+      "address": {
+        "street": "8412 Business Ave",
+        "city": "Los Angeles",
+        "state": "IL",
+        "zip_code": "49077",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.7,
+      "lead_time_days": 19,
+      "minimum_order_value": 666,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-003",
+      "company_name": "Supplier Company 3",
+      "contact_name": "Contact Person 3",
+      "contact_email": "contact3@supplier3.com",
+      "phone": "+1-555-762-2376",
+      "address": {
+        "street": "4745 Business Ave",
+        "city": "Los Angeles",
+        "state": "FL",
+        "zip_code": "92059",
+        "country": "USA"
+      },
+      "payment_terms": "COD",
+      "rating": 4.9,
+      "lead_time_days": 4,
+      "minimum_order_value": 811,
+      "active": false
+    },
+    {
+      "supplier_id": "SUP-004",
+      "company_name": "Supplier Company 4",
+      "contact_name": "Contact Person 4",
+      "contact_email": "contact4@supplier4.com",
+      "phone": "+1-555-193-6848",
+      "address": {
+        "street": "3033 Business Ave",
+        "city": "Chicago",
+        "state": "WA",
+        "zip_code": "62645",
+        "country": "USA"
+      },
+      "payment_terms": "COD",
+      "rating": 3.8,
+      "lead_time_days": 9,
+      "minimum_order_value": 652,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-005",
+      "company_name": "Supplier Company 5",
+      "contact_name": "Contact Person 5",
+      "contact_email": "contact5@supplier5.com",
+      "phone": "+1-555-126-8405",
+      "address": {
+        "street": "4603 Business Ave",
+        "city": "Miami",
+        "state": "NY",
+        "zip_code": "90481",
+        "country": "USA"
+      },
+      "payment_terms": "Net 30",
+      "rating": 4.4,
+      "lead_time_days": 17,
+      "minimum_order_value": 606,
+      "active": false
+    },
+    {
+      "supplier_id": "SUP-006",
+      "company_name": "Supplier Company 6",
+      "contact_name": "Contact Person 6",
+      "contact_email": "contact6@supplier6.com",
+      "phone": "+1-555-493-9879",
+      "address": {
+        "street": "2556 Business Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "67208",
+        "country": "USA"
+      },
+      "payment_terms": "COD",
+      "rating": 4.4,
+      "lead_time_days": 7,
+      "minimum_order_value": 957,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-007",
+      "company_name": "Supplier Company 7",
+      "contact_name": "Contact Person 7",
+      "contact_email": "contact7@supplier7.com",
+      "phone": "+1-555-427-9456",
+      "address": {
+        "street": "9550 Business Ave",
+        "city": "Chicago",
+        "state": "FL",
+        "zip_code": "15004",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.4,
+      "lead_time_days": 3,
+      "minimum_order_value": 508,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-008",
+      "company_name": "Supplier Company 8",
+      "contact_name": "Contact Person 8",
+      "contact_email": "contact8@supplier8.com",
+      "phone": "+1-555-798-4890",
+      "address": {
+        "street": "6140 Business Ave",
+        "city": "New York",
+        "state": "CA",
+        "zip_code": "13918",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.5,
+      "lead_time_days": 15,
+      "minimum_order_value": 490,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-009",
+      "company_name": "Supplier Company 9",
+      "contact_name": "Contact Person 9",
+      "contact_email": "contact9@supplier9.com",
+      "phone": "+1-555-802-8481",
+      "address": {
+        "street": "9425 Business Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "98212",
+        "country": "USA"
+      },
+      "payment_terms": "Net 30",
+      "rating": 3.3,
+      "lead_time_days": 20,
+      "minimum_order_value": 280,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-010",
+      "company_name": "Supplier Company 10",
+      "contact_name": "Contact Person 10",
+      "contact_email": "contact10@supplier10.com",
+      "phone": "+1-555-972-7136",
+      "address": {
+        "street": "4496 Business Ave",
+        "city": "Los Angeles",
+        "state": "IL",
+        "zip_code": "78627",
+        "country": "USA"
+      },
+      "payment_terms": "COD",
+      "rating": 3.9,
+      "lead_time_days": 15,
+      "minimum_order_value": 300,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-011",
+      "company_name": "Supplier Company 11",
+      "contact_name": "Contact Person 11",
+      "contact_email": "contact11@supplier11.com",
+      "phone": "+1-555-461-5819",
+      "address": {
+        "street": "3142 Business Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "99591",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.6,
+      "lead_time_days": 10,
+      "minimum_order_value": 987,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-012",
+      "company_name": "Supplier Company 12",
+      "contact_name": "Contact Person 12",
+      "contact_email": "contact12@supplier12.com",
+      "phone": "+1-555-659-2689",
+      "address": {
+        "street": "5673 Business Ave",
+        "city": "Miami",
+        "state": "IL",
+        "zip_code": "44174",
+        "country": "USA"
+      },
+      "payment_terms": "Net 30",
+      "rating": 4.4,
+      "lead_time_days": 13,
+      "minimum_order_value": 291,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-013",
+      "company_name": "Supplier Company 13",
+      "contact_name": "Contact Person 13",
+      "contact_email": "contact13@supplier13.com",
+      "phone": "+1-555-839-8918",
+      "address": {
+        "street": "3014 Business Ave",
+        "city": "Los Angeles",
+        "state": "FL",
+        "zip_code": "31978",
+        "country": "USA"
+      },
+      "payment_terms": "Net 45",
+      "rating": 3.8,
+      "lead_time_days": 21,
+      "minimum_order_value": 326,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-014",
+      "company_name": "Supplier Company 14",
+      "contact_name": "Contact Person 14",
+      "contact_email": "contact14@supplier14.com",
+      "phone": "+1-555-451-9679",
+      "address": {
+        "street": "6162 Business Ave",
+        "city": "New York",
+        "state": "IL",
+        "zip_code": "76123",
+        "country": "USA"
+      },
+      "payment_terms": "Net 30",
+      "rating": 4.1,
+      "lead_time_days": 15,
+      "minimum_order_value": 478,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-015",
+      "company_name": "Supplier Company 15",
+      "contact_name": "Contact Person 15",
+      "contact_email": "contact15@supplier15.com",
+      "phone": "+1-555-126-9022",
+      "address": {
+        "street": "8602 Business Ave",
+        "city": "Los Angeles",
+        "state": "FL",
+        "zip_code": "83227",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 3.0,
+      "lead_time_days": 13,
+      "minimum_order_value": 874,
+      "active": false
+    },
+    {
+      "supplier_id": "SUP-016",
+      "company_name": "Supplier Company 16",
+      "contact_name": "Contact Person 16",
+      "contact_email": "contact16@supplier16.com",
+      "phone": "+1-555-891-5707",
+      "address": {
+        "street": "4387 Business Ave",
+        "city": "Chicago",
+        "state": "NY",
+        "zip_code": "35448",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.3,
+      "lead_time_days": 6,
+      "minimum_order_value": 998,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-017",
+      "company_name": "Supplier Company 17",
+      "contact_name": "Contact Person 17",
+      "contact_email": "contact17@supplier17.com",
+      "phone": "+1-555-952-2854",
+      "address": {
+        "street": "7984 Business Ave",
+        "city": "Seattle",
+        "state": "FL",
+        "zip_code": "31602",
+        "country": "USA"
+      },
+      "payment_terms": "Net 30",
+      "rating": 3.4,
+      "lead_time_days": 13,
+      "minimum_order_value": 695,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-018",
+      "company_name": "Supplier Company 18",
+      "contact_name": "Contact Person 18",
+      "contact_email": "contact18@supplier18.com",
+      "phone": "+1-555-375-1617",
+      "address": {
+        "street": "1509 Business Ave",
+        "city": "Los Angeles",
+        "state": "IL",
+        "zip_code": "61711",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 3.2,
+      "lead_time_days": 12,
+      "minimum_order_value": 564,
+      "active": true
+    },
+    {
+      "supplier_id": "SUP-019",
+      "company_name": "Supplier Company 19",
+      "contact_name": "Contact Person 19",
+      "contact_email": "contact19@supplier19.com",
+      "phone": "+1-555-434-6370",
+      "address": {
+        "street": "3414 Business Ave",
+        "city": "New York",
+        "state": "IL",
+        "zip_code": "32742",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 4.2,
+      "lead_time_days": 9,
+      "minimum_order_value": 937,
+      "active": false
+    },
+    {
+      "supplier_id": "SUP-020",
+      "company_name": "Supplier Company 20",
+      "contact_name": "Contact Person 20",
+      "contact_email": "contact20@supplier20.com",
+      "phone": "+1-555-587-9593",
+      "address": {
+        "street": "1695 Business Ave",
+        "city": "Chicago",
+        "state": "FL",
+        "zip_code": "68632",
+        "country": "USA"
+      },
+      "payment_terms": "Net 60",
+      "rating": 3.1,
+      "lead_time_days": 11,
+      "minimum_order_value": 966,
+      "active": true
+    }
+  ]
+}

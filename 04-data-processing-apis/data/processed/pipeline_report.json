@@ -1,0 +1,32 @@
+{
+  "pipeline_name": "E-commerce ETL Pipeline",
+  "execution_date": "2025-12-07T06:33:15.610958",
+  "data_sources": {
+    "sales": {
+      "rows_raw": 5025,
+      "rows_clean": 4985
+    },
+    "customers": {
+      "rows_raw": 1200,
+      "rows_clean": 1180
+    },
+    "products": {
+      "rows": 150
+    },
+    "inventory": {
+      "rows_raw": 450,
+      "rows_clean": 440
+    },
+    "suppliers": {
+      "rows": 20
+    }
+  },
+  "output_files": [
+    "sales_cleaned.csv",
+    "sales_enriched.csv",
+    "customers_cleaned.csv",
+    "inventory_cleaned.csv",
+    "inventory_summary.csv",
+    "category_analytics.csv"
+  ]
+}

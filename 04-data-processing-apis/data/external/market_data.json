@@ -1,0 +1,83 @@
+{
+  "api_version": "2.0",
+  "request_timestamp": "2025-12-07T06:24:57.050761",
+  "data_source": "MarketAnalytics API",
+  "market_trends": [
+    {
+      "category": "Electronics",
+      "trend_score": 8.5,
+      "yoy_growth": 12.3,
+      "market_size_millions": 450,
+      "top_brands": [
+        "Apple",
+        "Samsung",
+        "Sony"
+      ],
+      "avg_price_index": 1.05
+    },
+    {
+      "category": "Clothing",
+      "trend_score": 7.2,
+      "yoy_growth": 5.8,
+      "market_size_millions": 380,
+      "top_brands": [
+        "Nike",
+        "Adidas",
+        "Zara"
+      ],
+      "avg_price_index": 0.98
+    },
+    {
+      "category": "Home & Garden",
+      "trend_score": 8.0,
+      "yoy_growth": 15.2,
+      "market_size_millions": 290,
+      "top_brands": [
+        "IKEA",
+        "Wayfair",
+        "HomeDepot"
+      ],
+      "avg_price_index": 1.02
+    },
+    {
+      "category": "Sports",
+      "trend_score": 7.8,
+      "yoy_growth": 9.5,
+      "market_size_millions": 220,
+      "top_brands": [
+        "Nike",
+        "UnderArmour",
+        "Adidas"
+      ],
+      "avg_price_index": 1.0
+    }
+  ],
+  "competitor_pricing": [
+    {
+      "competitor": "CompetitorA",
+      "price_index": 1.05,
+      "market_share": 15.2
+    },
+    {
+      "competitor": "CompetitorB",
+      "price_index": 0.95,
+      "market_share": 12.8
+    },
+    {
+      "competitor": "CompetitorC",
+      "price_index": 1.1,
+      "market_share": 8.5
+    },
+    {
+      "competitor": "CompetitorD",
+      "price_index": 0.92,
+      "market_share": 6.2
+    }
+  ],
+  "seasonal_factors": {
+    "Q1": 0.85,
+    "Q2": 0.95,
+    "Q3": 1.05,
+    "Q4": 1.25
+  }
+}

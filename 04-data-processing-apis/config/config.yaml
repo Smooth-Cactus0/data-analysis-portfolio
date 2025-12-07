@@ -1,0 +1,153 @@
+# Market Intelligence Platform Configuration
+# ==========================================
+# This file contains all configuration settings for the data pipeline
+
+# Pipeline Settings
+pipeline:
+  name: "Market Intelligence Pipeline"
+  version: "1.0.0"
+  environment: "production"
+  batch_size: 1000
+  max_retries: 3
+  retry_delay: 5  # seconds
+
+# Data Source Configurations
+sources:
+  # API Sources
+  api:
+    companies:
+      name: "Company Data API"
+      base_url: "https://api.example.com/v1"
+      endpoints:
+        list: "/companies"
+        detail: "/companies/{id}"
+      rate_limit: 100  # requests per minute
+      timeout: 30
+      auth_type: "api_key"
+      
+    stock_data:
+      name: "Stock Market API"
+      base_url: "https://api.marketdata.com/v2"
+      endpoints:
+        quotes: "/quotes"
+        history: "/history/{symbol}"
+      rate_limit: 60
+      timeout: 30
+      
+    news:
+      name: "News & Sentiment API"
+      base_url: "https://newsapi.example.com/v1"
+      endpoints:
+        articles: "/articles"
+        sentiment: "/sentiment/{company_id}"
+      rate_limit: 50
+      timeout: 45
+
+  # File Sources
+  files:
+    sales_data:
+      name: "Sales Performance Data"
+      type: "csv"
+      path: "data/raw/sales_data.csv"
+      encoding: "utf-8"
+      delimiter: ","
+      
+    customer_feedback:
+      name: "Customer Feedback"
+      type: "json"
+      path: "data/raw/customer_feedback.json"
+      
+    financial_reports:
+      name: "Financial Reports"
+      type: "excel"
+      path: "data/raw/financial_reports.xlsx"
+      sheet_names: ["Q1", "Q2", "Q3", "Q4", "Summary"]
+      
+    product_catalog:
+      name: "Product Catalog"
+      type: "csv"
+      path: "data/raw/product_catalog.csv"
+
+# Data Validation Rules
+validation:
+  strict_mode: true
+  fail_on_error: false
+  
+  rules:
+    company_id:
+      type: "string"
+      pattern: "^[A-Z]{2,4}[0-9]{4,6}$"
+      required: true
+      
+    email:
+      type: "string"
+      pattern: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+      required: false
+      
+    revenue:
+      type: "number"
+      min: 0
+      max: 1000000000000
+      required: true
+      
+    date:
+      type: "date"
+      format: "%Y-%m-%d"
+      required: true
+
+# Data Quality Thresholds
+quality:
+  completeness:
+    minimum: 0.95
+    critical_columns: ["company_id", "date", "revenue"]
+    
+  uniqueness:
+    minimum: 0.99
+    key_columns: ["company_id", "transaction_id"]
+    
+  consistency:
+    date_range_days: 365
+    check_referential_integrity: true
+    
+  accuracy:
+    outlier_std_threshold: 3
+    validate_ranges: true
+
+# Transformation Settings
+transformations:
+  dates:
+    output_format: "%Y-%m-%d"
+    timezone: "UTC"
+    parse_formats:
+      - "%Y-%m-%d"
+      - "%m/%d/%Y"
+      - "%d-%m-%Y"
+      
+  currency:
+    default: "USD"
+    decimal_places: 2
+    
+  text:
+    strip_whitespace: true
+    lowercase_headers: true
+    
+  missing_values:
+    numeric_fill: "median"
+    categorical_fill: "mode"
+    date_fill: "drop"
+
+# Output Configurations
+outputs:
+  processed_data:
+    path: "data/processed"
+    format: "csv"
+    
+  reports:
+    path: "reports"
+    formats: ["html", "json"]
+    
+  logs:
+    path: "logs"
+    level: "INFO"
+    rotation: "daily"
+    retention_days: 30

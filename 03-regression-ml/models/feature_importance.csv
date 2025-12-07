@@ -1,0 +1,46 @@
+Feature,Importance
+Bedrooms,0.21260852
+SquareFeet,0.1850912
+Condition,0.05819139
+DistanceToCenter,0.057862848
+TotalRooms,0.05421809
+Neighborhood_Industrial,0.050397854
+Neighborhood_Residential Park,0.04989953
+Bathrooms,0.044399317
+Neighborhood_Waterfront,0.04280917
+Neighborhood_University Area,0.037759677
+Neighborhood_Tech Hub,0.037007384
+YearBuilt,0.021962414
+YearsSinceRenovation,0.019295689
+Neighborhood_Suburbs,0.0151316
+Neighborhood_Historic District,0.014688999
+HasPremiumAmenities,0.010545561
+GarageCapacity,0.010398907
+SchoolRating,0.010085442
+HOAFee,0.009368067
+HasPool,0.009246119
+PropertyType_Multi-Family,0.00856275
+Neighborhood_Midtown,0.0066364924
+PropertyType_Ranch,0.0058469544
+PropertyType_Single Family,0.005358378
+LotSize,0.004853185
+CrimeRate,0.0035771665
+Neighborhood_Uptown,0.0021696498
+PropertyType_Townhouse,0.002147714
+HasFireplace,0.0019997433
+DaysOnMarket,0.0019059425
+SqFtCategory_Large,0.0014247617
+EnergyRating_E,0.0013155838
+EnergyRating_B,0.0011745762
+BathBedRatio,0.0011335643
+EnergyRating_D,0.00092584145
+PropertyAge,0.0
+IsRecentlyRenovated,0.0
+LowCrimeArea,0.0
+GoodSchoolDistrict,0.0
+IsNewConstruction,0.0
+EnergyRating_C,0.0
+EnergyRating_F,0.0
+SqFtCategory_Medium,0.0
+SqFtCategory_XLarge,0.0
+SqFtCategory_Luxury,0.0
