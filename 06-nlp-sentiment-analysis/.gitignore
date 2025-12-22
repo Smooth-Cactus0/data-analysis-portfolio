@@ -1,0 +1,22 @@
+# Data (too large for GitHub)
+data/raw/
+data/processed/
+*.csv
+!data/sample/*.csv
+
+# Models (large binary files)
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
