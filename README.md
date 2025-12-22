@@ -21,11 +21,12 @@
 
 | # | Project | Type | Key Techniques | Highlights |
 |---|---------|------|----------------|------------|
-| 1 | [Customer Churn EDA](./01-customer-churn-eda/) | Exploratory Analysis | Statistical Analysis, Visualization | 5,000 records, 14 visualizations |
-| 2 | [Churn Prediction (Classification)](./02-churn-prediction-ml/) | Machine Learning | Logistic Regression, Random Forest, XGBoost | ROC-AUC 0.79, 4 models |
-| 3 | [House Price Prediction (Regression)](./03-house-price-regression/) | Machine Learning | Ridge, Lasso, XGBoost, Stacking | R² 0.937, 7 models |
+| 1 | [Customer Churn EDA](./01-exploratory-data-analysis/) | Exploratory Analysis | Statistical Analysis, Visualization | 5,000 records, 14 visualizations |
+| 2 | [Churn Prediction (Classification)](./02-classification-ml/) | Machine Learning | Logistic Regression, Random Forest, XGBoost | ROC-AUC 0.79, 4 models |
+| 3 | [House Price Prediction (Regression)](./03-regression-ml/) | Machine Learning | Ridge, Lasso, XGBoost, Stacking | R² 0.937, 7 models |
 | 4 | [ETL Data Pipeline](./04-data-processing-apis/) | Data Engineering | ETL, Validation, Transformation | 6 sources, 15+ validations |
 | 5 | [Energy Consumption Forecasting](./05-time-series-forecasting/) | Time Series | Prophet, LSTM, LightGBM, Ensemble | **MAPE 2.18%**, 17K records |
+| 6 | [NLP Sentiment Analysis](./06-nlp-sentiment-analysis/) | NLP / Deep Learning | BiLSTM, CNN, DistilBERT | **87.7% accuracy**, 3 approaches |
 
 ---
 
@@ -71,7 +72,7 @@ Production-grade data engineering framework demonstrating ETL best practices.
 - **Validations**: 15+ rules including referential integrity
 - **Features**: Chainable transformations, audit trails, comprehensive logging
 
-### 5️⃣ Energy Consumption Forecasting ⭐ NEW
+### 5️⃣ Energy Consumption Forecasting
 **[05-time-series-forecasting/](./05-time-series-forecasting/)**
 
 Comprehensive time series analysis with multiple forecasting approaches.
@@ -81,6 +82,18 @@ Comprehensive time series analysis with multiple forecasting approaches.
 - **Best Performance**: Ensemble (LightGBM + XGBoost) with **MAPE 2.18%**
 - **Features**: Multiple seasonalities, weather integration, anomaly detection
 - **Key Insight**: Tree-based ensembles outperform deep learning for this domain
+
+### 6️⃣ NLP Sentiment Analysis ⭐ NEW
+**[06-nlp-sentiment-analysis/](./06-nlp-sentiment-analysis/)**
+
+Progressive NLP pipeline from classical ML to transformers for sentiment classification.
+
+- **Dataset**: 50,000 synthetic movie reviews (balanced positive/negative)
+- **Approach 1 - Classical ML**: Logistic Regression, SVM, Naive Bayes → 87% accuracy
+- **Approach 2 - Deep Learning**: BiLSTM, CNN → **87.7% accuracy**
+- **Approach 3 - Transformers**: DistilBERT fine-tuning → 87.6% accuracy
+- **Features**: GPU-accelerated training, comprehensive visualizations
+- **Key Insight**: BiLSTM and CNN match transformer performance on this task
 
 ---
 
@@ -101,6 +114,11 @@ Comprehensive time series analysis with multiple forecasting approaches.
 - TensorFlow/Keras (LSTM)
 - Prophet (forecasting)
 
+### NLP & Deep Learning
+- PyTorch
+- Hugging Face Transformers
+- NLTK
+
 ### Visualization
 - Matplotlib, Seaborn
 - Plotly (interactive)
@@ -117,7 +135,8 @@ Comprehensive time series analysis with multiple forecasting approaches.
 |----------|--------|
 | **Data Analysis** | EDA, Statistical Testing, Feature Engineering |
 | **Machine Learning** | Classification, Regression, Time Series, Ensemble Methods |
-| **Deep Learning** | LSTM, Sequence Modeling |
+| **Deep Learning** | LSTM, BiLSTM, CNN, Sequence Modeling |
+| **NLP** | Text Classification, Sentiment Analysis, Transformer Fine-tuning |
 | **Data Engineering** | ETL Pipelines, Data Validation, Transformation |
 | **Visualization** | Matplotlib, Seaborn, Publication-Ready Charts |
 | **Software Engineering** | OOP, Modular Design, Documentation |
@@ -145,11 +164,11 @@ jupyter notebook
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 5 |
-| **Total Records Analyzed** | 25,000+ |
-| **Models Trained** | 20+ |
-| **Visualizations Created** | 50+ |
-| **Lines of Code** | 5,000+ |
+| **Total Projects** | 6 |
+| **Total Records Analyzed** | 75,000+ |
+| **Models Trained** | 30+ |
+| **Visualizations Created** | 60+ |
+| **Lines of Code** | 7,000+ |
 
 ---
 
@@ -159,4 +178,4 @@ This portfolio is available for learning and reference purposes. Please cite if 
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
