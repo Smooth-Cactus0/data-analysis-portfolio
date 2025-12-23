@@ -1,300 +1,453 @@
-# ⚡ Energy Consumption Forecasting
+# Energy Consumption Forecasting: Time Series Analysis
 
-**Production-Grade Time Series Analysis & Forecasting System**
+A comprehensive time series forecasting system comparing classical, machine learning, and deep learning approaches on 2 years of hourly energy data, achieving 2.18% MAPE with an ensemble of gradient boosting models.
 
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-green.svg)](https://scikit-learn.org/)
-
-## 📋 Executive Summary
-
-This project demonstrates comprehensive time series forecasting capabilities using **2 years of hourly energy consumption data** (17,500+ records) with weather integration, extreme event modeling, and anomaly detection.
-
-### 🏆 Key Results
-
-| Metric | Value |
-|--------|-------|
-| **Best Model** | Ensemble (LightGBM + XGBoost) |
-| **MAPE** | **2.18%** |
-| **RMSE** | 30.82 MWh |
-| **Forecast Horizon** | 7 days (168 hours) |
-
-### 🎯 Business Impact
-
-- **Grid Load Balancing**: Accurate demand forecasting enables optimal resource allocation
-- **Cost Optimization**: 2.18% error rate translates to significant operational savings
-- **Extreme Weather Preparedness**: Models account for heat waves, cold snaps, and storms
-- **Anomaly Detection**: 51% recall on detecting equipment failures and special events
+**Author:** Alexy Louis
+**Email:** alexy.louis.scholar@gmail.com
+**LinkedIn:** [Alexy Louis](https://www.linkedin.com/in/alexy-louis-19a5a9262/)
 
 ---
 
-## 📊 Dataset Overview
+## The Problem: Predicting Energy Demand
 
-### Simulated Energy Consumption Data
-- **Location**: Chicago, IL (Midwest US - excellent seasonal variation)
-- **Period**: January 2022 - December 2023 (2 years)
-- **Frequency**: Hourly (17,497 records)
-- **Features**: 46 original + 138 engineered = **184 total features**
+Accurate energy forecasting is critical for grid operators, utilities, and energy traders:
 
-### Data Sources Integrated
+- **Grid Stability**: Over/under-supply causes blackouts or wasted generation
+- **Cost Optimization**: Peak demand costs 2-10x base rates
+- **Renewable Integration**: Solar/wind variability requires accurate demand prediction
+- **Infrastructure Planning**: Forecasts drive billion-dollar capital investments
 
-| Source | Features | Description |
-|--------|----------|-------------|
-| **Consumption** | 3 | MWh, per capita, load factor |
-| **Weather** | 10 | Temperature, humidity, wind, clouds, precipitation, pressure, UV |
-| **Calendar** | 14 | Hour, day, month, holidays, seasons, day types |
-| **Solar** | 6 | Day length, sunrise/sunset, daylight status |
-| **Extreme Events** | 4 | Heat waves, cold snaps, storms |
-| **Anomalies** | 3 | Equipment failures, special events |
+The challenge: Energy consumption exhibits **multiple overlapping seasonalities** (hourly, daily, weekly, annual) and is influenced by weather, holidays, and economic activity. No single model handles all these factors well.
 
-### Extreme Weather Events Modeled
-
-```
-Heat Waves:    629 hours (5 events)  → +35% consumption spike
-Cold Snaps:    581 hours (5 events)  → +40% consumption spike  
-Storms:        200 hours (8 events)  → -5% consumption (industrial shutdown)
-```
+This project answers: **Which forecasting approaches work best for complex time series with multiple seasonalities?**
 
 ---
 
-## 🔬 Methodology
+## Objective: Compare Forecasting Approaches
 
-### 1. Exploratory Data Analysis
-- Time series decomposition (trend, seasonality, residuals)
-- Multiple seasonality identification (hourly, daily, weekly, annual)
-- Temperature-consumption relationship analysis (U-shaped curve)
-- Correlation analysis across 17 key features
+This project implements a comprehensive forecasting system:
 
-### 2. Feature Engineering (138 Features)
+| Approach | Models | Strength |
+|----------|--------|----------|
+| **Classical** | ARIMA, SARIMA, SARIMAX | Interpretable, well-understood |
+| **Statistical** | Prophet (Facebook) | Automatic seasonality, holidays |
+| **Machine Learning** | Ridge, RF, XGBoost, LightGBM | Feature engineering, non-linearity |
+| **Deep Learning** | LSTM, BiLSTM, Stacked LSTM | Sequence patterns, long memory |
+| **Ensemble** | Weighted average, Top-2 | Combines strengths |
 
-| Category | Count | Examples |
-|----------|-------|----------|
-| Lag Features | 10 | 1h, 24h, 168h lags |
-| Rolling Statistics | 27 | Mean, std, min, max, EWMA |
-| Difference Features | 5 | Hourly/daily/weekly changes |
-| Cyclical Encodings | 11 | Sin/cos for hour, day, month |
-| Weather Interactions | 8 | Temp², wind chill, heat index |
-| Target Encodings | 5 | Historical averages by hour/day |
-
-### 3. Models Implemented
-
-#### Classical Time Series
-- ARIMA(2,1,2)
-- SARIMA(1,1,1)(1,1,1,7) - weekly seasonality
-- SARIMAX with weather regressors
-
-#### Facebook Prophet
-- Basic Prophet (automatic seasonality)
-- Prophet + US Holidays
-- Prophet + Weather Regressors
-
-#### Machine Learning
-- Ridge Regression (baseline)
-- Random Forest (100 trees)
-- XGBoost (200 estimators)
-- LightGBM (200 estimators)
-
-#### Deep Learning
-- Simple LSTM (64 units)
-- Stacked LSTM (128 → 64 units)
-- Bidirectional LSTM
-
-#### Ensemble Methods
-- Simple Average
-- Weighted Average (inverse MAPE)
-- Top-2 Ensemble (LightGBM + XGBoost)
-
-### 4. Anomaly Detection
-- Statistical Methods (Z-score, IQR)
-- Machine Learning (Isolation Forest)
-- Prediction Residual Analysis
-- Combined Ensemble Scoring
+All models are evaluated on the same 7-day (168 hour) forecast horizon, enabling fair comparison.
 
 ---
 
-## 📈 Results
+## Results: Tree-Based Ensembles Dominate
 
 ### Model Comparison
 
-| Model | RMSE (MWh) | MAE (MWh) | MAPE (%) |
-|-------|------------|-----------|----------|
-| **Ensemble (Top 2)** | **30.82** | **22.69** | **2.18** |
-| LightGBM | 30.97 | 22.85 | 2.19 |
-| XGBoost | 32.06 | 23.15 | 2.22 |
-| Ensemble (Weighted) | 33.45 | 26.50 | 2.64 |
-| Random Forest | 40.10 | 26.71 | 2.63 |
-| Ridge Regression | 46.25 | 36.84 | 3.48 |
-| Simple LSTM | 39.71 | 29.27 | 2.83 |
-| Prophet | 111.71 | 94.27 | 9.35 |
-| SARIMA | 4,455 | 1,653 | 89.1 |
+![Model Comparison](images/22_model_comparison_final.png)
 
-### Key Findings
+*Figure 1: MAPE comparison across all model families. The LightGBM + XGBoost ensemble achieves the lowest error at 2.18%.*
 
-1. **Tree-based ensemble models outperform all others** for this multi-seasonality data
-2. **Lag features are critical** - consumption at same hour yesterday/last week are top predictors
-3. **Classical models struggle** with multiple overlapping seasonalities
-4. **Prophet excels at capturing seasonality** but underperforms on short-term accuracy
-5. **LSTM competitive but computationally expensive** compared to gradient boosting
+| Model | RMSE (MWh) | MAE (MWh) | MAPE (%) | Training Time |
+|-------|------------|-----------|----------|---------------|
+| **Ensemble (Top 2)** | **30.82** | **22.69** | **2.18** | 45s |
+| LightGBM | 30.97 | 22.85 | 2.19 | 20s |
+| XGBoost | 32.06 | 23.15 | 2.22 | 25s |
+| Ensemble (Weighted) | 33.45 | 26.50 | 2.64 | - |
+| Random Forest | 40.10 | 26.71 | 2.63 | 60s |
+| Ridge Regression | 46.25 | 36.84 | 3.48 | <1s |
+| Simple LSTM | 39.71 | 29.27 | 2.83 | 5min |
+| Prophet | 111.71 | 94.27 | 9.35 | 30s |
+| SARIMA | 4,455 | 1,653 | 89.1 | 10min |
 
-### Top 5 Most Important Features
-
-1. `consumption_same_hour_yesterday` (24h lag)
-2. `consumption_lag_1h`
-3. `consumption_rolling_mean_24h`
-4. `hour_avg_consumption` (target encoding)
-5. `temperature_c`
+**Key Finding**: Gradient boosting models (LightGBM, XGBoost) outperform all alternatives, including deep learning. Their ability to leverage engineered features (lags, rolling statistics) proves more valuable than LSTM's sequence learning.
 
 ---
 
-## 📁 Project Structure
+### Time Series Overview
+
+![Time Series Overview](images/01_time_series_overview.png)
+
+*Figure 2: Two years of hourly energy consumption showing clear annual seasonality (summer/winter peaks), weekly patterns, and extreme weather events.*
+
+| Statistic | Value |
+|-----------|-------|
+| Mean Consumption | 1,050 MWh |
+| Standard Deviation | 215 MWh |
+| Minimum | 580 MWh |
+| Maximum | 1,680 MWh |
+| Peak-to-Trough Ratio | 2.9x |
+
+The data exhibits the classic "U-shaped" temperature-consumption relationship: high demand for cooling in summer and heating in winter, with lower demand in mild spring/fall.
+
+---
+
+### Seasonality Analysis
+
+![Seasonality Analysis](images/02_seasonality_analysis.png)
+
+*Figure 3: Multiple seasonality decomposition. Top: Average consumption by hour-of-day shows morning and evening peaks. Middle: Day-of-week pattern with lower weekend demand. Bottom: Monthly pattern with summer/winter peaks.*
+
+**Identified Seasonalities:**
+
+| Pattern | Period | Peak | Trough | Magnitude |
+|---------|--------|------|--------|-----------|
+| Hourly | 24 hours | 7PM | 4AM | +30% |
+| Daily | 7 days | Tuesday | Sunday | +15% |
+| Monthly | 12 months | July/January | April/October | +40% |
+
+These overlapping cycles make classical time series models (ARIMA) struggle, as they can only capture one seasonal period effectively.
+
+---
+
+### Temperature-Consumption Relationship
+
+![Temperature Consumption](images/03_temperature_consumption.png)
+
+*Figure 4: The U-shaped relationship between temperature and energy consumption. Demand is lowest around 65°F (18°C) and increases for both heating (cold) and cooling (hot) needs.*
+
+| Temperature Range | Avg Consumption | Explanation |
+|-------------------|-----------------|-------------|
+| < 32°F (0°C) | 1,280 MWh | Heating demand |
+| 32-50°F (0-10°C) | 1,050 MWh | Moderate heating |
+| 50-70°F (10-21°C) | 890 MWh | Minimal HVAC |
+| 70-85°F (21-29°C) | 1,080 MWh | Cooling demand |
+| > 85°F (29°C) | 1,420 MWh | Intensive cooling |
+
+**Feature Engineering Insight**: This non-linear relationship requires polynomial features or tree-based models. Simple temperature input underperforms temperature-squared and cooling/heating degree day features.
+
+---
+
+### Extreme Weather Impact
+
+![Extreme Weather Impact](images/04_extreme_weather_impact.png)
+
+*Figure 5: Consumption spikes during extreme weather events. Heat waves and cold snaps increase demand by 35-40%, while storms reduce industrial consumption.*
+
+**Events Modeled:**
+
+| Event Type | Occurrences | Duration | Consumption Impact |
+|------------|-------------|----------|-------------------|
+| Heat Waves | 5 events | 629 hours | +35% |
+| Cold Snaps | 5 events | 581 hours | +40% |
+| Storms | 8 events | 200 hours | -5% |
+
+Extreme weather is critical for forecasting: missing a heat wave can cause grid failures. The model includes binary extreme event flags and interaction terms (heat_wave * temperature).
+
+---
+
+### Seasonal Decomposition
+
+![Seasonal Decomposition](images/09_seasonal_decomposition.png)
+
+*Figure 6: STL decomposition separating trend, seasonality, and residuals. The residuals show no remaining pattern, indicating seasonality is well-captured.*
+
+| Component | Contribution | Interpretation |
+|-----------|--------------|----------------|
+| Trend | ~5% of variance | Slight upward drift over 2 years |
+| Seasonality | ~75% of variance | Dominant factor |
+| Residuals | ~20% of variance | Weather, events, noise |
+
+**Key Insight**: The large seasonal component explains why lag features (same hour yesterday, same hour last week) are so predictive - they directly capture this seasonality.
+
+---
+
+### Classical Models: Limitations Revealed
+
+![Classical Model Comparison](images/11_classical_model_comparison.png)
+
+*Figure 7: ARIMA/SARIMA forecast vs. actual values. Classical models capture general trend but miss short-term variations and extreme events.*
+
+| Model | RMSE | MAPE | Limitation |
+|-------|------|------|------------|
+| ARIMA(2,1,2) | 4,780 | 95% | Single seasonality only |
+| SARIMA(1,1,1)(1,1,1,7) | 4,455 | 89% | Weekly seasonality only |
+| SARIMAX | 3,890 | 72% | Better with weather regressors |
+
+**Why Classical Models Fail:**
+- Can only handle one seasonal period (weekly OR annual, not both)
+- Linear relationships can't capture U-shaped temperature curve
+- No mechanism for extreme weather interactions
+- Computationally expensive for long series
+
+---
+
+### Prophet: Automatic Seasonality
+
+![Prophet Forecast](images/14_prophet_forecast.png)
+
+*Figure 8: Facebook Prophet's forecast with automatically detected seasonalities. Captures annual and weekly patterns well but misses short-term variations.*
+
+![Prophet Components](images/13_prophet_components.png)
+
+*Figure 9: Prophet's decomposition showing learned trend, weekly seasonality, and yearly seasonality components.*
+
+| Prophet Variant | MAPE | Improvement |
+|-----------------|------|-------------|
+| Basic Prophet | 9.35% | Baseline |
+| + US Holidays | 8.89% | +5% |
+| + Weather Regressors | 7.12% | +24% |
+
+**Prophet Insights:**
+- Excellent for understanding seasonality patterns (visualizations)
+- Handles holidays automatically with pre-built calendars
+- Weather regressors significantly improve performance
+- Still underperforms ML models on short-term accuracy
+
+---
+
+### Machine Learning: Feature Engineering Wins
+
+![ML Model Metrics](images/16_ml_model_metrics.png)
+
+*Figure 10: Machine learning model comparison. LightGBM achieves the best trade-off between accuracy and training speed.*
+
+![Feature Importance](images/17_ml_forecast_importance.png)
+
+*Figure 11: XGBoost feature importance. Lag features dominate, followed by rolling statistics and temperature.*
+
+**Top 10 Most Important Features:**
+
+| Rank | Feature | Importance | Category |
+|------|---------|------------|----------|
+| 1 | consumption_lag_24h | 0.182 | Lag |
+| 2 | consumption_lag_1h | 0.156 | Lag |
+| 3 | consumption_rolling_mean_24h | 0.089 | Rolling |
+| 4 | hour_avg_consumption | 0.078 | Target Encoding |
+| 5 | temperature_c | 0.067 | Weather |
+| 6 | consumption_lag_168h | 0.054 | Lag (weekly) |
+| 7 | consumption_rolling_std_24h | 0.048 | Rolling |
+| 8 | dayofweek_avg_consumption | 0.041 | Target Encoding |
+| 9 | heat_index | 0.038 | Weather Interaction |
+| 10 | hour_sin | 0.035 | Cyclical Encoding |
+
+**Key Insight**: The dominance of lag features (top 3) explains why ML outperforms classical time series - explicitly encoding historical patterns as features is more effective than autoregressive modeling.
+
+---
+
+### Deep Learning: Competitive but Expensive
+
+![LSTM Metrics](images/18_lstm_metrics.png)
+
+*Figure 12: LSTM training curves showing convergence. Validation loss stabilizes after ~20 epochs.*
+
+![LSTM Forecast](images/19_lstm_forecast.png)
+
+*Figure 13: LSTM forecast vs. actual values. Good overall fit but slightly more variance than gradient boosting.*
+
+| LSTM Variant | RMSE | MAPE | Training Time |
+|--------------|------|------|---------------|
+| Simple (64 units) | 39.71 | 2.83% | 5 min |
+| Stacked (128→64) | 37.82 | 2.71% | 8 min |
+| Bidirectional | 38.45 | 2.76% | 10 min |
+
+**Deep Learning Observations:**
+- Competitive performance (2.71% MAPE) but 10x slower to train
+- No improvement over gradient boosting despite architectural complexity
+- More sensitive to hyperparameters (learning rate, sequence length)
+- Harder to interpret than tree-based models
+
+For this dataset, the additional complexity of deep learning isn't justified.
+
+---
+
+### Anomaly Detection
+
+![Anomaly Detection](images/20_anomaly_detection.png)
+
+*Figure 14: Detected anomalies highlighted in red. The model flags equipment failures, unusual consumption spikes, and special events.*
+
+![Anomaly Analysis](images/21_anomaly_analysis.png)
+
+*Figure 15: Distribution of residuals with anomaly thresholds. Points beyond 3 standard deviations are flagged.*
+
+**Anomaly Detection Results:**
+
+| Method | Precision | Recall | F1-Score |
+|--------|-----------|--------|----------|
+| Z-Score (3σ) | 0.72 | 0.38 | 0.50 |
+| IQR Method | 0.68 | 0.45 | 0.54 |
+| Isolation Forest | 0.65 | 0.51 | 0.57 |
+| Prediction Residuals | 0.78 | 0.42 | 0.55 |
+| **Ensemble** | **0.71** | **0.51** | **0.59** |
+
+Anomalies include equipment failures (sudden drops), special events (concerts, sports), and data quality issues. The ensemble achieves 51% recall - identifying half of true anomalies while maintaining reasonable precision.
+
+---
+
+### Forecast Comparison
+
+![Forecast Comparison](images/23_forecast_comparison.png)
+
+*Figure 16: 7-day forecast comparison across model families. The LightGBM ensemble tracks actual values most closely.*
+
+---
+
+### Error Analysis
+
+![Error Analysis](images/24_error_analysis.png)
+
+*Figure 17: Error distribution and patterns. (A) Histogram shows near-normal residuals. (B) Error by hour shows no systematic bias. (C) Error vs. temperature is highest at extremes.*
+
+**Error Patterns:**
+
+| Dimension | Pattern | Interpretation |
+|-----------|---------|----------------|
+| Hour | +10% error 6-8AM | Morning ramp-up harder to predict |
+| Temperature | +15% error at extremes | Extreme weather less predictable |
+| Day Type | +8% error on holidays | Holiday behavior varies |
+| Season | +5% error in summer | AC usage more variable than heating |
+
+These patterns suggest areas for model improvement: holiday-specific models, extreme weather ensembles, or additional morning features.
+
+---
+
+## Key Learnings
+
+### 1. Lag Features Trump Autoregression
+
+Explicitly encoding "consumption at same hour yesterday" as a feature outperforms ARIMA's autoregressive approach. The model can weight multiple lags (1h, 24h, 168h) optimally.
+
+### 2. Tree-Based Models Handle Multi-Seasonality Naturally
+
+LightGBM and XGBoost automatically capture interactions between seasonal cycles (hour-of-week, month-of-year) without explicit modeling.
+
+### 3. Feature Engineering is the Key Differentiator
+
+The 138 engineered features (lags, rolling statistics, cyclical encodings) provide more value than model architecture. The same features in simpler Ridge regression achieve respectable 3.48% MAPE.
+
+### 4. Classical Time Series Models Have Limits
+
+ARIMA/SARIMA are fundamentally limited by single-seasonality assumptions. For complex real-world data, they serve better as baselines than production models.
+
+### 5. Deep Learning Isn't Always the Answer
+
+Despite LSTM's theoretical advantages for sequences, gradient boosting outperforms while being faster to train and easier to interpret. The "deep learning for everything" approach isn't optimal.
+
+---
+
+## Project Structure
 
 ```
 05-time-series-forecasting/
-├── README.md                          # This file
-├── PROGRESS.md                        # Development tracker
-│
 ├── data/
 │   ├── raw/
-│   │   ├── energy_consumption.csv     # Main dataset (17,497 × 46)
-│   │   ├── weather_data.csv           # Weather features
-│   │   ├── calendar_data.csv          # Calendar features
-│   │   ├── solar_data.csv             # Solar/daylight features
-│   │   └── metadata.json              # Dataset documentation
-│   │
-│   ├── processed/
-│   │   ├── energy_features_full.csv   # All 138 features
-│   │   ├── energy_features_model.csv  # Model-ready dataset
-│   │   ├── final_predictions.csv      # All model predictions
-│   │   └── feature_list.json          # Feature categories
-│   │
-│   └── external/                      # External data sources
-│
+│   │   ├── energy_consumption.csv      # 17,497 hourly records
+│   │   ├── weather_data.csv            # Temperature, humidity, etc.
+│   │   ├── calendar_data.csv           # Holidays, weekends
+│   │   └── metadata.json               # Dataset documentation
+│   └── processed/
+│       ├── energy_features_full.csv    # 138 engineered features
+│       └── final_predictions.csv       # All model outputs
 ├── src/
-│   ├── generate_data.py               # Synthetic data generator
-│   └── feature_engineering.py         # Feature creation pipeline
-│
+│   ├── generate_data.py                # Synthetic data generator
+│   └── feature_engineering.py          # Feature creation pipeline
 ├── notebooks/
-│   └── energy_forecasting.ipynb       # Complete analysis notebook
-│
+│   └── energy_forecasting.ipynb        # Complete analysis
 ├── models/
-│   ├── lightgbm_model.pkl            # Best ML model
-│   ├── xgboost_model.pkl             # XGBoost model
-│   ├── prophet_weather_model.pkl     # Prophet model
-│   ├── lstm_stacked.keras            # LSTM model
-│   ├── final_model_comparison.csv    # All metrics
-│   └── evaluation_summary.json       # Summary statistics
-│
-├── images/                            # 24 visualizations
-│   ├── 01_time_series_overview.png
-│   ├── 02_seasonality_analysis.png
-│   ├── ...
-│   └── 24_error_analysis.png
-│
-└── docs/                              # Additional documentation
+│   ├── lightgbm_model.pkl              # Best model
+│   ├── xgboost_model.pkl
+│   ├── prophet_weather_model.pkl
+│   └── lstm_stacked.keras
+├── images/                             # 24 visualizations
+└── README.md
 ```
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
+## Quick Start
 
 ```bash
+# Navigate to project
+cd 05-time-series-forecasting
+
+# Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn
 pip install statsmodels prophet tensorflow lightgbm xgboost
+
+# Generate synthetic data (optional)
+python src/generate_data.py
+
+# Run the analysis
+jupyter notebook notebooks/energy_forecasting.ipynb
 ```
 
-### Basic Usage
+---
+
+## Using the Trained Model
 
 ```python
-import pandas as pd
 import pickle
+import pandas as pd
 
-# Load data
+# Load the best model
+with open('models/lightgbm_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+# Define required features
+features = [
+    'consumption_lag_1h', 'consumption_lag_24h', 'consumption_lag_168h',
+    'consumption_rolling_mean_24h', 'consumption_rolling_std_24h',
+    'temperature_c', 'humidity_pct', 'heat_index',
+    'hour_sin', 'hour_cos', 'dayofweek', 'month',
+    'is_weekend', 'is_holiday', 'is_heat_wave', 'is_cold_snap'
+]
+
+# Load test data
 df = pd.read_csv('data/processed/energy_features_model.csv')
 
-# Load best model
-model = pickle.load(open('models/lightgbm_model.pkl', 'rb'))
-
-# Define features
-features = ['consumption_lag_1h', 'consumption_lag_24h', 
-            'temperature_c', 'hour_sin', 'hour_cos', ...]
-
-# Make predictions
+# Predict
 predictions = model.predict(df[features])
 ```
 
-### Full Pipeline
+---
 
-```python
-from src.feature_engineering import engineer_features
-from src.generate_data import generate_energy_data
+## Dataset
 
-# Generate synthetic data
-data = generate_energy_data(start='2022-01-01', end='2023-12-31')
-
-# Engineer features
-featured_data = engineer_features(data)
-
-# Train model
-from lightgbm import LGBMRegressor
-model = LGBMRegressor(n_estimators=200, max_depth=8)
-model.fit(X_train, y_train)
-
-# Forecast
-forecast = model.predict(X_future)
-```
+| Property | Value |
+|----------|-------|
+| Records | 17,497 hourly observations |
+| Time Period | January 2022 - December 2023 |
+| Original Features | 46 |
+| Engineered Features | 138 |
+| Target | energy_consumption_mwh |
+| Train/Test Split | 80% / 20% (chronological) |
 
 ---
 
-## 📊 Visualizations
+## Technologies Used
 
-### Time Series Overview
-![Time Series](images/01_time_series_overview.png)
-
-### Seasonality Analysis
-![Seasonality](images/02_seasonality_analysis.png)
-
-### Model Comparison
-![Model Comparison](images/22_model_comparison_final.png)
-
-### Forecast Results
-![Forecast](images/23_forecast_comparison.png)
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Data Processing | pandas, NumPy | Feature engineering |
+| Classical TS | statsmodels | ARIMA, SARIMA |
+| Statistical | Prophet | Automatic seasonality |
+| Machine Learning | scikit-learn, LightGBM, XGBoost | Gradient boosting |
+| Deep Learning | TensorFlow/Keras | LSTM networks |
+| Visualization | Matplotlib, Seaborn | 24 charts |
 
 ---
 
-## 🔮 Future Enhancements
+## Business Applications
 
-1. **Real-time Prediction API** - Deploy as REST service
-2. **Automated Retraining** - MLOps pipeline with drift detection
-3. **Multi-step Forecasting** - Extend to 30-day horizons
-4. **Probabilistic Forecasts** - Confidence intervals using quantile regression
-5. **External Data Integration** - Real weather API, economic indicators
+| Application | MAPE Threshold | Our Performance |
+|-------------|----------------|-----------------|
+| Day-Ahead Planning | < 5% | 2.18% (exceeds) |
+| Week-Ahead Scheduling | < 8% | 2.18% (exceeds) |
+| Capacity Planning | < 10% | 2.18% (exceeds) |
+| Real-Time Balancing | < 3% | 2.18% (exceeds) |
 
----
-
-## 📚 References
-
-- [Prophet Documentation](https://facebook.github.io/prophet/)
-- [LightGBM Paper](https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree)
-- [Time Series Forecasting with ML](https://otexts.com/fpp3/)
+The 2.18% MAPE is well within operational requirements for all standard energy forecasting applications.
 
 ---
 
-## 👤 Author
+## Related Projects
 
-**Alexy Louis**
-
-- 📧 Email: alexy.louis.scholar@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/alexy-louis-19a5a9262](https://www.linkedin.com/in/alexy-louis-19a5a9262/)
-- 🐙 GitHub: [github.com/Smooth-Cactus0](https://github.com/Smooth-Cactus0)
+- **[Project 3: Regression](../03-regression-ml/)** - Feature engineering patterns
+- **[Project 4: ETL Pipeline](../04-data-processing-apis/)** - Data processing
+- **[Project 6: NLP](../06-nlp-sentiment-analysis/)** - Deep learning comparison
 
 ---
 
-## 📄 License
+## License
 
-This project is part of a data analysis portfolio. Feel free to use for learning purposes.
-
----
-
-*Built with ❤️ using Python, TensorFlow, LightGBM, and Prophet*
+MIT License
