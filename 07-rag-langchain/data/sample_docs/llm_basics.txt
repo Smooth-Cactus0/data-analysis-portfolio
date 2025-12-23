@@ -1,0 +1,51 @@
+Large Language Models: Foundation of Modern NLP
+
+Large Language Models (LLMs) are neural networks trained on massive text corpora
+that can generate human-like text and perform various language tasks. They represent
+the current state of the art in natural language processing.
+
+How LLMs Work:
+
+1. Architecture:
+   - Transformer-based (usually decoder-only)
+   - Billions of parameters
+   - Attention mechanisms for context
+
+2. Training:
+   - Pre-training: Self-supervised on web text
+   - Next token prediction objective
+   - Massive compute requirements
+
+3. Capabilities:
+   - Text generation
+   - Question answering
+   - Summarization
+   - Translation
+   - Code generation
+   - Reasoning (to some extent)
+
+Major LLM Families:
+
+- GPT (OpenAI): GPT-3.5, GPT-4
+- Claude (Anthropic): Claude 2, Claude 3
+- LLaMA (Meta): Open-weights models
+- Mistral: Efficient open models
+- Gemini (Google): Multimodal capabilities
+
+Using LLMs Effectively:
+
+- Prompt Engineering: Crafting effective inputs
+- Few-shot Learning: Providing examples in prompt
+- Chain-of-Thought: Encouraging step-by-step reasoning
+- RAG: Grounding with retrieved context
+- Fine-tuning: Adapting for specific tasks
+
+Limitations:
+- Hallucinations (generating false information)
+- Knowledge cutoff (outdated information)
+- Context length limits
+- Computational cost
+- Bias from training data
+
+LLMs are powerful tools when used appropriately,
+especially when combined with retrieval systems.

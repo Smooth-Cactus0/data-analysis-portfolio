@@ -1,0 +1,48 @@
+Text Embeddings: Representing Meaning as Numbers
+
+Text embeddings are dense vector representations that capture the semantic meaning of text.
+They transform words, sentences, or documents into numerical vectors where similar meanings
+are positioned closer together in the vector space.
+
+Evolution of Embeddings:
+
+1. One-Hot Encoding (Traditional):
+   - Sparse vectors with vocabulary size
+   - No semantic information
+   - High dimensionality
+
+2. Word2Vec (2013):
+   - Dense vectors (typically 300 dimensions)
+   - Learned from context (Skip-gram, CBOW)
+   - Captures semantic relationships
+
+3. GloVe (2014):
+   - Global Vectors for Word Representation
+   - Combines global statistics with local context
+   - Pre-trained on large corpora
+
+4. Contextual Embeddings (2018+):
+   - Different representations based on context
+   - BERT, ELMo, GPT embeddings
+   - Handle polysemy (words with multiple meanings)
+
+5. Sentence Embeddings:
+   - sentence-transformers library
+   - Models like all-MiniLM-L6-v2, all-mpnet-base-v2
+   - Optimized for semantic similarity
+
+Properties of Good Embeddings:
+- Similar items have high cosine similarity
+- Analogies preserved (king - man + woman ≈ queen)
+- Clustering of related concepts
+- Transfer to downstream tasks
+
+Applications:
+- Semantic search
+- Document similarity
+- Clustering and classification
+- RAG retrieval
+- Recommendation systems
+
+Choosing embedding models involves trade-offs between
+speed, quality, and dimensionality.

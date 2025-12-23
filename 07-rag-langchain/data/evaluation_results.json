@@ -1,0 +1,55 @@
+{
+  "evaluation_date": "2025-12-23T09:12:31.717661",
+  "vectorstore_path": "C:\\Users\\alexy\\Documents\\Claude_projects\\Portfolio creation\\data-analysis-portfolio\\data-analysis-portfolio\\07-rag-langchain\\data\\vectorstore",
+  "num_test_questions": 8,
+  "metrics": {
+    "faithfulness": 0.9654137260010105,
+    "answer_relevancy": 0.41666666666666663,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "num_samples": 8,
+    "evaluation_time": 0.0
+  },
+  "per_question_results": [
+    {
+      "question": "What is machine learning?",
+      "answer_relevancy": 0.5,
+      "faithfulness": 0.9655172413793104
+    },
+    {
+      "question": "How do transformers work?",
+      "answer_relevancy": 0.5,
+      "faithfulness": 0.9642857142857143
+    },
+    {
+      "question": "What is RAG?",
+      "answer_relevancy": 0.0,
+      "faithfulness": 0.9655172413793104
+    },
+    {
+      "question": "What are word embeddings?",
+      "answer_relevancy": 0.0,
+      "faithfulness": 0.9655172413793104
+    },
+    {
+      "question": "What is deep learning?",
+      "answer_relevancy": 0.5,
+      "faithfulness": 0.9655172413793104
+    },
+    {
+      "question": "What is a vector database?",
+      "answer_relevancy": 0.5,
+      "faithfulness": 0.9666666666666667
+    },
+    {
+      "question": "What is natural language processing?",
+      "answer_relevancy": 0.6666666666666666,
+      "faithfulness": 0.9615384615384616
+    },
+    {
+      "question": "What are large language models?",
+      "answer_relevancy": 0.6666666666666666,
+      "faithfulness": 0.96875
+    }
+  ]
+}

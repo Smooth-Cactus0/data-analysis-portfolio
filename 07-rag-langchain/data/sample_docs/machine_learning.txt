@@ -1,0 +1,30 @@
+Machine Learning: A Comprehensive Overview
+
+Machine learning is a subset of artificial intelligence (AI) that focuses on building systems
+that can learn from and make decisions based on data. Rather than being explicitly programmed
+to perform a specific task, these systems use algorithms and statistical models to identify
+patterns and make inferences from data.
+
+Types of Machine Learning:
+
+1. Supervised Learning: The algorithm learns from labeled training data, making predictions
+   based on that data. Examples include classification and regression tasks. Common algorithms
+   include linear regression, logistic regression, decision trees, and support vector machines.
+
+2. Unsupervised Learning: The algorithm works with unlabeled data, trying to find hidden
+   patterns or intrinsic structures. Examples include clustering (K-means, hierarchical) and
+   dimensionality reduction (PCA, t-SNE).
+
+3. Reinforcement Learning: The algorithm learns by interacting with an environment, receiving
+   rewards or penalties for actions. It's used in robotics, game playing, and autonomous systems.
+
+Key Concepts:
+- Training data: The dataset used to train the model
+- Features: Input variables used for predictions
+- Labels: Target variables in supervised learning
+- Model: The mathematical representation learned from data
+- Overfitting: When a model performs well on training data but poorly on new data
+- Underfitting: When a model is too simple to capture patterns in the data
+
+Machine learning has applications in image recognition, speech processing, recommendation systems,
+fraud detection, medical diagnosis, and many other fields.

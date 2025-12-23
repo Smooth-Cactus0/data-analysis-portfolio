@@ -1,0 +1,29 @@
+Deep Learning: Neural Networks at Scale
+
+Deep learning is a subset of machine learning based on artificial neural networks with multiple
+layers. These networks are called "deep" because they have many hidden layers between input and
+output, allowing them to learn increasingly abstract representations of data.
+
+Architecture Components:
+
+1. Input Layer: Receives the raw data
+2. Hidden Layers: Process and transform data through weighted connections
+3. Output Layer: Produces the final prediction or classification
+4. Activation Functions: Non-linear functions (ReLU, sigmoid, tanh) that enable learning complex patterns
+
+Types of Deep Neural Networks:
+
+- Feedforward Neural Networks (FNN): Basic architecture where information flows in one direction
+- Convolutional Neural Networks (CNN): Specialized for image and spatial data processing
+- Recurrent Neural Networks (RNN): Handle sequential data like time series and text
+- Transformers: Use attention mechanisms for parallel processing of sequences
+- Generative Adversarial Networks (GAN): Two networks competing to generate realistic data
+
+Training Deep Networks:
+- Backpropagation: Algorithm for computing gradients
+- Optimization: Gradient descent variants (SGD, Adam, RMSprop)
+- Regularization: Dropout, batch normalization, weight decay
+- Data augmentation: Artificially expanding training data
+
+Deep learning has achieved state-of-the-art results in computer vision, natural language
+processing, speech recognition, and game playing.

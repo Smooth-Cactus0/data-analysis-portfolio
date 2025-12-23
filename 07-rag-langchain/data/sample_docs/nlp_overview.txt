@@ -1,0 +1,40 @@
+Natural Language Processing: Understanding Human Language
+
+Natural Language Processing (NLP) is a field at the intersection of computer science,
+artificial intelligence, and linguistics. Its goal is to enable computers to understand,
+interpret, and generate human language in useful ways.
+
+Core NLP Tasks:
+
+1. Text Classification: Categorizing text into predefined categories
+   - Sentiment analysis (positive/negative/neutral)
+   - Topic classification
+   - Spam detection
+
+2. Named Entity Recognition (NER): Identifying entities in text
+   - People, organizations, locations
+   - Dates, quantities, monetary values
+
+3. Machine Translation: Converting text between languages
+   - Neural machine translation (NMT)
+   - Sequence-to-sequence models
+
+4. Question Answering: Extracting answers from text
+   - Reading comprehension
+   - Knowledge-based QA
+
+5. Text Generation: Creating coherent text
+   - Language modeling
+   - Summarization
+   - Dialogue systems
+
+Key Technologies:
+
+- Word Embeddings: Word2Vec, GloVe, FastText
+- Transformers: BERT, GPT, T5, RoBERTa
+- Attention Mechanisms: Self-attention, cross-attention
+- Pre-training: Learning representations from large corpora
+- Fine-tuning: Adapting pre-trained models for specific tasks
+
+NLP applications include chatbots, virtual assistants, content recommendation,
+automated customer service, and information extraction.

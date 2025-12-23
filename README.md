@@ -27,6 +27,7 @@
 | 4 | [ETL Data Pipeline](./04-data-processing-apis/) | Data Engineering | ETL, Validation, Transformation | 6 sources, 15+ validations |
 | 5 | [Energy Consumption Forecasting](./05-time-series-forecasting/) | Time Series | Prophet, LSTM, LightGBM, Ensemble | **MAPE 2.18%**, 17K records |
 | 6 | [NLP Sentiment Analysis](./06-nlp-sentiment-analysis/) | NLP / Deep Learning | BiLSTM, CNN, DistilBERT | **87.7% accuracy**, 3 approaches |
+| 7 | [RAG System with LangChain](./07-rag-langchain/) | LLM / RAG | LangChain, FAISS, Embeddings | **96.5% faithfulness**, 8 modules |
 
 ---
 
@@ -83,7 +84,7 @@ Comprehensive time series analysis with multiple forecasting approaches.
 - **Features**: Multiple seasonalities, weather integration, anomaly detection
 - **Key Insight**: Tree-based ensembles outperform deep learning for this domain
 
-### 6️⃣ NLP Sentiment Analysis ⭐ NEW
+### 6️⃣ NLP Sentiment Analysis
 **[06-nlp-sentiment-analysis/](./06-nlp-sentiment-analysis/)**
 
 Progressive NLP pipeline from classical ML to transformers for sentiment classification.
@@ -94,6 +95,19 @@ Progressive NLP pipeline from classical ML to transformers for sentiment classif
 - **Approach 3 - Transformers**: DistilBERT fine-tuning → 87.6% accuracy
 - **Features**: GPU-accelerated training, comprehensive visualizations
 - **Key Insight**: BiLSTM and CNN match transformer performance on this task
+
+### 7️⃣ RAG System with LangChain ⭐ NEW
+**[07-rag-langchain/](./07-rag-langchain/)**
+
+Production-ready Retrieval-Augmented Generation system for document Q&A.
+
+- **Architecture**: Document loader → Chunker → Embeddings → Vector store → Retriever → LLM chain
+- **Components**: 8 modular Python modules with full documentation
+- **Vector Stores**: FAISS and ChromaDB support with persistence
+- **Embeddings**: Sentence-transformers (MiniLM, MPNet, BGE models)
+- **Evaluation**: **96.5% faithfulness** on 8 test queries
+- **Features**: Streamlit demo app, multiple chunking strategies, evaluation framework
+- **Key Insight**: High-quality retrieval is the foundation of effective RAG systems
 
 ---
 
@@ -119,9 +133,15 @@ Progressive NLP pipeline from classical ML to transformers for sentiment classif
 - Hugging Face Transformers
 - NLTK
 
+### LLM & RAG
+- LangChain
+- FAISS, ChromaDB
+- Sentence-Transformers
+
 ### Visualization
 - Matplotlib, Seaborn
 - Plotly (interactive)
+- Streamlit (dashboards)
 
 ### Data Engineering
 - Custom ETL framework
@@ -137,8 +157,9 @@ Progressive NLP pipeline from classical ML to transformers for sentiment classif
 | **Machine Learning** | Classification, Regression, Time Series, Ensemble Methods |
 | **Deep Learning** | LSTM, BiLSTM, CNN, Sequence Modeling |
 | **NLP** | Text Classification, Sentiment Analysis, Transformer Fine-tuning |
+| **LLM/RAG** | Document Processing, Vector Stores, Retrieval, LangChain |
 | **Data Engineering** | ETL Pipelines, Data Validation, Transformation |
-| **Visualization** | Matplotlib, Seaborn, Publication-Ready Charts |
+| **Visualization** | Matplotlib, Seaborn, Streamlit, Publication-Ready Charts |
 | **Software Engineering** | OOP, Modular Design, Documentation |
 
 ---
@@ -164,11 +185,11 @@ jupyter notebook
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 6 |
+| **Total Projects** | 7 |
 | **Total Records Analyzed** | 75,000+ |
-| **Models Trained** | 30+ |
+| **Models Trained** | 35+ |
 | **Visualizations Created** | 60+ |
-| **Lines of Code** | 7,000+ |
+| **Lines of Code** | 10,000+ |
 
 ---
 

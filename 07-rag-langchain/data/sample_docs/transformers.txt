@@ -1,0 +1,44 @@
+Transformers: The Architecture Revolutionizing AI
+
+Transformers are a neural network architecture introduced in the paper "Attention Is All You Need"
+(2017). They have become the foundation for modern NLP and are increasingly used in computer vision
+and other domains.
+
+Core Mechanism - Self-Attention:
+
+The transformer's key innovation is the self-attention mechanism, which allows the model to weigh
+the importance of different parts of the input when processing each element.
+
+Q, K, V (Query, Key, Value):
+- Query: What am I looking for?
+- Key: What do I contain?
+- Value: What information do I provide?
+
+Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) * V
+
+Architecture Components:
+
+1. Encoder:
+   - Processes input sequence
+   - Self-attention + feed-forward layers
+   - Used in BERT-style models
+
+2. Decoder:
+   - Generates output sequence
+   - Masked self-attention + cross-attention
+   - Used in GPT-style models
+
+3. Positional Encoding:
+   - Adds sequence position information
+   - Sine/cosine functions or learned embeddings
+
+Notable Transformer Models:
+
+- BERT: Bidirectional encoder for understanding
+- GPT: Decoder-only for generation
+- T5: Encoder-decoder for text-to-text
+- ViT: Vision Transformer for images
+- DALL-E: Multimodal generation
+
+Transformers scale well with data and compute, enabling the development
+of large language models with billions of parameters.
