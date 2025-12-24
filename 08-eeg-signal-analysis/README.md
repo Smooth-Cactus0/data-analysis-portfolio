@@ -146,29 +146,41 @@ Raw EEG → Bandpass Filter (1-40 Hz) → Notch Filter → Re-reference → ICA 
 
 ## Visualizations
 
-> **Note:** Visualizations are generated when running the analysis notebook. Run the notebook to produce all figures in the `images/` directory.
+### Raw EEG Signals
+![Raw Signals](images/raw_signals.png)
+*Multi-channel EEG time series from sensorimotor cortex electrodes showing alpha and beta oscillations.*
 
-### Generated Plots Include:
+### Power Spectral Density
+![PSD Comparison](images/psd_comparison.png)
+*Alpha (8-13 Hz) and beta (13-30 Hz) band power differences between left and right hand motor imagery.*
 
-| Visualization | Description |
-|--------------|-------------|
-| **Raw Signals** | Multi-channel EEG time series from sensorimotor cortex |
-| **PSD Comparison** | Power spectral density showing alpha/beta band differences |
-| **ERPs** | Event-related potentials at C3, Cz, C4 electrodes |
-| **Topographic Maps** | Scalp maps showing spatial activity distribution |
-| **Time-Frequency** | Morlet wavelet spectrograms showing ERD/ERS |
-| **CSP Patterns** | Learned spatial filters maximizing class separability |
-| **Confusion Matrix** | Classification performance breakdown |
-| **Model Comparison** | Bar chart comparing all model accuracies |
-| **Subject Variability** | Inter-subject classification differences |
+### Event-Related Potentials
+![ERP Comparison](images/erp_comparison.png)
+*Time-locked brain responses at motor cortex channels (C3, Cz, C4), showing contralateral activation patterns.*
 
-### Sample Output Descriptions
+### Time-Frequency Analysis
+![Time-Frequency](images/time_frequency.png)
+*Morlet wavelet spectrograms showing Event-Related Desynchronization (ERD) patterns during motor imagery.*
 
-**Power Spectral Density:** Shows alpha (8-13 Hz) and beta (13-30 Hz) band power differences between left and right hand motor imagery conditions.
+### Common Spatial Patterns
+![CSP Patterns](images/csp_patterns.png)
+*Learned spatial filters that maximize class separability between left and right hand imagery.*
 
-**Event-Related Potentials:** Time-locked brain responses at motor cortex channels (C3, Cz, C4), revealing contralateral activation patterns.
+### CSP Feature Space
+![CSP Features](images/csp_features.png)
+*Projection of epochs onto CSP feature space showing class separation.*
 
-**CSP Patterns:** Spatial filters learned by Common Spatial Patterns algorithm, showing the optimal electrode weightings for class discrimination.
+### Model Comparison
+![Model Comparison](images/model_comparison.png)
+*Cross-validation accuracy comparison across different classification models.*
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+*Classification performance breakdown for CSP + LDA model.*
+
+### Subject Variability
+![Subject Variability](images/subject_variability.png)
+*Inter-subject classification accuracy differences highlighting the need for personalized models.*
 
 ---
 
