@@ -28,6 +28,7 @@
 | 5 | [Energy Consumption Forecasting](./05-time-series-forecasting/) | Time Series | Prophet, LSTM, LightGBM, Ensemble | **MAPE 2.18%**, 17K records |
 | 6 | [NLP Sentiment Analysis](./06-nlp-sentiment-analysis/) | NLP / Deep Learning | BiLSTM, CNN, DistilBERT | **87.7% accuracy**, 3 approaches |
 | 7 | [RAG System with LangChain](./07-rag-langchain/) | LLM / RAG | LangChain, FAISS, Embeddings | **96.5% faithfulness**, 8 modules |
+| 8 | [EEG Signal Analysis](./08-eeg-signal-analysis/) | Neuroscience / BCI | MNE-Python, CSP, EEGNet | **Motor imagery classification**, 64 channels |
 
 ---
 
@@ -96,7 +97,7 @@ Progressive NLP pipeline from classical ML to transformers for sentiment classif
 - **Features**: GPU-accelerated training, comprehensive visualizations
 - **Key Insight**: BiLSTM and CNN match transformer performance on this task
 
-### 7️⃣ RAG System with LangChain ⭐ NEW
+### 7️⃣ RAG System with LangChain
 **[07-rag-langchain/](./07-rag-langchain/)**
 
 Production-ready Retrieval-Augmented Generation system for document Q&A.
@@ -108,6 +109,20 @@ Production-ready Retrieval-Augmented Generation system for document Q&A.
 - **Evaluation**: **96.5% faithfulness** on 8 test queries
 - **Features**: Streamlit demo app, multiple chunking strategies, evaluation framework
 - **Key Insight**: High-quality retrieval is the foundation of effective RAG systems
+
+### 8️⃣ EEG Signal Analysis & Motor Imagery Classification ⭐ NEW
+**[08-eeg-signal-analysis/](./08-eeg-signal-analysis/)**
+
+Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG signals.
+
+- **Dataset**: PhysioNet EEG Motor Movement/Imagery (109 subjects, 64 channels, 160 Hz)
+- **Preprocessing**: Bandpass filtering, ICA artifact removal, re-referencing, epoching
+- **Feature Extraction**: Time-domain statistics, frequency band power (alpha, beta), CSP patterns
+- **Classical ML**: LDA, SVM, Random Forest, XGBoost with CSP features
+- **Deep Learning**: EEGNet, ShallowConvNet, DeepConvNet architectures
+- **Neural Prediction**: LSTM and Transformer-based state prediction
+- **Features**: Topographic maps, ERPs, time-frequency analysis, Streamlit demo
+- **Key Insight**: CSP + LDA achieves ~75-80% accuracy for left/right hand discrimination
 
 ---
 
@@ -138,6 +153,11 @@ Production-ready Retrieval-Augmented Generation system for document Q&A.
 - FAISS, ChromaDB
 - Sentence-Transformers
 
+### Neuroscience / BCI
+- MNE-Python (EEG analysis)
+- Braindecode (EEG deep learning)
+- Common Spatial Patterns (CSP)
+
 ### Visualization
 - Matplotlib, Seaborn
 - Plotly (interactive)
@@ -155,11 +175,12 @@ Production-ready Retrieval-Augmented Generation system for document Q&A.
 |----------|--------|
 | **Data Analysis** | EDA, Statistical Testing, Feature Engineering |
 | **Machine Learning** | Classification, Regression, Time Series, Ensemble Methods |
-| **Deep Learning** | LSTM, BiLSTM, CNN, Sequence Modeling |
+| **Deep Learning** | LSTM, BiLSTM, CNN, EEGNet, Sequence Modeling |
 | **NLP** | Text Classification, Sentiment Analysis, Transformer Fine-tuning |
 | **LLM/RAG** | Document Processing, Vector Stores, Retrieval, LangChain |
+| **Neuroscience/BCI** | EEG Signal Processing, Motor Imagery, CSP, Brain Decoding |
 | **Data Engineering** | ETL Pipelines, Data Validation, Transformation |
-| **Visualization** | Matplotlib, Seaborn, Streamlit, Publication-Ready Charts |
+| **Visualization** | Matplotlib, Seaborn, Streamlit, Topographic Maps |
 | **Software Engineering** | OOP, Modular Design, Documentation |
 
 ---
@@ -185,11 +206,11 @@ jupyter notebook
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 7 |
-| **Total Records Analyzed** | 75,000+ |
-| **Models Trained** | 35+ |
-| **Visualizations Created** | 60+ |
-| **Lines of Code** | 10,000+ |
+| **Total Projects** | 8 |
+| **Total Records Analyzed** | 100,000+ |
+| **Models Trained** | 45+ |
+| **Visualizations Created** | 75+ |
+| **Lines of Code** | 15,000+ |
 
 ---
 
