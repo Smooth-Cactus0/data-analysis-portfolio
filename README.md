@@ -124,7 +124,19 @@ Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG sign
 - **Neural Prediction**: LSTM and Transformer-based state prediction
 - **Features**: Topographic maps, ERPs, time-frequency analysis, Streamlit demo
 - **Key Insight**: CSP + LDA achieves ~75-80% accuracy for left/right hand discrimination
-### 9️⃣ Astrophysics Computer Vision ⭐ NEW**[09-astrophysics-computer-vision/](./09-astrophysics-computer-vision/)**Deep learning for astronomical image and time-series classification.- **Galaxy Classification**: 2D-CNN and transfer learning (ResNet, EfficientNet) for morphology- **Transient Classification**: 1D-CNN, LSTM, and hybrid models for light curve classification- **Anomaly Detection**: Autoencoders for discovering rare astronomical objects- **Datasets**: Galaxy Zoo 2 (61K galaxies), PLAsTiCC (14 transient classes)- **Architecture Rationale**: Why 2D-CNN for images, 1D-CNN/LSTM for time series (not 2D!)- **Features**: Research-paper quality documentation, Streamlit demo, full scientific explanations- **Key Insight**: Architecture must match data structure—1D for time series, 2D for images
+
+### 9️⃣ Astrophysics Computer Vision ⭐ NEW
+**[09-astrophysics-computer-vision/](./09-astrophysics-computer-vision/)**
+
+Deep learning for astronomical image and time-series classification.
+
+- **Galaxy Classification**: 2D-CNN and transfer learning (ResNet, EfficientNet) for morphology
+- **Transient Classification**: 1D-CNN, LSTM, and hybrid models for light curve classification
+- **Anomaly Detection**: Autoencoders for discovering rare astronomical objects
+- **Datasets**: Galaxy Zoo 2 (61K galaxies), PLAsTiCC (14 transient classes)
+- **Architecture Rationale**: Why 2D-CNN for images, 1D-CNN/LSTM for time series (not 2D!)
+- **Features**: Research-paper quality documentation, Streamlit demo, full scientific explanations
+- **Key Insight**: Architecture must match data structure—1D for time series, 2D for images
 
 ---
 
@@ -159,7 +171,11 @@ Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG sign
 - MNE-Python (EEG analysis)
 - Braindecode (EEG deep learning)
 - Common Spatial Patterns (CSP)
-### Astrophysics / Computer Vision- torchvision (Transfer Learning)- astropy (Astronomy utilities)- OpenCV, Pillow (Image processing)
+
+### Astrophysics / Computer Vision
+- torchvision (Transfer Learning)
+- astropy (Astronomy utilities)
+- OpenCV, Pillow (Image processing)
 
 ### Visualization
 - Matplotlib, Seaborn
