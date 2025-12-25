@@ -248,6 +248,12 @@ python scripts/ingest.py
 python scripts/evaluate.py
 
 # Launch interactive demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+
+> **To deploy**: Connect this repo to [Streamlit Cloud](https://streamlit.io/cloud) and update the badge URL above.
+
+**Or run locally**:
 streamlit run app.py
 ```
 

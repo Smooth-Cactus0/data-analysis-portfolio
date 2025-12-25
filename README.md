@@ -29,6 +29,7 @@
 | 6 | [NLP Sentiment Analysis](./06-nlp-sentiment-analysis/) | NLP / Deep Learning | BiLSTM, CNN, DistilBERT | **87.7% accuracy**, 3 approaches |
 | 7 | [RAG System with LangChain](./07-rag-langchain/) | LLM / RAG | LangChain, FAISS, Embeddings | **96.5% faithfulness**, 8 modules |
 | 8 | [EEG Signal Analysis](./08-eeg-signal-analysis/) | Neuroscience / BCI | MNE-Python, CSP, EEGNet | **Motor imagery classification**, 64 channels |
+| 9 | [Astrophysics Computer Vision](./09-astrophysics-computer-vision/) | Astrophysics / CV | 2D-CNN, LSTM, Transfer Learning | **Galaxy & transient classification** |
 
 ---
 
@@ -110,7 +111,7 @@ Production-ready Retrieval-Augmented Generation system for document Q&A.
 - **Features**: Streamlit demo app, multiple chunking strategies, evaluation framework
 - **Key Insight**: High-quality retrieval is the foundation of effective RAG systems
 
-### 8️⃣ EEG Signal Analysis & Motor Imagery Classification ⭐ NEW
+### 8️⃣ EEG Signal Analysis & Motor Imagery Classification
 **[08-eeg-signal-analysis/](./08-eeg-signal-analysis/)**
 
 Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG signals.
@@ -123,6 +124,7 @@ Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG sign
 - **Neural Prediction**: LSTM and Transformer-based state prediction
 - **Features**: Topographic maps, ERPs, time-frequency analysis, Streamlit demo
 - **Key Insight**: CSP + LDA achieves ~75-80% accuracy for left/right hand discrimination
+### 9️⃣ Astrophysics Computer Vision ⭐ NEW**[09-astrophysics-computer-vision/](./09-astrophysics-computer-vision/)**Deep learning for astronomical image and time-series classification.- **Galaxy Classification**: 2D-CNN and transfer learning (ResNet, EfficientNet) for morphology- **Transient Classification**: 1D-CNN, LSTM, and hybrid models for light curve classification- **Anomaly Detection**: Autoencoders for discovering rare astronomical objects- **Datasets**: Galaxy Zoo 2 (61K galaxies), PLAsTiCC (14 transient classes)- **Architecture Rationale**: Why 2D-CNN for images, 1D-CNN/LSTM for time series (not 2D!)- **Features**: Research-paper quality documentation, Streamlit demo, full scientific explanations- **Key Insight**: Architecture must match data structure—1D for time series, 2D for images
 
 ---
 
@@ -157,6 +159,7 @@ Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG sign
 - MNE-Python (EEG analysis)
 - Braindecode (EEG deep learning)
 - Common Spatial Patterns (CSP)
+### Astrophysics / Computer Vision- torchvision (Transfer Learning)- astropy (Astronomy utilities)- OpenCV, Pillow (Image processing)
 
 ### Visualization
 - Matplotlib, Seaborn
@@ -176,9 +179,11 @@ Brain-Computer Interface (BCI) analysis for decoding motor imagery from EEG sign
 | **Data Analysis** | EDA, Statistical Testing, Feature Engineering |
 | **Machine Learning** | Classification, Regression, Time Series, Ensemble Methods |
 | **Deep Learning** | LSTM, BiLSTM, CNN, EEGNet, Sequence Modeling |
+| **Computer Vision** | 2D-CNN, Transfer Learning, Image Classification |
 | **NLP** | Text Classification, Sentiment Analysis, Transformer Fine-tuning |
 | **LLM/RAG** | Document Processing, Vector Stores, Retrieval, LangChain |
 | **Neuroscience/BCI** | EEG Signal Processing, Motor Imagery, CSP, Brain Decoding |
+| **Astrophysics** | Galaxy Morphology, Transient Classification, Light Curves |
 | **Data Engineering** | ETL Pipelines, Data Validation, Transformation |
 | **Visualization** | Matplotlib, Seaborn, Streamlit, Topographic Maps |
 | **Software Engineering** | OOP, Modular Design, Documentation |
@@ -206,11 +211,11 @@ jupyter notebook
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 8 |
-| **Total Records Analyzed** | 100,000+ |
-| **Models Trained** | 45+ |
-| **Visualizations Created** | 75+ |
-| **Lines of Code** | 15,000+ |
+| **Total Projects** | 9 |
+| **Total Records Analyzed** | 150,000+ |
+| **Models Trained** | 55+ |
+| **Visualizations Created** | 90+ |
+| **Lines of Code** | 20,000+ |
 
 ---
 

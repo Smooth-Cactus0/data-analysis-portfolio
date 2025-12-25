@@ -280,6 +280,19 @@ The most exciting science often comes from objects that *don't* fit existing cat
 └── images/                     # Generated visualizations
 ```
 
+## Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+
+> **To deploy**: Connect this repo to [Streamlit Cloud](https://streamlit.io/cloud) and update the badge URL above.
+>
+> **To run locally**:
+> ```bash
+> streamlit run app.py
+> ```
+
+---
+
 ## Quick Start
 
 ```bash

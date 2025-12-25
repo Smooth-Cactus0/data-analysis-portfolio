@@ -288,6 +288,11 @@ jupyter notebook notebooks/eeg_motor_imagery_analysis.ipynb
 
 ### Launch Interactive Demo
 
+n[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+
+> **To deploy**: Connect this repo to [Streamlit Cloud](https://streamlit.io/cloud) and update the badge URL above.
+
+**Or run locally**:
 ```bash
 streamlit run app.py
 ```
