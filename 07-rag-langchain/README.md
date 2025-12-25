@@ -249,7 +249,7 @@ python scripts/evaluate.py
 
 # Launch interactive demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-analysis-portfolio-ikdzx7rjzduyckd6hbnlnp.streamlit.app)
 
 > **To deploy**: Connect this repo to [Streamlit Cloud](https://streamlit.io/cloud) and update the badge URL above.
 

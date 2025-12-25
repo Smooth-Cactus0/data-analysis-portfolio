@@ -187,6 +187,7 @@ def plot_psd_plotly(epochs, event_id):
 def plot_erp_plotly(epochs, event_id, channel='C3'):
     """Plot ERP comparison using Plotly."""
     colors = {'T1': '#2ecc71', 'T2': '#e74c3c'}
+    fill_colors = {'T1': 'rgba(46,204,113,0.2)', 'T2': 'rgba(231,76,60,0.2)'}
     times = epochs.times
 
     ch_idx = epochs.ch_names.index(channel) if channel in epochs.ch_names else 0
@@ -207,7 +208,7 @@ def plot_erp_plotly(epochs, event_id, channel='C3'):
             x=np.concatenate([times, times[::-1]]),
             y=np.concatenate([mean + std, (mean - std)[::-1]]),
             fill='toself',
-            fillcolor=colors[event_name].replace(')', ',0.2)').replace('#', 'rgba(').replace('2ecc71', '46,204,113').replace('e74c3c', '231,76,60'),
+            fillcolor=fill_colors[event_name],
             line=dict(color='rgba(255,255,255,0)'),
             showlegend=False,
             name=f'{label} CI'
